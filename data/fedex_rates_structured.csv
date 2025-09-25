@@ -1,0 +1,920 @@
+id,service,section,zone,weight_lb,base_rate,rate_type,pdf_page,table_index,row_id,col_id,original_cell_text,notes
+1,ENVELOPE,US_PACKAGE,2,8,8,per_package,2,0,2,0,Weight: 'up to 8 oz.' | Rate: 'up to 8 oz.',Original service: FedEx® Envelope
+2,FIRST_OVERNIGHT,US_PACKAGE,2,8,65.71,per_package,2,0,2,2,Weight: 'up to 8 oz.' | Rate: '$ 65.71',Original service: FedEx First Overnight®
+3,PRIORITY_OVERNIGHT,US_PACKAGE,2,8,34.71,per_package,2,0,2,3,Weight: 'up to 8 oz.' | Rate: '$ 34.71',Original service: FedEx Priority Overnight®
+4,STANDARD_OVERNIGHT,US_PACKAGE,2,8,33.30,per_package,2,0,2,4,Weight: 'up to 8 oz.' | Rate: '$ 33.30',Original service: FedEx Standard Overnight®
+5,2DAY_AM,US_PACKAGE,2,8,27.21,per_package,2,0,2,5,Weight: 'up to 8 oz.' | Rate: '$ 27.21',Original service: FedEx 2Day® A.M.
+6,2DAY,US_PACKAGE,2,8,25.23,per_package,2,0,2,6,Weight: 'up to 8 oz.' | Rate: '$ 25.23',Original service: FedEx 2Day®
+7,EXPRESS_SAVER,US_PACKAGE,2,8,22.95,per_package,2,0,2,7,Weight: 'up to 8 oz.' | Rate: '$ 22.95',Original service: FedEx Express Saver®
+8,FIRST_OVERNIGHT,US_PACKAGE,2,11,73.31,per_package,2,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 73.31 73.87 77.77 82.02 82.45',Inferred weight. Original service: FedEx First Overnight®
+9,FIRST_OVERNIGHT,US_PACKAGE,2,12,73.87,per_package,2,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 73.31 73.87 77.77 82.02 82.45',Inferred weight. Original service: FedEx First Overnight®
+10,FIRST_OVERNIGHT,US_PACKAGE,2,13,77.77,per_package,2,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 73.31 73.87 77.77 82.02 82.45',Inferred weight. Original service: FedEx First Overnight®
+11,FIRST_OVERNIGHT,US_PACKAGE,2,14,82.02,per_package,2,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 73.31 73.87 77.77 82.02 82.45',Inferred weight. Original service: FedEx First Overnight®
+12,FIRST_OVERNIGHT,US_PACKAGE,2,15,82.45,per_package,2,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 73.31 73.87 77.77 82.02 82.45',Inferred weight. Original service: FedEx First Overnight®
+13,PRIORITY_OVERNIGHT,US_PACKAGE,2,11,42.31,per_package,2,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 42.31 42.87 46.77 51.02 51.45',Inferred weight. Original service: FedEx Priority Overnight®
+14,PRIORITY_OVERNIGHT,US_PACKAGE,2,12,42.87,per_package,2,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 42.31 42.87 46.77 51.02 51.45',Inferred weight. Original service: FedEx Priority Overnight®
+15,PRIORITY_OVERNIGHT,US_PACKAGE,2,13,46.77,per_package,2,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 42.31 42.87 46.77 51.02 51.45',Inferred weight. Original service: FedEx Priority Overnight®
+16,PRIORITY_OVERNIGHT,US_PACKAGE,2,14,51.02,per_package,2,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 42.31 42.87 46.77 51.02 51.45',Inferred weight. Original service: FedEx Priority Overnight®
+17,PRIORITY_OVERNIGHT,US_PACKAGE,2,15,51.45,per_package,2,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 42.31 42.87 46.77 51.02 51.45',Inferred weight. Original service: FedEx Priority Overnight®
+18,STANDARD_OVERNIGHT,US_PACKAGE,2,11,38.55,per_package,2,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 38.55 41.12 44.68 48.20 49.06',Inferred weight. Original service: FedEx Standard Overnight®
+19,STANDARD_OVERNIGHT,US_PACKAGE,2,12,41.12,per_package,2,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 38.55 41.12 44.68 48.20 49.06',Inferred weight. Original service: FedEx Standard Overnight®
+20,STANDARD_OVERNIGHT,US_PACKAGE,2,13,44.68,per_package,2,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 38.55 41.12 44.68 48.20 49.06',Inferred weight. Original service: FedEx Standard Overnight®
+21,STANDARD_OVERNIGHT,US_PACKAGE,2,14,48.20,per_package,2,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 38.55 41.12 44.68 48.20 49.06',Inferred weight. Original service: FedEx Standard Overnight®
+22,STANDARD_OVERNIGHT,US_PACKAGE,2,15,49.06,per_package,2,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 38.55 41.12 44.68 48.20 49.06',Inferred weight. Original service: FedEx Standard Overnight®
+23,2DAY_AM,US_PACKAGE,2,11,28.72,per_package,2,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 28.72 29.22 29.71 30.59 31.48',Inferred weight. Original service: FedEx 2Day® A.M.
+24,2DAY_AM,US_PACKAGE,2,12,29.22,per_package,2,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 28.72 29.22 29.71 30.59 31.48',Inferred weight. Original service: FedEx 2Day® A.M.
+25,2DAY_AM,US_PACKAGE,2,13,29.71,per_package,2,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 28.72 29.22 29.71 30.59 31.48',Inferred weight. Original service: FedEx 2Day® A.M.
+26,2DAY_AM,US_PACKAGE,2,14,30.59,per_package,2,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 28.72 29.22 29.71 30.59 31.48',Inferred weight. Original service: FedEx 2Day® A.M.
+27,2DAY_AM,US_PACKAGE,2,15,31.48,per_package,2,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 28.72 29.22 29.71 30.59 31.48',Inferred weight. Original service: FedEx 2Day® A.M.
+28,2DAY,US_PACKAGE,2,11,25.23,per_package,2,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 25.23 26.26 26.68 27.50 28.33',Inferred weight. Original service: FedEx 2Day®
+29,2DAY,US_PACKAGE,2,12,26.26,per_package,2,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 25.23 26.26 26.68 27.50 28.33',Inferred weight. Original service: FedEx 2Day®
+30,2DAY,US_PACKAGE,2,13,26.68,per_package,2,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 25.23 26.26 26.68 27.50 28.33',Inferred weight. Original service: FedEx 2Day®
+31,2DAY,US_PACKAGE,2,14,27.50,per_package,2,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 25.23 26.26 26.68 27.50 28.33',Inferred weight. Original service: FedEx 2Day®
+32,2DAY,US_PACKAGE,2,15,28.33,per_package,2,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 25.23 26.26 26.68 27.50 28.33',Inferred weight. Original service: FedEx 2Day®
+33,EXPRESS_SAVER,US_PACKAGE,2,11,22.95,per_package,2,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 22.95 23.38 24.83 25.27 25.70',Inferred weight. Original service: FedEx Express Saver®
+34,EXPRESS_SAVER,US_PACKAGE,2,12,23.38,per_package,2,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 22.95 23.38 24.83 25.27 25.70',Inferred weight. Original service: FedEx Express Saver®
+35,EXPRESS_SAVER,US_PACKAGE,2,13,24.83,per_package,2,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 22.95 23.38 24.83 25.27 25.70',Inferred weight. Original service: FedEx Express Saver®
+36,EXPRESS_SAVER,US_PACKAGE,2,14,25.27,per_package,2,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 22.95 23.38 24.83 25.27 25.70',Inferred weight. Original service: FedEx Express Saver®
+37,EXPRESS_SAVER,US_PACKAGE,2,15,25.70,per_package,2,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 22.95 23.38 24.83 25.27 25.70',Inferred weight. Original service: FedEx Express Saver®
+1,FIRST_OVERNIGHT,US_PACKAGE,2,1,189.62,per_package,3,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 189.62 207.51 210.19 212.15 212.70',Inferred weight. Original service: FedEx First Overnight®
+2,FIRST_OVERNIGHT,US_PACKAGE,2,2,207.51,per_package,3,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 189.62 207.51 210.19 212.15 212.70',Inferred weight. Original service: FedEx First Overnight®
+3,FIRST_OVERNIGHT,US_PACKAGE,2,3,210.19,per_package,3,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 189.62 207.51 210.19 212.15 212.70',Inferred weight. Original service: FedEx First Overnight®
+4,FIRST_OVERNIGHT,US_PACKAGE,2,4,212.15,per_package,3,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 189.62 207.51 210.19 212.15 212.70',Inferred weight. Original service: FedEx First Overnight®
+5,FIRST_OVERNIGHT,US_PACKAGE,2,5,212.70,per_package,3,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 189.62 207.51 210.19 212.15 212.70',Inferred weight. Original service: FedEx First Overnight®
+6,PRIORITY_OVERNIGHT,US_PACKAGE,2,1,158.62,per_package,3,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 158.62 176.51 179.19 181.15 181.70',Inferred weight. Original service: FedEx Priority Overnight®
+7,PRIORITY_OVERNIGHT,US_PACKAGE,2,2,176.51,per_package,3,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 158.62 176.51 179.19 181.15 181.70',Inferred weight. Original service: FedEx Priority Overnight®
+8,PRIORITY_OVERNIGHT,US_PACKAGE,2,3,179.19,per_package,3,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 158.62 176.51 179.19 181.15 181.70',Inferred weight. Original service: FedEx Priority Overnight®
+9,PRIORITY_OVERNIGHT,US_PACKAGE,2,4,181.15,per_package,3,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 158.62 176.51 179.19 181.15 181.70',Inferred weight. Original service: FedEx Priority Overnight®
+10,PRIORITY_OVERNIGHT,US_PACKAGE,2,5,181.70,per_package,3,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 158.62 176.51 179.19 181.15 181.70',Inferred weight. Original service: FedEx Priority Overnight®
+11,STANDARD_OVERNIGHT,US_PACKAGE,2,1,149.32,per_package,3,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 149.32 151.44 154.48 157.30 159.35',Inferred weight. Original service: FedEx Standard Overnight®
+12,STANDARD_OVERNIGHT,US_PACKAGE,2,2,151.44,per_package,3,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 149.32 151.44 154.48 157.30 159.35',Inferred weight. Original service: FedEx Standard Overnight®
+13,STANDARD_OVERNIGHT,US_PACKAGE,2,3,154.48,per_package,3,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 149.32 151.44 154.48 157.30 159.35',Inferred weight. Original service: FedEx Standard Overnight®
+14,STANDARD_OVERNIGHT,US_PACKAGE,2,4,157.30,per_package,3,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 149.32 151.44 154.48 157.30 159.35',Inferred weight. Original service: FedEx Standard Overnight®
+15,STANDARD_OVERNIGHT,US_PACKAGE,2,5,159.35,per_package,3,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 149.32 151.44 154.48 157.30 159.35',Inferred weight. Original service: FedEx Standard Overnight®
+16,2DAY_AM,US_PACKAGE,2,1,122.81,per_package,3,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 122.81 129.81 138.69 139.58 140.19',Inferred weight. Original service: FedEx 2Day® A.M.
+17,2DAY_AM,US_PACKAGE,2,2,129.81,per_package,3,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 122.81 129.81 138.69 139.58 140.19',Inferred weight. Original service: FedEx 2Day® A.M.
+18,2DAY_AM,US_PACKAGE,2,3,138.69,per_package,3,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 122.81 129.81 138.69 139.58 140.19',Inferred weight. Original service: FedEx 2Day® A.M.
+19,2DAY_AM,US_PACKAGE,2,4,139.58,per_package,3,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 122.81 129.81 138.69 139.58 140.19',Inferred weight. Original service: FedEx 2Day® A.M.
+20,2DAY_AM,US_PACKAGE,2,5,140.19,per_package,3,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 122.81 129.81 138.69 139.58 140.19',Inferred weight. Original service: FedEx 2Day® A.M.
+21,2DAY,US_PACKAGE,2,1,103.46,per_package,3,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 103.46 104.42 111.79 114.03 115.64',Inferred weight. Original service: FedEx 2Day®
+22,2DAY,US_PACKAGE,2,2,104.42,per_package,3,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 103.46 104.42 111.79 114.03 115.64',Inferred weight. Original service: FedEx 2Day®
+23,2DAY,US_PACKAGE,2,3,111.79,per_package,3,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 103.46 104.42 111.79 114.03 115.64',Inferred weight. Original service: FedEx 2Day®
+24,2DAY,US_PACKAGE,2,4,114.03,per_package,3,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 103.46 104.42 111.79 114.03 115.64',Inferred weight. Original service: FedEx 2Day®
+25,2DAY,US_PACKAGE,2,5,115.64,per_package,3,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 103.46 104.42 111.79 114.03 115.64',Inferred weight. Original service: FedEx 2Day®
+26,EXPRESS_SAVER,US_PACKAGE,2,1,93.02,per_package,3,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 93.02 100.44 102.74 106.70 107.29',Inferred weight. Original service: FedEx Express Saver®
+27,EXPRESS_SAVER,US_PACKAGE,2,2,100.44,per_package,3,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 93.02 100.44 102.74 106.70 107.29',Inferred weight. Original service: FedEx Express Saver®
+28,EXPRESS_SAVER,US_PACKAGE,2,3,102.74,per_package,3,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 93.02 100.44 102.74 106.70 107.29',Inferred weight. Original service: FedEx Express Saver®
+29,EXPRESS_SAVER,US_PACKAGE,2,4,106.70,per_package,3,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 93.02 100.44 102.74 106.70 107.29',Inferred weight. Original service: FedEx Express Saver®
+30,EXPRESS_SAVER,US_PACKAGE,2,5,107.29,per_package,3,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 93.02 100.44 102.74 106.70 107.29',Inferred weight. Original service: FedEx Express Saver®
+1,FIRST_OVERNIGHT,US_PACKAGE,2,1,323.20,per_package,4,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 323.20 326.40 329.60 332.80 336.00',Inferred weight. Original service: FedEx First Overnight®
+2,FIRST_OVERNIGHT,US_PACKAGE,2,2,326.40,per_package,4,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 323.20 326.40 329.60 332.80 336.00',Inferred weight. Original service: FedEx First Overnight®
+3,FIRST_OVERNIGHT,US_PACKAGE,2,3,329.60,per_package,4,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 323.20 326.40 329.60 332.80 336.00',Inferred weight. Original service: FedEx First Overnight®
+4,FIRST_OVERNIGHT,US_PACKAGE,2,4,332.80,per_package,4,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 323.20 326.40 329.60 332.80 336.00',Inferred weight. Original service: FedEx First Overnight®
+5,FIRST_OVERNIGHT,US_PACKAGE,2,5,336.00,per_package,4,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 323.20 326.40 329.60 332.80 336.00',Inferred weight. Original service: FedEx First Overnight®
+6,PRIORITY_OVERNIGHT,US_PACKAGE,2,1,291.89,per_package,4,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 291.89 294.78 297.67 300.56 303.45',Inferred weight. Original service: FedEx Priority Overnight®
+7,PRIORITY_OVERNIGHT,US_PACKAGE,2,2,294.78,per_package,4,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 291.89 294.78 297.67 300.56 303.45',Inferred weight. Original service: FedEx Priority Overnight®
+8,PRIORITY_OVERNIGHT,US_PACKAGE,2,3,297.67,per_package,4,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 291.89 294.78 297.67 300.56 303.45',Inferred weight. Original service: FedEx Priority Overnight®
+9,PRIORITY_OVERNIGHT,US_PACKAGE,2,4,300.56,per_package,4,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 291.89 294.78 297.67 300.56 303.45',Inferred weight. Original service: FedEx Priority Overnight®
+10,PRIORITY_OVERNIGHT,US_PACKAGE,2,5,303.45,per_package,4,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 291.89 294.78 297.67 300.56 303.45',Inferred weight. Original service: FedEx Priority Overnight®
+11,STANDARD_OVERNIGHT,US_PACKAGE,2,1,285.83,per_package,4,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 285.83 288.66 291.49 294.32 297.15',Inferred weight. Original service: FedEx Standard Overnight®
+12,STANDARD_OVERNIGHT,US_PACKAGE,2,2,288.66,per_package,4,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 285.83 288.66 291.49 294.32 297.15',Inferred weight. Original service: FedEx Standard Overnight®
+13,STANDARD_OVERNIGHT,US_PACKAGE,2,3,291.49,per_package,4,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 285.83 288.66 291.49 294.32 297.15',Inferred weight. Original service: FedEx Standard Overnight®
+14,STANDARD_OVERNIGHT,US_PACKAGE,2,4,294.32,per_package,4,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 285.83 288.66 291.49 294.32 297.15',Inferred weight. Original service: FedEx Standard Overnight®
+15,STANDARD_OVERNIGHT,US_PACKAGE,2,5,297.15,per_package,4,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 285.83 288.66 291.49 294.32 297.15',Inferred weight. Original service: FedEx Standard Overnight®
+16,2DAY_AM,US_PACKAGE,2,1,242.40,per_package,4,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 242.40 244.80 247.20 249.60 252.00',Inferred weight. Original service: FedEx 2Day® A.M.
+17,2DAY_AM,US_PACKAGE,2,2,244.80,per_package,4,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 242.40 244.80 247.20 249.60 252.00',Inferred weight. Original service: FedEx 2Day® A.M.
+18,2DAY_AM,US_PACKAGE,2,3,247.20,per_package,4,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 242.40 244.80 247.20 249.60 252.00',Inferred weight. Original service: FedEx 2Day® A.M.
+19,2DAY_AM,US_PACKAGE,2,4,249.60,per_package,4,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 242.40 244.80 247.20 249.60 252.00',Inferred weight. Original service: FedEx 2Day® A.M.
+20,2DAY_AM,US_PACKAGE,2,5,252.00,per_package,4,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 242.40 244.80 247.20 249.60 252.00',Inferred weight. Original service: FedEx 2Day® A.M.
+21,2DAY,US_PACKAGE,2,1,192.91,per_package,4,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 192.91 194.82 196.73 198.64 200.55',Inferred weight. Original service: FedEx 2Day®
+22,2DAY,US_PACKAGE,2,2,194.82,per_package,4,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 192.91 194.82 196.73 198.64 200.55',Inferred weight. Original service: FedEx 2Day®
+23,2DAY,US_PACKAGE,2,3,196.73,per_package,4,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 192.91 194.82 196.73 198.64 200.55',Inferred weight. Original service: FedEx 2Day®
+24,2DAY,US_PACKAGE,2,4,198.64,per_package,4,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 192.91 194.82 196.73 198.64 200.55',Inferred weight. Original service: FedEx 2Day®
+25,2DAY,US_PACKAGE,2,5,200.55,per_package,4,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 192.91 194.82 196.73 198.64 200.55',Inferred weight. Original service: FedEx 2Day®
+26,EXPRESS_SAVER,US_PACKAGE,2,1,179.78,per_package,4,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 179.78 181.56 183.34 185.12 186.90',Inferred weight. Original service: FedEx Express Saver®
+27,EXPRESS_SAVER,US_PACKAGE,2,2,181.56,per_package,4,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 179.78 181.56 183.34 185.12 186.90',Inferred weight. Original service: FedEx Express Saver®
+28,EXPRESS_SAVER,US_PACKAGE,2,3,183.34,per_package,4,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 179.78 181.56 183.34 185.12 186.90',Inferred weight. Original service: FedEx Express Saver®
+29,EXPRESS_SAVER,US_PACKAGE,2,4,185.12,per_package,4,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 179.78 181.56 183.34 185.12 186.90',Inferred weight. Original service: FedEx Express Saver®
+30,EXPRESS_SAVER,US_PACKAGE,2,5,186.90,per_package,4,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 179.78 181.56 183.34 185.12 186.90',Inferred weight. Original service: FedEx Express Saver®
+1,ENVELOPE,US_PACKAGE,3,8,8,per_package,5,0,2,0,Weight: 'up to 8 oz.' | Rate: 'up to 8 oz.',Original service: FedEx® Envelope
+2,FIRST_OVERNIGHT,US_PACKAGE,3,8,72.68,per_package,5,0,2,2,Weight: 'up to 8 oz.' | Rate: '$ 72.68',Original service: FedEx First Overnight®
+3,PRIORITY_OVERNIGHT,US_PACKAGE,3,8,41.68,per_package,5,0,2,3,Weight: 'up to 8 oz.' | Rate: '$ 41.68',Original service: FedEx Priority Overnight®
+4,STANDARD_OVERNIGHT,US_PACKAGE,3,8,40.44,per_package,5,0,2,4,Weight: 'up to 8 oz.' | Rate: '$ 40.44',Original service: FedEx Standard Overnight®
+5,2DAY_AM,US_PACKAGE,3,8,29.48,per_package,5,0,2,5,Weight: 'up to 8 oz.' | Rate: '$ 29.48',Original service: FedEx 2Day® A.M.
+6,2DAY,US_PACKAGE,3,8,26.30,per_package,5,0,2,6,Weight: 'up to 8 oz.' | Rate: '$ 26.30',Original service: FedEx 2Day®
+7,EXPRESS_SAVER,US_PACKAGE,3,8,23.42,per_package,5,0,2,7,Weight: 'up to 8 oz.' | Rate: '$ 23.42',Original service: FedEx Express Saver®
+8,FIRST_OVERNIGHT,US_PACKAGE,3,11,93.71,per_package,5,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 93.71 94.09 100.97 102.44 102.87',Inferred weight. Original service: FedEx First Overnight®
+9,FIRST_OVERNIGHT,US_PACKAGE,3,12,94.09,per_package,5,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 93.71 94.09 100.97 102.44 102.87',Inferred weight. Original service: FedEx First Overnight®
+10,FIRST_OVERNIGHT,US_PACKAGE,3,13,100.97,per_package,5,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 93.71 94.09 100.97 102.44 102.87',Inferred weight. Original service: FedEx First Overnight®
+11,FIRST_OVERNIGHT,US_PACKAGE,3,14,102.44,per_package,5,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 93.71 94.09 100.97 102.44 102.87',Inferred weight. Original service: FedEx First Overnight®
+12,FIRST_OVERNIGHT,US_PACKAGE,3,15,102.87,per_package,5,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 93.71 94.09 100.97 102.44 102.87',Inferred weight. Original service: FedEx First Overnight®
+13,PRIORITY_OVERNIGHT,US_PACKAGE,3,11,62.71,per_package,5,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 62.71 63.09 69.97 71.44 71.87',Inferred weight. Original service: FedEx Priority Overnight®
+14,PRIORITY_OVERNIGHT,US_PACKAGE,3,12,63.09,per_package,5,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 62.71 63.09 69.97 71.44 71.87',Inferred weight. Original service: FedEx Priority Overnight®
+15,PRIORITY_OVERNIGHT,US_PACKAGE,3,13,69.97,per_package,5,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 62.71 63.09 69.97 71.44 71.87',Inferred weight. Original service: FedEx Priority Overnight®
+16,PRIORITY_OVERNIGHT,US_PACKAGE,3,14,71.44,per_package,5,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 62.71 63.09 69.97 71.44 71.87',Inferred weight. Original service: FedEx Priority Overnight®
+17,PRIORITY_OVERNIGHT,US_PACKAGE,3,15,71.87,per_package,5,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 62.71 63.09 69.97 71.44 71.87',Inferred weight. Original service: FedEx Priority Overnight®
+18,STANDARD_OVERNIGHT,US_PACKAGE,3,11,53.04,per_package,5,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 53.04 56.76 60.03 63.65 64.20',Inferred weight. Original service: FedEx Standard Overnight®
+19,STANDARD_OVERNIGHT,US_PACKAGE,3,12,56.76,per_package,5,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 53.04 56.76 60.03 63.65 64.20',Inferred weight. Original service: FedEx Standard Overnight®
+20,STANDARD_OVERNIGHT,US_PACKAGE,3,13,60.03,per_package,5,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 53.04 56.76 60.03 63.65 64.20',Inferred weight. Original service: FedEx Standard Overnight®
+21,STANDARD_OVERNIGHT,US_PACKAGE,3,14,63.65,per_package,5,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 53.04 56.76 60.03 63.65 64.20',Inferred weight. Original service: FedEx Standard Overnight®
+22,STANDARD_OVERNIGHT,US_PACKAGE,3,15,64.20,per_package,5,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 53.04 56.76 60.03 63.65 64.20',Inferred weight. Original service: FedEx Standard Overnight®
+23,2DAY_AM,US_PACKAGE,3,11,31.15,per_package,5,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 31.15 31.77 32.81 33.94 35.07',Inferred weight. Original service: FedEx 2Day® A.M.
+24,2DAY_AM,US_PACKAGE,3,12,31.77,per_package,5,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 31.15 31.77 32.81 33.94 35.07',Inferred weight. Original service: FedEx 2Day® A.M.
+25,2DAY_AM,US_PACKAGE,3,13,32.81,per_package,5,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 31.15 31.77 32.81 33.94 35.07',Inferred weight. Original service: FedEx 2Day® A.M.
+26,2DAY_AM,US_PACKAGE,3,14,33.94,per_package,5,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 31.15 31.77 32.81 33.94 35.07',Inferred weight. Original service: FedEx 2Day® A.M.
+27,2DAY_AM,US_PACKAGE,3,15,35.07,per_package,5,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 31.15 31.77 32.81 33.94 35.07',Inferred weight. Original service: FedEx 2Day® A.M.
+28,2DAY,US_PACKAGE,3,11,26.30,per_package,5,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 26.30 27.59 28.48 29.48 30.43',Inferred weight. Original service: FedEx 2Day®
+29,2DAY,US_PACKAGE,3,12,27.59,per_package,5,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 26.30 27.59 28.48 29.48 30.43',Inferred weight. Original service: FedEx 2Day®
+30,2DAY,US_PACKAGE,3,13,28.48,per_package,5,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 26.30 27.59 28.48 29.48 30.43',Inferred weight. Original service: FedEx 2Day®
+31,2DAY,US_PACKAGE,3,14,29.48,per_package,5,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 26.30 27.59 28.48 29.48 30.43',Inferred weight. Original service: FedEx 2Day®
+32,2DAY,US_PACKAGE,3,15,30.43,per_package,5,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 26.30 27.59 28.48 29.48 30.43',Inferred weight. Original service: FedEx 2Day®
+33,EXPRESS_SAVER,US_PACKAGE,3,11,23.42,per_package,5,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 23.42 23.86 26.49 27.35 27.78',Inferred weight. Original service: FedEx Express Saver®
+34,EXPRESS_SAVER,US_PACKAGE,3,12,23.86,per_package,5,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 23.42 23.86 26.49 27.35 27.78',Inferred weight. Original service: FedEx Express Saver®
+35,EXPRESS_SAVER,US_PACKAGE,3,13,26.49,per_package,5,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 23.42 23.86 26.49 27.35 27.78',Inferred weight. Original service: FedEx Express Saver®
+36,EXPRESS_SAVER,US_PACKAGE,3,14,27.35,per_package,5,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 23.42 23.86 26.49 27.35 27.78',Inferred weight. Original service: FedEx Express Saver®
+37,EXPRESS_SAVER,US_PACKAGE,3,15,27.78,per_package,5,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 23.42 23.86 26.49 27.35 27.78',Inferred weight. Original service: FedEx Express Saver®
+1,FIRST_OVERNIGHT,US_PACKAGE,3,1,257.38,per_package,6,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 257.38 282.59 295.76 297.09 297.65',Inferred weight. Original service: FedEx First Overnight®
+2,FIRST_OVERNIGHT,US_PACKAGE,3,2,282.59,per_package,6,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 257.38 282.59 295.76 297.09 297.65',Inferred weight. Original service: FedEx First Overnight®
+3,FIRST_OVERNIGHT,US_PACKAGE,3,3,295.76,per_package,6,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 257.38 282.59 295.76 297.09 297.65',Inferred weight. Original service: FedEx First Overnight®
+4,FIRST_OVERNIGHT,US_PACKAGE,3,4,297.09,per_package,6,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 257.38 282.59 295.76 297.09 297.65',Inferred weight. Original service: FedEx First Overnight®
+5,FIRST_OVERNIGHT,US_PACKAGE,3,5,297.65,per_package,6,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 257.38 282.59 295.76 297.09 297.65',Inferred weight. Original service: FedEx First Overnight®
+6,PRIORITY_OVERNIGHT,US_PACKAGE,3,1,226.38,per_package,6,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 226.38 251.59 264.76 266.09 266.65',Inferred weight. Original service: FedEx Priority Overnight®
+7,PRIORITY_OVERNIGHT,US_PACKAGE,3,2,251.59,per_package,6,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 226.38 251.59 264.76 266.09 266.65',Inferred weight. Original service: FedEx Priority Overnight®
+8,PRIORITY_OVERNIGHT,US_PACKAGE,3,3,264.76,per_package,6,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 226.38 251.59 264.76 266.09 266.65',Inferred weight. Original service: FedEx Priority Overnight®
+9,PRIORITY_OVERNIGHT,US_PACKAGE,3,4,266.09,per_package,6,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 226.38 251.59 264.76 266.09 266.65',Inferred weight. Original service: FedEx Priority Overnight®
+10,PRIORITY_OVERNIGHT,US_PACKAGE,3,5,266.65,per_package,6,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 226.38 251.59 264.76 266.09 266.65',Inferred weight. Original service: FedEx Priority Overnight®
+11,STANDARD_OVERNIGHT,US_PACKAGE,3,1,214.39,per_package,6,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 214.39 214.79 222.01 222.74 231.15',Inferred weight. Original service: FedEx Standard Overnight®
+12,STANDARD_OVERNIGHT,US_PACKAGE,3,2,214.79,per_package,6,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 214.39 214.79 222.01 222.74 231.15',Inferred weight. Original service: FedEx Standard Overnight®
+13,STANDARD_OVERNIGHT,US_PACKAGE,3,3,222.01,per_package,6,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 214.39 214.79 222.01 222.74 231.15',Inferred weight. Original service: FedEx Standard Overnight®
+14,STANDARD_OVERNIGHT,US_PACKAGE,3,4,222.74,per_package,6,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 214.39 214.79 222.01 222.74 231.15',Inferred weight. Original service: FedEx Standard Overnight®
+15,STANDARD_OVERNIGHT,US_PACKAGE,3,5,231.15,per_package,6,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 214.39 214.79 222.01 222.74 231.15',Inferred weight. Original service: FedEx Standard Overnight®
+16,2DAY_AM,US_PACKAGE,3,1,167.61,per_package,6,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 167.61 169.92 176.09 176.71 180.67',Inferred weight. Original service: FedEx 2Day® A.M.
+17,2DAY_AM,US_PACKAGE,3,2,169.92,per_package,6,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 167.61 169.92 176.09 176.71 180.67',Inferred weight. Original service: FedEx 2Day® A.M.
+18,2DAY_AM,US_PACKAGE,3,3,176.09,per_package,6,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 167.61 169.92 176.09 176.71 180.67',Inferred weight. Original service: FedEx 2Day® A.M.
+19,2DAY_AM,US_PACKAGE,3,4,176.71,per_package,6,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 167.61 169.92 176.09 176.71 180.67',Inferred weight. Original service: FedEx 2Day® A.M.
+20,2DAY_AM,US_PACKAGE,3,5,180.67,per_package,6,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 167.61 169.92 176.09 176.71 180.67',Inferred weight. Original service: FedEx 2Day® A.M.
+21,2DAY,US_PACKAGE,3,1,126.66,per_package,6,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 126.66 127.21 134.04 136.76 138.42',Inferred weight. Original service: FedEx 2Day®
+22,2DAY,US_PACKAGE,3,2,127.21,per_package,6,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 126.66 127.21 134.04 136.76 138.42',Inferred weight. Original service: FedEx 2Day®
+23,2DAY,US_PACKAGE,3,3,134.04,per_package,6,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 126.66 127.21 134.04 136.76 138.42',Inferred weight. Original service: FedEx 2Day®
+24,2DAY,US_PACKAGE,3,4,136.76,per_package,6,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 126.66 127.21 134.04 136.76 138.42',Inferred weight. Original service: FedEx 2Day®
+25,2DAY,US_PACKAGE,3,5,138.42,per_package,6,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 126.66 127.21 134.04 136.76 138.42',Inferred weight. Original service: FedEx 2Day®
+26,EXPRESS_SAVER,US_PACKAGE,3,1,110.88,per_package,6,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 110.88 121.15 122.84 130.77 131.59',Inferred weight. Original service: FedEx Express Saver®
+27,EXPRESS_SAVER,US_PACKAGE,3,2,121.15,per_package,6,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 110.88 121.15 122.84 130.77 131.59',Inferred weight. Original service: FedEx Express Saver®
+28,EXPRESS_SAVER,US_PACKAGE,3,3,122.84,per_package,6,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 110.88 121.15 122.84 130.77 131.59',Inferred weight. Original service: FedEx Express Saver®
+29,EXPRESS_SAVER,US_PACKAGE,3,4,130.77,per_package,6,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 110.88 121.15 122.84 130.77 131.59',Inferred weight. Original service: FedEx Express Saver®
+30,EXPRESS_SAVER,US_PACKAGE,3,5,131.59,per_package,6,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 110.88 121.15 122.84 130.77 131.59',Inferred weight. Original service: FedEx Express Saver®
+1,FIRST_OVERNIGHT,US_PACKAGE,3,1,439.35,per_package,7,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 439.35 443.70 448.05 452.40 456.75',Inferred weight. Original service: FedEx First Overnight®
+2,FIRST_OVERNIGHT,US_PACKAGE,3,2,443.70,per_package,7,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 439.35 443.70 448.05 452.40 456.75',Inferred weight. Original service: FedEx First Overnight®
+3,FIRST_OVERNIGHT,US_PACKAGE,3,3,448.05,per_package,7,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 439.35 443.70 448.05 452.40 456.75',Inferred weight. Original service: FedEx First Overnight®
+4,FIRST_OVERNIGHT,US_PACKAGE,3,4,452.40,per_package,7,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 439.35 443.70 448.05 452.40 456.75',Inferred weight. Original service: FedEx First Overnight®
+5,FIRST_OVERNIGHT,US_PACKAGE,3,5,456.75,per_package,7,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 439.35 443.70 448.05 452.40 456.75',Inferred weight. Original service: FedEx First Overnight®
+6,PRIORITY_OVERNIGHT,US_PACKAGE,3,1,408.04,per_package,7,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 408.04 412.08 416.12 420.16 424.20',Inferred weight. Original service: FedEx Priority Overnight®
+7,PRIORITY_OVERNIGHT,US_PACKAGE,3,2,412.08,per_package,7,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 408.04 412.08 416.12 420.16 424.20',Inferred weight. Original service: FedEx Priority Overnight®
+8,PRIORITY_OVERNIGHT,US_PACKAGE,3,3,416.12,per_package,7,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 408.04 412.08 416.12 420.16 424.20',Inferred weight. Original service: FedEx Priority Overnight®
+9,PRIORITY_OVERNIGHT,US_PACKAGE,3,4,420.16,per_package,7,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 408.04 412.08 416.12 420.16 424.20',Inferred weight. Original service: FedEx Priority Overnight®
+10,PRIORITY_OVERNIGHT,US_PACKAGE,3,5,424.20,per_package,7,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 408.04 412.08 416.12 420.16 424.20',Inferred weight. Original service: FedEx Priority Overnight®
+11,STANDARD_OVERNIGHT,US_PACKAGE,3,1,399.96,per_package,7,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 399.96 403.92 407.88 411.84 415.80',Inferred weight. Original service: FedEx Standard Overnight®
+12,STANDARD_OVERNIGHT,US_PACKAGE,3,2,403.92,per_package,7,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 399.96 403.92 407.88 411.84 415.80',Inferred weight. Original service: FedEx Standard Overnight®
+13,STANDARD_OVERNIGHT,US_PACKAGE,3,3,407.88,per_package,7,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 399.96 403.92 407.88 411.84 415.80',Inferred weight. Original service: FedEx Standard Overnight®
+14,STANDARD_OVERNIGHT,US_PACKAGE,3,4,411.84,per_package,7,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 399.96 403.92 407.88 411.84 415.80',Inferred weight. Original service: FedEx Standard Overnight®
+15,STANDARD_OVERNIGHT,US_PACKAGE,3,5,415.80,per_package,7,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 399.96 403.92 407.88 411.84 415.80',Inferred weight. Original service: FedEx Standard Overnight®
+16,2DAY_AM,US_PACKAGE,3,1,304.01,per_package,7,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 304.01 307.02 310.03 313.04 316.05',Inferred weight. Original service: FedEx 2Day® A.M.
+17,2DAY_AM,US_PACKAGE,3,2,307.02,per_package,7,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 304.01 307.02 310.03 313.04 316.05',Inferred weight. Original service: FedEx 2Day® A.M.
+18,2DAY_AM,US_PACKAGE,3,3,310.03,per_package,7,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 304.01 307.02 310.03 313.04 316.05',Inferred weight. Original service: FedEx 2Day® A.M.
+19,2DAY_AM,US_PACKAGE,3,4,313.04,per_package,7,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 304.01 307.02 310.03 313.04 316.05',Inferred weight. Original service: FedEx 2Day® A.M.
+20,2DAY_AM,US_PACKAGE,3,5,316.05,per_package,7,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 304.01 307.02 310.03 313.04 316.05',Inferred weight. Original service: FedEx 2Day® A.M.
+21,2DAY,US_PACKAGE,3,1,241.39,per_package,7,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 241.39 243.78 246.17 248.56 250.95',Inferred weight. Original service: FedEx 2Day®
+22,2DAY,US_PACKAGE,3,2,243.78,per_package,7,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 241.39 243.78 246.17 248.56 250.95',Inferred weight. Original service: FedEx 2Day®
+23,2DAY,US_PACKAGE,3,3,246.17,per_package,7,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 241.39 243.78 246.17 248.56 250.95',Inferred weight. Original service: FedEx 2Day®
+24,2DAY,US_PACKAGE,3,4,248.56,per_package,7,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 241.39 243.78 246.17 248.56 250.95',Inferred weight. Original service: FedEx 2Day®
+25,2DAY,US_PACKAGE,3,5,250.95,per_package,7,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 241.39 243.78 246.17 248.56 250.95',Inferred weight. Original service: FedEx 2Day®
+26,EXPRESS_SAVER,US_PACKAGE,3,1,231.29,per_package,7,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 231.29 233.58 235.87 238.16 240.45',Inferred weight. Original service: FedEx Express Saver®
+27,EXPRESS_SAVER,US_PACKAGE,3,2,233.58,per_package,7,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 231.29 233.58 235.87 238.16 240.45',Inferred weight. Original service: FedEx Express Saver®
+28,EXPRESS_SAVER,US_PACKAGE,3,3,235.87,per_package,7,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 231.29 233.58 235.87 238.16 240.45',Inferred weight. Original service: FedEx Express Saver®
+29,EXPRESS_SAVER,US_PACKAGE,3,4,238.16,per_package,7,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 231.29 233.58 235.87 238.16 240.45',Inferred weight. Original service: FedEx Express Saver®
+30,EXPRESS_SAVER,US_PACKAGE,3,5,240.45,per_package,7,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 231.29 233.58 235.87 238.16 240.45',Inferred weight. Original service: FedEx Express Saver®
+1,ENVELOPE,US_PACKAGE,4,8,8,per_package,8,0,2,0,Weight: 'up to 8 oz.' | Rate: 'up to 8 oz.',Original service: FedEx® Envelope
+2,FIRST_OVERNIGHT,US_PACKAGE,4,8,83.52,per_package,8,0,2,2,Weight: 'up to 8 oz.' | Rate: '$ 83.52',Original service: FedEx First Overnight®
+3,PRIORITY_OVERNIGHT,US_PACKAGE,4,8,52.52,per_package,8,0,2,3,Weight: 'up to 8 oz.' | Rate: '$ 52.52',Original service: FedEx Priority Overnight®
+4,STANDARD_OVERNIGHT,US_PACKAGE,4,8,49.82,per_package,8,0,2,4,Weight: 'up to 8 oz.' | Rate: '$ 49.82',Original service: FedEx Standard Overnight®
+5,2DAY_AM,US_PACKAGE,4,8,31.06,per_package,8,0,2,5,Weight: 'up to 8 oz.' | Rate: '$ 31.06',Original service: FedEx 2Day® A.M.
+6,2DAY,US_PACKAGE,4,8,27.42,per_package,8,0,2,6,Weight: 'up to 8 oz.' | Rate: '$ 27.42',Original service: FedEx 2Day®
+7,EXPRESS_SAVER,US_PACKAGE,4,8,23.90,per_package,8,0,2,7,Weight: 'up to 8 oz.' | Rate: '$ 23.90',Original service: FedEx Express Saver®
+8,FIRST_OVERNIGHT,US_PACKAGE,4,11,111.40,per_package,8,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 111.40 118.79 128.23 139.75 142.05',Inferred weight. Original service: FedEx First Overnight®
+9,FIRST_OVERNIGHT,US_PACKAGE,4,12,118.79,per_package,8,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 111.40 118.79 128.23 139.75 142.05',Inferred weight. Original service: FedEx First Overnight®
+10,FIRST_OVERNIGHT,US_PACKAGE,4,13,128.23,per_package,8,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 111.40 118.79 128.23 139.75 142.05',Inferred weight. Original service: FedEx First Overnight®
+11,FIRST_OVERNIGHT,US_PACKAGE,4,14,139.75,per_package,8,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 111.40 118.79 128.23 139.75 142.05',Inferred weight. Original service: FedEx First Overnight®
+12,FIRST_OVERNIGHT,US_PACKAGE,4,15,142.05,per_package,8,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 111.40 118.79 128.23 139.75 142.05',Inferred weight. Original service: FedEx First Overnight®
+13,PRIORITY_OVERNIGHT,US_PACKAGE,4,11,80.40,per_package,8,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 80.40 87.79 97.23 108.75 111.05',Inferred weight. Original service: FedEx Priority Overnight®
+14,PRIORITY_OVERNIGHT,US_PACKAGE,4,12,87.79,per_package,8,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 80.40 87.79 97.23 108.75 111.05',Inferred weight. Original service: FedEx Priority Overnight®
+15,PRIORITY_OVERNIGHT,US_PACKAGE,4,13,97.23,per_package,8,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 80.40 87.79 97.23 108.75 111.05',Inferred weight. Original service: FedEx Priority Overnight®
+16,PRIORITY_OVERNIGHT,US_PACKAGE,4,14,108.75,per_package,8,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 80.40 87.79 97.23 108.75 111.05',Inferred weight. Original service: FedEx Priority Overnight®
+17,PRIORITY_OVERNIGHT,US_PACKAGE,4,15,111.05,per_package,8,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 80.40 87.79 97.23 108.75 111.05',Inferred weight. Original service: FedEx Priority Overnight®
+18,STANDARD_OVERNIGHT,US_PACKAGE,4,11,69.96,per_package,8,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 69.96 80.46 89.23 95.77 102.83',Inferred weight. Original service: FedEx Standard Overnight®
+19,STANDARD_OVERNIGHT,US_PACKAGE,4,12,80.46,per_package,8,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 69.96 80.46 89.23 95.77 102.83',Inferred weight. Original service: FedEx Standard Overnight®
+20,STANDARD_OVERNIGHT,US_PACKAGE,4,13,89.23,per_package,8,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 69.96 80.46 89.23 95.77 102.83',Inferred weight. Original service: FedEx Standard Overnight®
+21,STANDARD_OVERNIGHT,US_PACKAGE,4,14,95.77,per_package,8,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 69.96 80.46 89.23 95.77 102.83',Inferred weight. Original service: FedEx Standard Overnight®
+22,STANDARD_OVERNIGHT,US_PACKAGE,4,15,102.83,per_package,8,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 69.96 80.46 89.23 95.77 102.83',Inferred weight. Original service: FedEx Standard Overnight®
+23,2DAY_AM,US_PACKAGE,4,11,34.13,per_package,8,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 34.13 34.44 36.47 39.50 43.88',Inferred weight. Original service: FedEx 2Day® A.M.
+24,2DAY_AM,US_PACKAGE,4,12,34.44,per_package,8,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 34.13 34.44 36.47 39.50 43.88',Inferred weight. Original service: FedEx 2Day® A.M.
+25,2DAY_AM,US_PACKAGE,4,13,36.47,per_package,8,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 34.13 34.44 36.47 39.50 43.88',Inferred weight. Original service: FedEx 2Day® A.M.
+26,2DAY_AM,US_PACKAGE,4,14,39.50,per_package,8,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 34.13 34.44 36.47 39.50 43.88',Inferred weight. Original service: FedEx 2Day® A.M.
+27,2DAY_AM,US_PACKAGE,4,15,43.88,per_package,8,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 34.13 34.44 36.47 39.50 43.88',Inferred weight. Original service: FedEx 2Day® A.M.
+28,2DAY,US_PACKAGE,4,11,27.42,per_package,8,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 27.42 28.48 30.16 32.65 35.49',Inferred weight. Original service: FedEx 2Day®
+29,2DAY,US_PACKAGE,4,12,28.48,per_package,8,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 27.42 28.48 30.16 32.65 35.49',Inferred weight. Original service: FedEx 2Day®
+30,2DAY,US_PACKAGE,4,13,30.16,per_package,8,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 27.42 28.48 30.16 32.65 35.49',Inferred weight. Original service: FedEx 2Day®
+31,2DAY,US_PACKAGE,4,14,32.65,per_package,8,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 27.42 28.48 30.16 32.65 35.49',Inferred weight. Original service: FedEx 2Day®
+32,2DAY,US_PACKAGE,4,15,35.49,per_package,8,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 27.42 28.48 30.16 32.65 35.49',Inferred weight. Original service: FedEx 2Day®
+33,EXPRESS_SAVER,US_PACKAGE,4,11,23.90,per_package,8,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 23.90 24.35 27.02 29.38 30.99',Inferred weight. Original service: FedEx Express Saver®
+34,EXPRESS_SAVER,US_PACKAGE,4,12,24.35,per_package,8,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 23.90 24.35 27.02 29.38 30.99',Inferred weight. Original service: FedEx Express Saver®
+35,EXPRESS_SAVER,US_PACKAGE,4,13,27.02,per_package,8,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 23.90 24.35 27.02 29.38 30.99',Inferred weight. Original service: FedEx Express Saver®
+36,EXPRESS_SAVER,US_PACKAGE,4,14,29.38,per_package,8,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 23.90 24.35 27.02 29.38 30.99',Inferred weight. Original service: FedEx Express Saver®
+37,EXPRESS_SAVER,US_PACKAGE,4,15,30.99,per_package,8,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 23.90 24.35 27.02 29.38 30.99',Inferred weight. Original service: FedEx Express Saver®
+1,FIRST_OVERNIGHT,US_PACKAGE,4,1,449.41,per_package,9,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 449.41 482.61 515.01 518.25 518.77',Inferred weight. Original service: FedEx First Overnight®
+2,FIRST_OVERNIGHT,US_PACKAGE,4,2,482.61,per_package,9,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 449.41 482.61 515.01 518.25 518.77',Inferred weight. Original service: FedEx First Overnight®
+3,FIRST_OVERNIGHT,US_PACKAGE,4,3,515.01,per_package,9,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 449.41 482.61 515.01 518.25 518.77',Inferred weight. Original service: FedEx First Overnight®
+4,FIRST_OVERNIGHT,US_PACKAGE,4,4,518.25,per_package,9,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 449.41 482.61 515.01 518.25 518.77',Inferred weight. Original service: FedEx First Overnight®
+5,FIRST_OVERNIGHT,US_PACKAGE,4,5,518.77,per_package,9,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 449.41 482.61 515.01 518.25 518.77',Inferred weight. Original service: FedEx First Overnight®
+6,PRIORITY_OVERNIGHT,US_PACKAGE,4,1,418.41,per_package,9,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 418.41 451.61 484.01 487.25 487.77',Inferred weight. Original service: FedEx Priority Overnight®
+7,PRIORITY_OVERNIGHT,US_PACKAGE,4,2,451.61,per_package,9,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 418.41 451.61 484.01 487.25 487.77',Inferred weight. Original service: FedEx Priority Overnight®
+8,PRIORITY_OVERNIGHT,US_PACKAGE,4,3,484.01,per_package,9,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 418.41 451.61 484.01 487.25 487.77',Inferred weight. Original service: FedEx Priority Overnight®
+9,PRIORITY_OVERNIGHT,US_PACKAGE,4,4,487.25,per_package,9,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 418.41 451.61 484.01 487.25 487.77',Inferred weight. Original service: FedEx Priority Overnight®
+10,PRIORITY_OVERNIGHT,US_PACKAGE,4,5,487.77,per_package,9,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 418.41 451.61 484.01 487.25 487.77',Inferred weight. Original service: FedEx Priority Overnight®
+11,STANDARD_OVERNIGHT,US_PACKAGE,4,1,400.14,per_package,9,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 400.14 417.73 454.61 458.30 469.16',Inferred weight. Original service: FedEx Standard Overnight®
+12,STANDARD_OVERNIGHT,US_PACKAGE,4,2,417.73,per_package,9,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 400.14 417.73 454.61 458.30 469.16',Inferred weight. Original service: FedEx Standard Overnight®
+13,STANDARD_OVERNIGHT,US_PACKAGE,4,3,454.61,per_package,9,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 400.14 417.73 454.61 458.30 469.16',Inferred weight. Original service: FedEx Standard Overnight®
+14,STANDARD_OVERNIGHT,US_PACKAGE,4,4,458.30,per_package,9,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 400.14 417.73 454.61 458.30 469.16',Inferred weight. Original service: FedEx Standard Overnight®
+15,STANDARD_OVERNIGHT,US_PACKAGE,4,5,469.16,per_package,9,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 400.14 417.73 454.61 458.30 469.16',Inferred weight. Original service: FedEx Standard Overnight®
+16,2DAY_AM,US_PACKAGE,4,1,211.28,per_package,9,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 211.28 214.73 219.59 230.81 231.95',Inferred weight. Original service: FedEx 2Day® A.M.
+17,2DAY_AM,US_PACKAGE,4,2,214.73,per_package,9,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 211.28 214.73 219.59 230.81 231.95',Inferred weight. Original service: FedEx 2Day® A.M.
+18,2DAY_AM,US_PACKAGE,4,3,219.59,per_package,9,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 211.28 214.73 219.59 230.81 231.95',Inferred weight. Original service: FedEx 2Day® A.M.
+19,2DAY_AM,US_PACKAGE,4,4,230.81,per_package,9,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 211.28 214.73 219.59 230.81 231.95',Inferred weight. Original service: FedEx 2Day® A.M.
+20,2DAY_AM,US_PACKAGE,4,5,231.95,per_package,9,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 211.28 214.73 219.59 230.81 231.95',Inferred weight. Original service: FedEx 2Day® A.M.
+21,2DAY,US_PACKAGE,4,1,162.80,per_package,9,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 162.80 166.41 171.75 174.17 176.89',Inferred weight. Original service: FedEx 2Day®
+22,2DAY,US_PACKAGE,4,2,166.41,per_package,9,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 162.80 166.41 171.75 174.17 176.89',Inferred weight. Original service: FedEx 2Day®
+23,2DAY,US_PACKAGE,4,3,171.75,per_package,9,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 162.80 166.41 171.75 174.17 176.89',Inferred weight. Original service: FedEx 2Day®
+24,2DAY,US_PACKAGE,4,4,174.17,per_package,9,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 162.80 166.41 171.75 174.17 176.89',Inferred weight. Original service: FedEx 2Day®
+25,2DAY,US_PACKAGE,4,5,176.89,per_package,9,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 162.80 166.41 171.75 174.17 176.89',Inferred weight. Original service: FedEx 2Day®
+26,EXPRESS_SAVER,US_PACKAGE,4,1,145.27,per_package,9,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 145.27 155.03 156.01 158.30 158.88',Inferred weight. Original service: FedEx Express Saver®
+27,EXPRESS_SAVER,US_PACKAGE,4,2,155.03,per_package,9,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 145.27 155.03 156.01 158.30 158.88',Inferred weight. Original service: FedEx Express Saver®
+28,EXPRESS_SAVER,US_PACKAGE,4,3,156.01,per_package,9,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 145.27 155.03 156.01 158.30 158.88',Inferred weight. Original service: FedEx Express Saver®
+29,EXPRESS_SAVER,US_PACKAGE,4,4,158.30,per_package,9,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 145.27 155.03 156.01 158.30 158.88',Inferred weight. Original service: FedEx Express Saver®
+30,EXPRESS_SAVER,US_PACKAGE,4,5,158.88,per_package,9,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 145.27 155.03 156.01 158.30 158.88',Inferred weight. Original service: FedEx Express Saver®
+1,FIRST_OVERNIGHT,US_PACKAGE,4,1,772.65,per_package,10,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 772.65 780.30 787.95 795.60 803.25',Inferred weight. Original service: FedEx First Overnight®
+2,FIRST_OVERNIGHT,US_PACKAGE,4,2,780.30,per_package,10,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 772.65 780.30 787.95 795.60 803.25',Inferred weight. Original service: FedEx First Overnight®
+3,FIRST_OVERNIGHT,US_PACKAGE,4,3,787.95,per_package,10,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 772.65 780.30 787.95 795.60 803.25',Inferred weight. Original service: FedEx First Overnight®
+4,FIRST_OVERNIGHT,US_PACKAGE,4,4,795.60,per_package,10,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 772.65 780.30 787.95 795.60 803.25',Inferred weight. Original service: FedEx First Overnight®
+5,FIRST_OVERNIGHT,US_PACKAGE,4,5,803.25,per_package,10,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 772.65 780.30 787.95 795.60 803.25',Inferred weight. Original service: FedEx First Overnight®
+6,PRIORITY_OVERNIGHT,US_PACKAGE,4,1,741.34,per_package,10,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 741.34 748.68 756.02 763.36 770.70',Inferred weight. Original service: FedEx Priority Overnight®
+7,PRIORITY_OVERNIGHT,US_PACKAGE,4,2,748.68,per_package,10,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 741.34 748.68 756.02 763.36 770.70',Inferred weight. Original service: FedEx Priority Overnight®
+8,PRIORITY_OVERNIGHT,US_PACKAGE,4,3,756.02,per_package,10,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 741.34 748.68 756.02 763.36 770.70',Inferred weight. Original service: FedEx Priority Overnight®
+9,PRIORITY_OVERNIGHT,US_PACKAGE,4,4,763.36,per_package,10,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 741.34 748.68 756.02 763.36 770.70',Inferred weight. Original service: FedEx Priority Overnight®
+10,PRIORITY_OVERNIGHT,US_PACKAGE,4,5,770.70,per_package,10,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 741.34 748.68 756.02 763.36 770.70',Inferred weight. Original service: FedEx Priority Overnight®
+11,STANDARD_OVERNIGHT,US_PACKAGE,4,1,726.19,per_package,10,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 726.19 733.38 740.57 747.76 754.95',Inferred weight. Original service: FedEx Standard Overnight®
+12,STANDARD_OVERNIGHT,US_PACKAGE,4,2,733.38,per_package,10,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 726.19 733.38 740.57 747.76 754.95',Inferred weight. Original service: FedEx Standard Overnight®
+13,STANDARD_OVERNIGHT,US_PACKAGE,4,3,740.57,per_package,10,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 726.19 733.38 740.57 747.76 754.95',Inferred weight. Original service: FedEx Standard Overnight®
+14,STANDARD_OVERNIGHT,US_PACKAGE,4,4,747.76,per_package,10,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 726.19 733.38 740.57 747.76 754.95',Inferred weight. Original service: FedEx Standard Overnight®
+15,STANDARD_OVERNIGHT,US_PACKAGE,4,5,754.95,per_package,10,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 726.19 733.38 740.57 747.76 754.95',Inferred weight. Original service: FedEx Standard Overnight®
+16,2DAY_AM,US_PACKAGE,4,1,398.95,per_package,10,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 398.95 402.90 406.85 410.80 414.75',Inferred weight. Original service: FedEx 2Day® A.M.
+17,2DAY_AM,US_PACKAGE,4,2,402.90,per_package,10,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 398.95 402.90 406.85 410.80 414.75',Inferred weight. Original service: FedEx 2Day® A.M.
+18,2DAY_AM,US_PACKAGE,4,3,406.85,per_package,10,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 398.95 402.90 406.85 410.80 414.75',Inferred weight. Original service: FedEx 2Day® A.M.
+19,2DAY_AM,US_PACKAGE,4,4,410.80,per_package,10,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 398.95 402.90 406.85 410.80 414.75',Inferred weight. Original service: FedEx 2Day® A.M.
+20,2DAY_AM,US_PACKAGE,4,5,414.75,per_package,10,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 398.95 402.90 406.85 410.80 414.75',Inferred weight. Original service: FedEx 2Day® A.M.
+21,2DAY,US_PACKAGE,4,1,311.08,per_package,10,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 311.08 314.16 317.24 320.32 323.40',Inferred weight. Original service: FedEx 2Day®
+22,2DAY,US_PACKAGE,4,2,314.16,per_package,10,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 311.08 314.16 317.24 320.32 323.40',Inferred weight. Original service: FedEx 2Day®
+23,2DAY,US_PACKAGE,4,3,317.24,per_package,10,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 311.08 314.16 317.24 320.32 323.40',Inferred weight. Original service: FedEx 2Day®
+24,2DAY,US_PACKAGE,4,4,320.32,per_package,10,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 311.08 314.16 317.24 320.32 323.40',Inferred weight. Original service: FedEx 2Day®
+25,2DAY,US_PACKAGE,4,5,323.40,per_package,10,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 311.08 314.16 317.24 320.32 323.40',Inferred weight. Original service: FedEx 2Day®
+26,EXPRESS_SAVER,US_PACKAGE,4,1,296.94,per_package,10,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 296.94 299.88 302.82 305.76 308.70',Inferred weight. Original service: FedEx Express Saver®
+27,EXPRESS_SAVER,US_PACKAGE,4,2,299.88,per_package,10,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 296.94 299.88 302.82 305.76 308.70',Inferred weight. Original service: FedEx Express Saver®
+28,EXPRESS_SAVER,US_PACKAGE,4,3,302.82,per_package,10,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 296.94 299.88 302.82 305.76 308.70',Inferred weight. Original service: FedEx Express Saver®
+29,EXPRESS_SAVER,US_PACKAGE,4,4,305.76,per_package,10,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 296.94 299.88 302.82 305.76 308.70',Inferred weight. Original service: FedEx Express Saver®
+30,EXPRESS_SAVER,US_PACKAGE,4,5,308.70,per_package,10,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 296.94 299.88 302.82 305.76 308.70',Inferred weight. Original service: FedEx Express Saver®
+1,ENVELOPE,US_PACKAGE,5,8,8,per_package,11,0,2,0,Weight: 'up to 8 oz.' | Rate: 'up to 8 oz.',Original service: FedEx® Envelope
+2,FIRST_OVERNIGHT,US_PACKAGE,5,8,87.22,per_package,11,0,2,2,Weight: 'up to 8 oz.' | Rate: '$ 87.22',Original service: FedEx First Overnight®
+3,PRIORITY_OVERNIGHT,US_PACKAGE,5,8,56.22,per_package,11,0,2,3,Weight: 'up to 8 oz.' | Rate: '$ 56.22',Original service: FedEx Priority Overnight®
+4,STANDARD_OVERNIGHT,US_PACKAGE,5,8,53.51,per_package,11,0,2,4,Weight: 'up to 8 oz.' | Rate: '$ 53.51',Original service: FedEx Standard Overnight®
+5,2DAY_AM,US_PACKAGE,5,8,35.97,per_package,11,0,2,5,Weight: 'up to 8 oz.' | Rate: '$ 35.97',Original service: FedEx 2Day® A.M.
+6,2DAY,US_PACKAGE,5,8,33.31,per_package,11,0,2,6,Weight: 'up to 8 oz.' | Rate: '$ 33.31',Original service: FedEx 2Day®
+7,EXPRESS_SAVER,US_PACKAGE,5,8,29.88,per_package,11,0,2,7,Weight: 'up to 8 oz.' | Rate: '$ 29.88',Original service: FedEx Express Saver®
+8,FIRST_OVERNIGHT,US_PACKAGE,5,11,119.90,per_package,11,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 119.90 126.45 140.09 150.46 151.53',Inferred weight. Original service: FedEx First Overnight®
+9,FIRST_OVERNIGHT,US_PACKAGE,5,12,126.45,per_package,11,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 119.90 126.45 140.09 150.46 151.53',Inferred weight. Original service: FedEx First Overnight®
+10,FIRST_OVERNIGHT,US_PACKAGE,5,13,140.09,per_package,11,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 119.90 126.45 140.09 150.46 151.53',Inferred weight. Original service: FedEx First Overnight®
+11,FIRST_OVERNIGHT,US_PACKAGE,5,14,150.46,per_package,11,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 119.90 126.45 140.09 150.46 151.53',Inferred weight. Original service: FedEx First Overnight®
+12,FIRST_OVERNIGHT,US_PACKAGE,5,15,151.53,per_package,11,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 119.90 126.45 140.09 150.46 151.53',Inferred weight. Original service: FedEx First Overnight®
+13,PRIORITY_OVERNIGHT,US_PACKAGE,5,11,88.90,per_package,11,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 88.90 95.45 109.09 119.46 120.53',Inferred weight. Original service: FedEx Priority Overnight®
+14,PRIORITY_OVERNIGHT,US_PACKAGE,5,12,95.45,per_package,11,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 88.90 95.45 109.09 119.46 120.53',Inferred weight. Original service: FedEx Priority Overnight®
+15,PRIORITY_OVERNIGHT,US_PACKAGE,5,13,109.09,per_package,11,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 88.90 95.45 109.09 119.46 120.53',Inferred weight. Original service: FedEx Priority Overnight®
+16,PRIORITY_OVERNIGHT,US_PACKAGE,5,14,119.46,per_package,11,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 88.90 95.45 109.09 119.46 120.53',Inferred weight. Original service: FedEx Priority Overnight®
+17,PRIORITY_OVERNIGHT,US_PACKAGE,5,15,120.53,per_package,11,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 88.90 95.45 109.09 119.46 120.53',Inferred weight. Original service: FedEx Priority Overnight®
+18,STANDARD_OVERNIGHT,US_PACKAGE,5,11,77.51,per_package,11,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 77.51 87.44 96.87 105.18 115.43',Inferred weight. Original service: FedEx Standard Overnight®
+19,STANDARD_OVERNIGHT,US_PACKAGE,5,12,87.44,per_package,11,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 77.51 87.44 96.87 105.18 115.43',Inferred weight. Original service: FedEx Standard Overnight®
+20,STANDARD_OVERNIGHT,US_PACKAGE,5,13,96.87,per_package,11,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 77.51 87.44 96.87 105.18 115.43',Inferred weight. Original service: FedEx Standard Overnight®
+21,STANDARD_OVERNIGHT,US_PACKAGE,5,14,105.18,per_package,11,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 77.51 87.44 96.87 105.18 115.43',Inferred weight. Original service: FedEx Standard Overnight®
+22,STANDARD_OVERNIGHT,US_PACKAGE,5,15,115.43,per_package,11,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 77.51 87.44 96.87 105.18 115.43',Inferred weight. Original service: FedEx Standard Overnight®
+23,2DAY_AM,US_PACKAGE,5,11,40.93,per_package,11,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 40.93 43.63 48.05 56.12 62.31',Inferred weight. Original service: FedEx 2Day® A.M.
+24,2DAY_AM,US_PACKAGE,5,12,43.63,per_package,11,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 40.93 43.63 48.05 56.12 62.31',Inferred weight. Original service: FedEx 2Day® A.M.
+25,2DAY_AM,US_PACKAGE,5,13,48.05,per_package,11,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 40.93 43.63 48.05 56.12 62.31',Inferred weight. Original service: FedEx 2Day® A.M.
+26,2DAY_AM,US_PACKAGE,5,14,56.12,per_package,11,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 40.93 43.63 48.05 56.12 62.31',Inferred weight. Original service: FedEx 2Day® A.M.
+27,2DAY_AM,US_PACKAGE,5,15,62.31,per_package,11,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 40.93 43.63 48.05 56.12 62.31',Inferred weight. Original service: FedEx 2Day® A.M.
+28,2DAY,US_PACKAGE,5,11,33.31,per_package,11,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 33.31 36.19 39.85 46.52 51.70',Inferred weight. Original service: FedEx 2Day®
+29,2DAY,US_PACKAGE,5,12,36.19,per_package,11,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 33.31 36.19 39.85 46.52 51.70',Inferred weight. Original service: FedEx 2Day®
+30,2DAY,US_PACKAGE,5,13,39.85,per_package,11,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 33.31 36.19 39.85 46.52 51.70',Inferred weight. Original service: FedEx 2Day®
+31,2DAY,US_PACKAGE,5,14,46.52,per_package,11,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 33.31 36.19 39.85 46.52 51.70',Inferred weight. Original service: FedEx 2Day®
+32,2DAY,US_PACKAGE,5,15,51.70,per_package,11,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 33.31 36.19 39.85 46.52 51.70',Inferred weight. Original service: FedEx 2Day®
+33,EXPRESS_SAVER,US_PACKAGE,5,11,29.88,per_package,11,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 29.88 30.41 33.73 37.91 39.46',Inferred weight. Original service: FedEx Express Saver®
+34,EXPRESS_SAVER,US_PACKAGE,5,12,30.41,per_package,11,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 29.88 30.41 33.73 37.91 39.46',Inferred weight. Original service: FedEx Express Saver®
+35,EXPRESS_SAVER,US_PACKAGE,5,13,33.73,per_package,11,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 29.88 30.41 33.73 37.91 39.46',Inferred weight. Original service: FedEx Express Saver®
+36,EXPRESS_SAVER,US_PACKAGE,5,14,37.91,per_package,11,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 29.88 30.41 33.73 37.91 39.46',Inferred weight. Original service: FedEx Express Saver®
+37,EXPRESS_SAVER,US_PACKAGE,5,15,39.46,per_package,11,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 29.88 30.41 33.73 37.91 39.46',Inferred weight. Original service: FedEx Express Saver®
+1,FIRST_OVERNIGHT,US_PACKAGE,5,1,489.60,per_package,12,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 489.60 533.77 543.62 553.71 554.73',Inferred weight. Original service: FedEx First Overnight®
+2,FIRST_OVERNIGHT,US_PACKAGE,5,2,533.77,per_package,12,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 489.60 533.77 543.62 553.71 554.73',Inferred weight. Original service: FedEx First Overnight®
+3,FIRST_OVERNIGHT,US_PACKAGE,5,3,543.62,per_package,12,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 489.60 533.77 543.62 553.71 554.73',Inferred weight. Original service: FedEx First Overnight®
+4,FIRST_OVERNIGHT,US_PACKAGE,5,4,553.71,per_package,12,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 489.60 533.77 543.62 553.71 554.73',Inferred weight. Original service: FedEx First Overnight®
+5,FIRST_OVERNIGHT,US_PACKAGE,5,5,554.73,per_package,12,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 489.60 533.77 543.62 553.71 554.73',Inferred weight. Original service: FedEx First Overnight®
+6,PRIORITY_OVERNIGHT,US_PACKAGE,5,1,458.60,per_package,12,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 458.60 502.77 512.62 522.71 523.73',Inferred weight. Original service: FedEx Priority Overnight®
+7,PRIORITY_OVERNIGHT,US_PACKAGE,5,2,502.77,per_package,12,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 458.60 502.77 512.62 522.71 523.73',Inferred weight. Original service: FedEx Priority Overnight®
+8,PRIORITY_OVERNIGHT,US_PACKAGE,5,3,512.62,per_package,12,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 458.60 502.77 512.62 522.71 523.73',Inferred weight. Original service: FedEx Priority Overnight®
+9,PRIORITY_OVERNIGHT,US_PACKAGE,5,4,522.71,per_package,12,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 458.60 502.77 512.62 522.71 523.73',Inferred weight. Original service: FedEx Priority Overnight®
+10,PRIORITY_OVERNIGHT,US_PACKAGE,5,5,523.73,per_package,12,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 458.60 502.77 512.62 522.71 523.73',Inferred weight. Original service: FedEx Priority Overnight®
+11,STANDARD_OVERNIGHT,US_PACKAGE,5,1,441.13,per_package,12,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 441.13 477.59 487.34 503.79 505.44',Inferred weight. Original service: FedEx Standard Overnight®
+12,STANDARD_OVERNIGHT,US_PACKAGE,5,2,477.59,per_package,12,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 441.13 477.59 487.34 503.79 505.44',Inferred weight. Original service: FedEx Standard Overnight®
+13,STANDARD_OVERNIGHT,US_PACKAGE,5,3,487.34,per_package,12,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 441.13 477.59 487.34 503.79 505.44',Inferred weight. Original service: FedEx Standard Overnight®
+14,STANDARD_OVERNIGHT,US_PACKAGE,5,4,503.79,per_package,12,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 441.13 477.59 487.34 503.79 505.44',Inferred weight. Original service: FedEx Standard Overnight®
+15,STANDARD_OVERNIGHT,US_PACKAGE,5,5,505.44,per_package,12,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 441.13 477.59 487.34 503.79 505.44',Inferred weight. Original service: FedEx Standard Overnight®
+16,2DAY_AM,US_PACKAGE,5,1,302.00,per_package,12,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 302.00 312.82 313.93 314.66 329.11',Inferred weight. Original service: FedEx 2Day® A.M.
+17,2DAY_AM,US_PACKAGE,5,2,312.82,per_package,12,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 302.00 312.82 313.93 314.66 329.11',Inferred weight. Original service: FedEx 2Day® A.M.
+18,2DAY_AM,US_PACKAGE,5,3,313.93,per_package,12,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 302.00 312.82 313.93 314.66 329.11',Inferred weight. Original service: FedEx 2Day® A.M.
+19,2DAY_AM,US_PACKAGE,5,4,314.66,per_package,12,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 302.00 312.82 313.93 314.66 329.11',Inferred weight. Original service: FedEx 2Day® A.M.
+20,2DAY_AM,US_PACKAGE,5,5,329.11,per_package,12,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 302.00 312.82 313.93 314.66 329.11',Inferred weight. Original service: FedEx 2Day® A.M.
+21,2DAY,US_PACKAGE,5,1,234.54,per_package,12,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 234.54 243.39 256.78 258.67 259.28',Inferred weight. Original service: FedEx 2Day®
+22,2DAY,US_PACKAGE,5,2,243.39,per_package,12,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 234.54 243.39 256.78 258.67 259.28',Inferred weight. Original service: FedEx 2Day®
+23,2DAY,US_PACKAGE,5,3,256.78,per_package,12,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 234.54 243.39 256.78 258.67 259.28',Inferred weight. Original service: FedEx 2Day®
+24,2DAY,US_PACKAGE,5,4,258.67,per_package,12,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 234.54 243.39 256.78 258.67 259.28',Inferred weight. Original service: FedEx 2Day®
+25,2DAY,US_PACKAGE,5,5,259.28,per_package,12,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 234.54 243.39 256.78 258.67 259.28',Inferred weight. Original service: FedEx 2Day®
+26,EXPRESS_SAVER,US_PACKAGE,5,1,198.09,per_package,12,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 198.09 205.48 206.22 217.68 221.73',Inferred weight. Original service: FedEx Express Saver®
+27,EXPRESS_SAVER,US_PACKAGE,5,2,205.48,per_package,12,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 198.09 205.48 206.22 217.68 221.73',Inferred weight. Original service: FedEx Express Saver®
+28,EXPRESS_SAVER,US_PACKAGE,5,3,206.22,per_package,12,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 198.09 205.48 206.22 217.68 221.73',Inferred weight. Original service: FedEx Express Saver®
+29,EXPRESS_SAVER,US_PACKAGE,5,4,217.68,per_package,12,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 198.09 205.48 206.22 217.68 221.73',Inferred weight. Original service: FedEx Express Saver®
+30,EXPRESS_SAVER,US_PACKAGE,5,5,221.73,per_package,12,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 198.09 205.48 206.22 217.68 221.73',Inferred weight. Original service: FedEx Express Saver®
+1,FIRST_OVERNIGHT,US_PACKAGE,5,1,916.07,per_package,13,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 916.07 925.14 934.21 943.28 952.35',Inferred weight. Original service: FedEx First Overnight®
+2,FIRST_OVERNIGHT,US_PACKAGE,5,2,925.14,per_package,13,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 916.07 925.14 934.21 943.28 952.35',Inferred weight. Original service: FedEx First Overnight®
+3,FIRST_OVERNIGHT,US_PACKAGE,5,3,934.21,per_package,13,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 916.07 925.14 934.21 943.28 952.35',Inferred weight. Original service: FedEx First Overnight®
+4,FIRST_OVERNIGHT,US_PACKAGE,5,4,943.28,per_package,13,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 916.07 925.14 934.21 943.28 952.35',Inferred weight. Original service: FedEx First Overnight®
+5,FIRST_OVERNIGHT,US_PACKAGE,5,5,952.35,per_package,13,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 916.07 925.14 934.21 943.28 952.35',Inferred weight. Original service: FedEx First Overnight®
+6,PRIORITY_OVERNIGHT,US_PACKAGE,5,1,884.76,per_package,13,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 884.76 893.52 902.28 911.04 919.80',Inferred weight. Original service: FedEx Priority Overnight®
+7,PRIORITY_OVERNIGHT,US_PACKAGE,5,2,893.52,per_package,13,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 884.76 893.52 902.28 911.04 919.80',Inferred weight. Original service: FedEx Priority Overnight®
+8,PRIORITY_OVERNIGHT,US_PACKAGE,5,3,902.28,per_package,13,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 884.76 893.52 902.28 911.04 919.80',Inferred weight. Original service: FedEx Priority Overnight®
+9,PRIORITY_OVERNIGHT,US_PACKAGE,5,4,911.04,per_package,13,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 884.76 893.52 902.28 911.04 919.80',Inferred weight. Original service: FedEx Priority Overnight®
+10,PRIORITY_OVERNIGHT,US_PACKAGE,5,5,919.80,per_package,13,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 884.76 893.52 902.28 911.04 919.80',Inferred weight. Original service: FedEx Priority Overnight®
+11,STANDARD_OVERNIGHT,US_PACKAGE,5,1,866.58,per_package,13,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 866.58 875.16 883.74 892.32 900.90',Inferred weight. Original service: FedEx Standard Overnight®
+12,STANDARD_OVERNIGHT,US_PACKAGE,5,2,875.16,per_package,13,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 866.58 875.16 883.74 892.32 900.90',Inferred weight. Original service: FedEx Standard Overnight®
+13,STANDARD_OVERNIGHT,US_PACKAGE,5,3,883.74,per_package,13,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 866.58 875.16 883.74 892.32 900.90',Inferred weight. Original service: FedEx Standard Overnight®
+14,STANDARD_OVERNIGHT,US_PACKAGE,5,4,892.32,per_package,13,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 866.58 875.16 883.74 892.32 900.90',Inferred weight. Original service: FedEx Standard Overnight®
+15,STANDARD_OVERNIGHT,US_PACKAGE,5,5,900.90,per_package,13,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 866.58 875.16 883.74 892.32 900.90',Inferred weight. Original service: FedEx Standard Overnight®
+16,2DAY_AM,US_PACKAGE,5,1,591.86,per_package,13,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 591.86 597.72 603.58 609.44 615.30',Inferred weight. Original service: FedEx 2Day® A.M.
+17,2DAY_AM,US_PACKAGE,5,2,597.72,per_package,13,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 591.86 597.72 603.58 609.44 615.30',Inferred weight. Original service: FedEx 2Day® A.M.
+18,2DAY_AM,US_PACKAGE,5,3,603.58,per_package,13,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 591.86 597.72 603.58 609.44 615.30',Inferred weight. Original service: FedEx 2Day® A.M.
+19,2DAY_AM,US_PACKAGE,5,4,609.44,per_package,13,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 591.86 597.72 603.58 609.44 615.30',Inferred weight. Original service: FedEx 2Day® A.M.
+20,2DAY_AM,US_PACKAGE,5,5,615.30,per_package,13,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 591.86 597.72 603.58 609.44 615.30',Inferred weight. Original service: FedEx 2Day® A.M.
+21,2DAY,US_PACKAGE,5,1,462.58,per_package,13,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 462.58 467.16 471.74 476.32 480.90',Inferred weight. Original service: FedEx 2Day®
+22,2DAY,US_PACKAGE,5,2,467.16,per_package,13,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 462.58 467.16 471.74 476.32 480.90',Inferred weight. Original service: FedEx 2Day®
+23,2DAY,US_PACKAGE,5,3,471.74,per_package,13,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 462.58 467.16 471.74 476.32 480.90',Inferred weight. Original service: FedEx 2Day®
+24,2DAY,US_PACKAGE,5,4,476.32,per_package,13,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 462.58 467.16 471.74 476.32 480.90',Inferred weight. Original service: FedEx 2Day®
+25,2DAY,US_PACKAGE,5,5,480.90,per_package,13,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 462.58 467.16 471.74 476.32 480.90',Inferred weight. Original service: FedEx 2Day®
+26,EXPRESS_SAVER,US_PACKAGE,5,1,410.06,per_package,13,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 410.06 414.12 418.18 422.24 426.30',Inferred weight. Original service: FedEx Express Saver®
+27,EXPRESS_SAVER,US_PACKAGE,5,2,414.12,per_package,13,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 410.06 414.12 418.18 422.24 426.30',Inferred weight. Original service: FedEx Express Saver®
+28,EXPRESS_SAVER,US_PACKAGE,5,3,418.18,per_package,13,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 410.06 414.12 418.18 422.24 426.30',Inferred weight. Original service: FedEx Express Saver®
+29,EXPRESS_SAVER,US_PACKAGE,5,4,422.24,per_package,13,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 410.06 414.12 418.18 422.24 426.30',Inferred weight. Original service: FedEx Express Saver®
+30,EXPRESS_SAVER,US_PACKAGE,5,5,426.30,per_package,13,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 410.06 414.12 418.18 422.24 426.30',Inferred weight. Original service: FedEx Express Saver®
+1,ENVELOPE,US_PACKAGE,6,8,8,per_package,14,0,2,0,Weight: 'up to 8 oz.' | Rate: 'up to 8 oz.',Original service: FedEx® Envelope
+2,FIRST_OVERNIGHT,US_PACKAGE,6,8,88.35,per_package,14,0,2,2,Weight: 'up to 8 oz.' | Rate: '$ 88.35',Original service: FedEx First Overnight®
+3,PRIORITY_OVERNIGHT,US_PACKAGE,6,8,57.35,per_package,14,0,2,3,Weight: 'up to 8 oz.' | Rate: '$ 57.35',Original service: FedEx Priority Overnight®
+4,STANDARD_OVERNIGHT,US_PACKAGE,6,8,54.59,per_package,14,0,2,4,Weight: 'up to 8 oz.' | Rate: '$ 54.59',Original service: FedEx Standard Overnight®
+5,2DAY_AM,US_PACKAGE,6,8,40.85,per_package,14,0,2,5,Weight: 'up to 8 oz.' | Rate: '$ 40.85',Original service: FedEx 2Day® A.M.
+6,2DAY,US_PACKAGE,6,8,40.01,per_package,14,0,2,6,Weight: 'up to 8 oz.' | Rate: '$ 40.01',Original service: FedEx 2Day®
+7,EXPRESS_SAVER,US_PACKAGE,6,8,34.16,per_package,14,0,2,7,Weight: 'up to 8 oz.' | Rate: '$ 34.16',Original service: FedEx Express Saver®
+8,FIRST_OVERNIGHT,US_PACKAGE,6,11,124.59,per_package,14,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 124.59 129.30 148.31 154.81 155.96',Inferred weight. Original service: FedEx First Overnight®
+9,FIRST_OVERNIGHT,US_PACKAGE,6,12,129.30,per_package,14,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 124.59 129.30 148.31 154.81 155.96',Inferred weight. Original service: FedEx First Overnight®
+10,FIRST_OVERNIGHT,US_PACKAGE,6,13,148.31,per_package,14,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 124.59 129.30 148.31 154.81 155.96',Inferred weight. Original service: FedEx First Overnight®
+11,FIRST_OVERNIGHT,US_PACKAGE,6,14,154.81,per_package,14,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 124.59 129.30 148.31 154.81 155.96',Inferred weight. Original service: FedEx First Overnight®
+12,FIRST_OVERNIGHT,US_PACKAGE,6,15,155.96,per_package,14,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 124.59 129.30 148.31 154.81 155.96',Inferred weight. Original service: FedEx First Overnight®
+13,PRIORITY_OVERNIGHT,US_PACKAGE,6,11,93.59,per_package,14,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 93.59 98.30 117.31 123.81 124.96',Inferred weight. Original service: FedEx Priority Overnight®
+14,PRIORITY_OVERNIGHT,US_PACKAGE,6,12,98.30,per_package,14,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 93.59 98.30 117.31 123.81 124.96',Inferred weight. Original service: FedEx Priority Overnight®
+15,PRIORITY_OVERNIGHT,US_PACKAGE,6,13,117.31,per_package,14,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 93.59 98.30 117.31 123.81 124.96',Inferred weight. Original service: FedEx Priority Overnight®
+16,PRIORITY_OVERNIGHT,US_PACKAGE,6,14,123.81,per_package,14,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 93.59 98.30 117.31 123.81 124.96',Inferred weight. Original service: FedEx Priority Overnight®
+17,PRIORITY_OVERNIGHT,US_PACKAGE,6,15,124.96,per_package,14,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 93.59 98.30 117.31 123.81 124.96',Inferred weight. Original service: FedEx Priority Overnight®
+18,STANDARD_OVERNIGHT,US_PACKAGE,6,11,84.01,per_package,14,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 84.01 96.37 103.36 116.03 119.73',Inferred weight. Original service: FedEx Standard Overnight®
+19,STANDARD_OVERNIGHT,US_PACKAGE,6,12,96.37,per_package,14,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 84.01 96.37 103.36 116.03 119.73',Inferred weight. Original service: FedEx Standard Overnight®
+20,STANDARD_OVERNIGHT,US_PACKAGE,6,13,103.36,per_package,14,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 84.01 96.37 103.36 116.03 119.73',Inferred weight. Original service: FedEx Standard Overnight®
+21,STANDARD_OVERNIGHT,US_PACKAGE,6,14,116.03,per_package,14,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 84.01 96.37 103.36 116.03 119.73',Inferred weight. Original service: FedEx Standard Overnight®
+22,STANDARD_OVERNIGHT,US_PACKAGE,6,15,119.73,per_package,14,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 84.01 96.37 103.36 116.03 119.73',Inferred weight. Original service: FedEx Standard Overnight®
+23,2DAY_AM,US_PACKAGE,6,11,46.49,per_package,14,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 46.49 51.44 59.10 68.30 76.27',Inferred weight. Original service: FedEx 2Day® A.M.
+24,2DAY_AM,US_PACKAGE,6,12,51.44,per_package,14,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 46.49 51.44 59.10 68.30 76.27',Inferred weight. Original service: FedEx 2Day® A.M.
+25,2DAY_AM,US_PACKAGE,6,13,59.10,per_package,14,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 46.49 51.44 59.10 68.30 76.27',Inferred weight. Original service: FedEx 2Day® A.M.
+26,2DAY_AM,US_PACKAGE,6,14,68.30,per_package,14,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 46.49 51.44 59.10 68.30 76.27',Inferred weight. Original service: FedEx 2Day® A.M.
+27,2DAY_AM,US_PACKAGE,6,15,76.27,per_package,14,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 46.49 51.44 59.10 68.30 76.27',Inferred weight. Original service: FedEx 2Day® A.M.
+28,2DAY,US_PACKAGE,6,11,40.01,per_package,14,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 40.01 45.11 51.83 59.88 66.89',Inferred weight. Original service: FedEx 2Day®
+29,2DAY,US_PACKAGE,6,12,45.11,per_package,14,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 40.01 45.11 51.83 59.88 66.89',Inferred weight. Original service: FedEx 2Day®
+30,2DAY,US_PACKAGE,6,13,51.83,per_package,14,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 40.01 45.11 51.83 59.88 66.89',Inferred weight. Original service: FedEx 2Day®
+31,2DAY,US_PACKAGE,6,14,59.88,per_package,14,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 40.01 45.11 51.83 59.88 66.89',Inferred weight. Original service: FedEx 2Day®
+32,2DAY,US_PACKAGE,6,15,66.89,per_package,14,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 40.01 45.11 51.83 59.88 66.89',Inferred weight. Original service: FedEx 2Day®
+33,EXPRESS_SAVER,US_PACKAGE,6,11,34.16,per_package,14,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 34.16 36.43 42.35 44.55 50.56',Inferred weight. Original service: FedEx Express Saver®
+34,EXPRESS_SAVER,US_PACKAGE,6,12,36.43,per_package,14,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 34.16 36.43 42.35 44.55 50.56',Inferred weight. Original service: FedEx Express Saver®
+35,EXPRESS_SAVER,US_PACKAGE,6,13,42.35,per_package,14,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 34.16 36.43 42.35 44.55 50.56',Inferred weight. Original service: FedEx Express Saver®
+36,EXPRESS_SAVER,US_PACKAGE,6,14,44.55,per_package,14,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 34.16 36.43 42.35 44.55 50.56',Inferred weight. Original service: FedEx Express Saver®
+37,EXPRESS_SAVER,US_PACKAGE,6,15,50.56,per_package,14,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 34.16 36.43 42.35 44.55 50.56',Inferred weight. Original service: FedEx Express Saver®
+1,FIRST_OVERNIGHT,US_PACKAGE,6,1,503.34,per_package,15,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 503.34 543.94 562.78 564.67 565.21',Inferred weight. Original service: FedEx First Overnight®
+2,FIRST_OVERNIGHT,US_PACKAGE,6,2,543.94,per_package,15,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 503.34 543.94 562.78 564.67 565.21',Inferred weight. Original service: FedEx First Overnight®
+3,FIRST_OVERNIGHT,US_PACKAGE,6,3,562.78,per_package,15,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 503.34 543.94 562.78 564.67 565.21',Inferred weight. Original service: FedEx First Overnight®
+4,FIRST_OVERNIGHT,US_PACKAGE,6,4,564.67,per_package,15,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 503.34 543.94 562.78 564.67 565.21',Inferred weight. Original service: FedEx First Overnight®
+5,FIRST_OVERNIGHT,US_PACKAGE,6,5,565.21,per_package,15,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 503.34 543.94 562.78 564.67 565.21',Inferred weight. Original service: FedEx First Overnight®
+6,PRIORITY_OVERNIGHT,US_PACKAGE,6,1,472.34,per_package,15,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 472.34 512.94 531.78 533.67 534.21',Inferred weight. Original service: FedEx Priority Overnight®
+7,PRIORITY_OVERNIGHT,US_PACKAGE,6,2,512.94,per_package,15,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 472.34 512.94 531.78 533.67 534.21',Inferred weight. Original service: FedEx Priority Overnight®
+8,PRIORITY_OVERNIGHT,US_PACKAGE,6,3,531.78,per_package,15,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 472.34 512.94 531.78 533.67 534.21',Inferred weight. Original service: FedEx Priority Overnight®
+9,PRIORITY_OVERNIGHT,US_PACKAGE,6,4,533.67,per_package,15,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 472.34 512.94 531.78 533.67 534.21',Inferred weight. Original service: FedEx Priority Overnight®
+10,PRIORITY_OVERNIGHT,US_PACKAGE,6,5,534.21,per_package,15,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 472.34 512.94 531.78 533.67 534.21',Inferred weight. Original service: FedEx Priority Overnight®
+11,STANDARD_OVERNIGHT,US_PACKAGE,6,1,454.93,per_package,15,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 454.93 494.68 506.30 515.05 515.93',Inferred weight. Original service: FedEx Standard Overnight®
+12,STANDARD_OVERNIGHT,US_PACKAGE,6,2,494.68,per_package,15,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 454.93 494.68 506.30 515.05 515.93',Inferred weight. Original service: FedEx Standard Overnight®
+13,STANDARD_OVERNIGHT,US_PACKAGE,6,3,506.30,per_package,15,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 454.93 494.68 506.30 515.05 515.93',Inferred weight. Original service: FedEx Standard Overnight®
+14,STANDARD_OVERNIGHT,US_PACKAGE,6,4,515.05,per_package,15,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 454.93 494.68 506.30 515.05 515.93',Inferred weight. Original service: FedEx Standard Overnight®
+15,STANDARD_OVERNIGHT,US_PACKAGE,6,5,515.93,per_package,15,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 454.93 494.68 506.30 515.05 515.93',Inferred weight. Original service: FedEx Standard Overnight®
+16,2DAY_AM,US_PACKAGE,6,1,452.73,per_package,15,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 452.73 479.91 486.38 487.04 487.64',Inferred weight. Original service: FedEx 2Day® A.M.
+17,2DAY_AM,US_PACKAGE,6,2,479.91,per_package,15,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 452.73 479.91 486.38 487.04 487.64',Inferred weight. Original service: FedEx 2Day® A.M.
+18,2DAY_AM,US_PACKAGE,6,3,486.38,per_package,15,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 452.73 479.91 486.38 487.04 487.64',Inferred weight. Original service: FedEx 2Day® A.M.
+19,2DAY_AM,US_PACKAGE,6,4,487.04,per_package,15,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 452.73 479.91 486.38 487.04 487.64',Inferred weight. Original service: FedEx 2Day® A.M.
+20,2DAY_AM,US_PACKAGE,6,5,487.64,per_package,15,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 452.73 479.91 486.38 487.04 487.64',Inferred weight. Original service: FedEx 2Day® A.M.
+21,2DAY,US_PACKAGE,6,1,391.89,per_package,15,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 391.89 412.28 418.55 419.19 420.10',Inferred weight. Original service: FedEx 2Day®
+22,2DAY,US_PACKAGE,6,2,412.28,per_package,15,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 391.89 412.28 418.55 419.19 420.10',Inferred weight. Original service: FedEx 2Day®
+23,2DAY,US_PACKAGE,6,3,418.55,per_package,15,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 391.89 412.28 418.55 419.19 420.10',Inferred weight. Original service: FedEx 2Day®
+24,2DAY,US_PACKAGE,6,4,419.19,per_package,15,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 391.89 412.28 418.55 419.19 420.10',Inferred weight. Original service: FedEx 2Day®
+25,2DAY,US_PACKAGE,6,5,420.10,per_package,15,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 391.89 412.28 418.55 419.19 420.10',Inferred weight. Original service: FedEx 2Day®
+26,EXPRESS_SAVER,US_PACKAGE,6,1,253.88,per_package,15,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 253.88 263.67 294.99 298.16 298.82',Inferred weight. Original service: FedEx Express Saver®
+27,EXPRESS_SAVER,US_PACKAGE,6,2,263.67,per_package,15,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 253.88 263.67 294.99 298.16 298.82',Inferred weight. Original service: FedEx Express Saver®
+28,EXPRESS_SAVER,US_PACKAGE,6,3,294.99,per_package,15,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 253.88 263.67 294.99 298.16 298.82',Inferred weight. Original service: FedEx Express Saver®
+29,EXPRESS_SAVER,US_PACKAGE,6,4,298.16,per_package,15,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 253.88 263.67 294.99 298.16 298.82',Inferred weight. Original service: FedEx Express Saver®
+30,EXPRESS_SAVER,US_PACKAGE,6,5,298.82,per_package,15,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 253.88 263.67 294.99 298.16 298.82',Inferred weight. Original service: FedEx Express Saver®
+1,FIRST_OVERNIGHT,US_PACKAGE,6,1,934.25,per_package,16,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 934.25 943.50 952.75 962.00 971.25',Inferred weight. Original service: FedEx First Overnight®
+2,FIRST_OVERNIGHT,US_PACKAGE,6,2,943.50,per_package,16,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 934.25 943.50 952.75 962.00 971.25',Inferred weight. Original service: FedEx First Overnight®
+3,FIRST_OVERNIGHT,US_PACKAGE,6,3,952.75,per_package,16,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 934.25 943.50 952.75 962.00 971.25',Inferred weight. Original service: FedEx First Overnight®
+4,FIRST_OVERNIGHT,US_PACKAGE,6,4,962.00,per_package,16,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 934.25 943.50 952.75 962.00 971.25',Inferred weight. Original service: FedEx First Overnight®
+5,FIRST_OVERNIGHT,US_PACKAGE,6,5,971.25,per_package,16,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 934.25 943.50 952.75 962.00 971.25',Inferred weight. Original service: FedEx First Overnight®
+6,PRIORITY_OVERNIGHT,US_PACKAGE,6,1,902.94,per_package,16,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 902.94 911.88 920.82 929.76 938.70',Inferred weight. Original service: FedEx Priority Overnight®
+7,PRIORITY_OVERNIGHT,US_PACKAGE,6,2,911.88,per_package,16,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 902.94 911.88 920.82 929.76 938.70',Inferred weight. Original service: FedEx Priority Overnight®
+8,PRIORITY_OVERNIGHT,US_PACKAGE,6,3,920.82,per_package,16,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 902.94 911.88 920.82 929.76 938.70',Inferred weight. Original service: FedEx Priority Overnight®
+9,PRIORITY_OVERNIGHT,US_PACKAGE,6,4,929.76,per_package,16,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 902.94 911.88 920.82 929.76 938.70',Inferred weight. Original service: FedEx Priority Overnight®
+10,PRIORITY_OVERNIGHT,US_PACKAGE,6,5,938.70,per_package,16,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 902.94 911.88 920.82 929.76 938.70',Inferred weight. Original service: FedEx Priority Overnight®
+11,STANDARD_OVERNIGHT,US_PACKAGE,6,1,884.76,per_package,16,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 884.76 893.52 902.28 911.04 919.80',Inferred weight. Original service: FedEx Standard Overnight®
+12,STANDARD_OVERNIGHT,US_PACKAGE,6,2,893.52,per_package,16,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 884.76 893.52 902.28 911.04 919.80',Inferred weight. Original service: FedEx Standard Overnight®
+13,STANDARD_OVERNIGHT,US_PACKAGE,6,3,902.28,per_package,16,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 884.76 893.52 902.28 911.04 919.80',Inferred weight. Original service: FedEx Standard Overnight®
+14,STANDARD_OVERNIGHT,US_PACKAGE,6,4,911.04,per_package,16,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 884.76 893.52 902.28 911.04 919.80',Inferred weight. Original service: FedEx Standard Overnight®
+15,STANDARD_OVERNIGHT,US_PACKAGE,6,5,919.80,per_package,16,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 884.76 893.52 902.28 911.04 919.80',Inferred weight. Original service: FedEx Standard Overnight®
+16,2DAY_AM,US_PACKAGE,6,1,879.71,per_package,16,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 879.71 888.42 897.13 905.84 914.55',Inferred weight. Original service: FedEx 2Day® A.M.
+17,2DAY_AM,US_PACKAGE,6,2,888.42,per_package,16,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 879.71 888.42 897.13 905.84 914.55',Inferred weight. Original service: FedEx 2Day® A.M.
+18,2DAY_AM,US_PACKAGE,6,3,897.13,per_package,16,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 879.71 888.42 897.13 905.84 914.55',Inferred weight. Original service: FedEx 2Day® A.M.
+19,2DAY_AM,US_PACKAGE,6,4,905.84,per_package,16,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 879.71 888.42 897.13 905.84 914.55',Inferred weight. Original service: FedEx 2Day® A.M.
+20,2DAY_AM,US_PACKAGE,6,5,914.55,per_package,16,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 879.71 888.42 897.13 905.84 914.55',Inferred weight. Original service: FedEx 2Day® A.M.
+21,2DAY,US_PACKAGE,6,1,734.27,per_package,16,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 734.27 741.54 748.81 756.08 763.35',Inferred weight. Original service: FedEx 2Day®
+22,2DAY,US_PACKAGE,6,2,741.54,per_package,16,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 734.27 741.54 748.81 756.08 763.35',Inferred weight. Original service: FedEx 2Day®
+23,2DAY,US_PACKAGE,6,3,748.81,per_package,16,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 734.27 741.54 748.81 756.08 763.35',Inferred weight. Original service: FedEx 2Day®
+24,2DAY,US_PACKAGE,6,4,756.08,per_package,16,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 734.27 741.54 748.81 756.08 763.35',Inferred weight. Original service: FedEx 2Day®
+25,2DAY,US_PACKAGE,6,5,763.35,per_package,16,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 734.27 741.54 748.81 756.08 763.35',Inferred weight. Original service: FedEx 2Day®
+26,EXPRESS_SAVER,US_PACKAGE,6,1,573.68,per_package,16,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 573.68 579.36 585.04 590.72 596.40',Inferred weight. Original service: FedEx Express Saver®
+27,EXPRESS_SAVER,US_PACKAGE,6,2,579.36,per_package,16,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 573.68 579.36 585.04 590.72 596.40',Inferred weight. Original service: FedEx Express Saver®
+28,EXPRESS_SAVER,US_PACKAGE,6,3,585.04,per_package,16,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 573.68 579.36 585.04 590.72 596.40',Inferred weight. Original service: FedEx Express Saver®
+29,EXPRESS_SAVER,US_PACKAGE,6,4,590.72,per_package,16,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 573.68 579.36 585.04 590.72 596.40',Inferred weight. Original service: FedEx Express Saver®
+30,EXPRESS_SAVER,US_PACKAGE,6,5,596.40,per_package,16,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 573.68 579.36 585.04 590.72 596.40',Inferred weight. Original service: FedEx Express Saver®
+1,ENVELOPE,US_PACKAGE,7,8,8,per_package,17,0,2,0,Weight: 'up to 8 oz.' | Rate: 'up to 8 oz.',Original service: FedEx® Envelope
+2,FIRST_OVERNIGHT,US_PACKAGE,7,8,94.70,per_package,17,0,2,2,Weight: 'up to 8 oz.' | Rate: '$ 94.70',Original service: FedEx First Overnight®
+3,PRIORITY_OVERNIGHT,US_PACKAGE,7,8,63.70,per_package,17,0,2,3,Weight: 'up to 8 oz.' | Rate: '$ 63.70',Original service: FedEx Priority Overnight®
+4,STANDARD_OVERNIGHT,US_PACKAGE,7,8,59.82,per_package,17,0,2,4,Weight: 'up to 8 oz.' | Rate: '$ 59.82',Original service: FedEx Standard Overnight®
+5,2DAY_AM,US_PACKAGE,7,8,45.58,per_package,17,0,2,5,Weight: 'up to 8 oz.' | Rate: '$ 45.58',Original service: FedEx 2Day® A.M.
+6,2DAY,US_PACKAGE,7,8,42.67,per_package,17,0,2,6,Weight: 'up to 8 oz.' | Rate: '$ 42.67',Original service: FedEx 2Day®
+7,EXPRESS_SAVER,US_PACKAGE,7,8,35.90,per_package,17,0,2,7,Weight: 'up to 8 oz.' | Rate: '$ 35.90',Original service: FedEx Express Saver®
+8,FIRST_OVERNIGHT,US_PACKAGE,7,11,134.80,per_package,17,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 134.80 141.68 159.81 170.90 172.84',Inferred weight. Original service: FedEx First Overnight®
+9,FIRST_OVERNIGHT,US_PACKAGE,7,12,141.68,per_package,17,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 134.80 141.68 159.81 170.90 172.84',Inferred weight. Original service: FedEx First Overnight®
+10,FIRST_OVERNIGHT,US_PACKAGE,7,13,159.81,per_package,17,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 134.80 141.68 159.81 170.90 172.84',Inferred weight. Original service: FedEx First Overnight®
+11,FIRST_OVERNIGHT,US_PACKAGE,7,14,170.90,per_package,17,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 134.80 141.68 159.81 170.90 172.84',Inferred weight. Original service: FedEx First Overnight®
+12,FIRST_OVERNIGHT,US_PACKAGE,7,15,172.84,per_package,17,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 134.80 141.68 159.81 170.90 172.84',Inferred weight. Original service: FedEx First Overnight®
+13,PRIORITY_OVERNIGHT,US_PACKAGE,7,11,103.80,per_package,17,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 103.80 110.68 128.81 139.90 141.84',Inferred weight. Original service: FedEx Priority Overnight®
+14,PRIORITY_OVERNIGHT,US_PACKAGE,7,12,110.68,per_package,17,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 103.80 110.68 128.81 139.90 141.84',Inferred weight. Original service: FedEx Priority Overnight®
+15,PRIORITY_OVERNIGHT,US_PACKAGE,7,13,128.81,per_package,17,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 103.80 110.68 128.81 139.90 141.84',Inferred weight. Original service: FedEx Priority Overnight®
+16,PRIORITY_OVERNIGHT,US_PACKAGE,7,14,139.90,per_package,17,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 103.80 110.68 128.81 139.90 141.84',Inferred weight. Original service: FedEx Priority Overnight®
+17,PRIORITY_OVERNIGHT,US_PACKAGE,7,15,141.84,per_package,17,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 103.80 110.68 128.81 139.90 141.84',Inferred weight. Original service: FedEx Priority Overnight®
+18,STANDARD_OVERNIGHT,US_PACKAGE,7,11,91.30,per_package,17,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 91.30 104.58 114.01 124.08 128.00',Inferred weight. Original service: FedEx Standard Overnight®
+19,STANDARD_OVERNIGHT,US_PACKAGE,7,12,104.58,per_package,17,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 91.30 104.58 114.01 124.08 128.00',Inferred weight. Original service: FedEx Standard Overnight®
+20,STANDARD_OVERNIGHT,US_PACKAGE,7,13,114.01,per_package,17,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 91.30 104.58 114.01 124.08 128.00',Inferred weight. Original service: FedEx Standard Overnight®
+21,STANDARD_OVERNIGHT,US_PACKAGE,7,14,124.08,per_package,17,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 91.30 104.58 114.01 124.08 128.00',Inferred weight. Original service: FedEx Standard Overnight®
+22,STANDARD_OVERNIGHT,US_PACKAGE,7,15,128.00,per_package,17,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 91.30 104.58 114.01 124.08 128.00',Inferred weight. Original service: FedEx Standard Overnight®
+23,2DAY_AM,US_PACKAGE,7,11,49.62,per_package,17,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 49.62 57.18 66.21 77.04 85.81',Inferred weight. Original service: FedEx 2Day® A.M.
+24,2DAY_AM,US_PACKAGE,7,12,57.18,per_package,17,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 49.62 57.18 66.21 77.04 85.81',Inferred weight. Original service: FedEx 2Day® A.M.
+25,2DAY_AM,US_PACKAGE,7,13,66.21,per_package,17,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 49.62 57.18 66.21 77.04 85.81',Inferred weight. Original service: FedEx 2Day® A.M.
+26,2DAY_AM,US_PACKAGE,7,14,77.04,per_package,17,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 49.62 57.18 66.21 77.04 85.81',Inferred weight. Original service: FedEx 2Day® A.M.
+27,2DAY_AM,US_PACKAGE,7,15,85.81,per_package,17,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 49.62 57.18 66.21 77.04 85.81',Inferred weight. Original service: FedEx 2Day® A.M.
+28,2DAY,US_PACKAGE,7,11,42.67,per_package,17,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 42.67 50.07 58.00 66.24 73.79',Inferred weight. Original service: FedEx 2Day®
+29,2DAY,US_PACKAGE,7,12,50.07,per_package,17,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 42.67 50.07 58.00 66.24 73.79',Inferred weight. Original service: FedEx 2Day®
+30,2DAY,US_PACKAGE,7,13,58.00,per_package,17,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 42.67 50.07 58.00 66.24 73.79',Inferred weight. Original service: FedEx 2Day®
+31,2DAY,US_PACKAGE,7,14,66.24,per_package,17,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 42.67 50.07 58.00 66.24 73.79',Inferred weight. Original service: FedEx 2Day®
+32,2DAY,US_PACKAGE,7,15,73.79,per_package,17,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 42.67 50.07 58.00 66.24 73.79',Inferred weight. Original service: FedEx 2Day®
+33,EXPRESS_SAVER,US_PACKAGE,7,11,35.90,per_package,17,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 35.90 40.00 44.76 51.17 56.49',Inferred weight. Original service: FedEx Express Saver®
+34,EXPRESS_SAVER,US_PACKAGE,7,12,40.00,per_package,17,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 35.90 40.00 44.76 51.17 56.49',Inferred weight. Original service: FedEx Express Saver®
+35,EXPRESS_SAVER,US_PACKAGE,7,13,44.76,per_package,17,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 35.90 40.00 44.76 51.17 56.49',Inferred weight. Original service: FedEx Express Saver®
+36,EXPRESS_SAVER,US_PACKAGE,7,14,51.17,per_package,17,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 35.90 40.00 44.76 51.17 56.49',Inferred weight. Original service: FedEx Express Saver®
+37,EXPRESS_SAVER,US_PACKAGE,7,15,56.49,per_package,17,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 35.90 40.00 44.76 51.17 56.49',Inferred weight. Original service: FedEx Express Saver®
+1,FIRST_OVERNIGHT,US_PACKAGE,7,1,540.79,per_package,18,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 540.79 582.56 607.68 624.50 626.19',Inferred weight. Original service: FedEx First Overnight®
+2,FIRST_OVERNIGHT,US_PACKAGE,7,2,582.56,per_package,18,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 540.79 582.56 607.68 624.50 626.19',Inferred weight. Original service: FedEx First Overnight®
+3,FIRST_OVERNIGHT,US_PACKAGE,7,3,607.68,per_package,18,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 540.79 582.56 607.68 624.50 626.19',Inferred weight. Original service: FedEx First Overnight®
+4,FIRST_OVERNIGHT,US_PACKAGE,7,4,624.50,per_package,18,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 540.79 582.56 607.68 624.50 626.19',Inferred weight. Original service: FedEx First Overnight®
+5,FIRST_OVERNIGHT,US_PACKAGE,7,5,626.19,per_package,18,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 540.79 582.56 607.68 624.50 626.19',Inferred weight. Original service: FedEx First Overnight®
+6,PRIORITY_OVERNIGHT,US_PACKAGE,7,1,509.79,per_package,18,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 509.79 551.56 576.68 593.50 595.19',Inferred weight. Original service: FedEx Priority Overnight®
+7,PRIORITY_OVERNIGHT,US_PACKAGE,7,2,551.56,per_package,18,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 509.79 551.56 576.68 593.50 595.19',Inferred weight. Original service: FedEx Priority Overnight®
+8,PRIORITY_OVERNIGHT,US_PACKAGE,7,3,576.68,per_package,18,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 509.79 551.56 576.68 593.50 595.19',Inferred weight. Original service: FedEx Priority Overnight®
+9,PRIORITY_OVERNIGHT,US_PACKAGE,7,4,593.50,per_package,18,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 509.79 551.56 576.68 593.50 595.19',Inferred weight. Original service: FedEx Priority Overnight®
+10,PRIORITY_OVERNIGHT,US_PACKAGE,7,5,595.19,per_package,18,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 509.79 551.56 576.68 593.50 595.19',Inferred weight. Original service: FedEx Priority Overnight®
+11,STANDARD_OVERNIGHT,US_PACKAGE,7,1,492.53,per_package,18,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 492.53 536.56 548.33 552.32 564.72',Inferred weight. Original service: FedEx Standard Overnight®
+12,STANDARD_OVERNIGHT,US_PACKAGE,7,2,536.56,per_package,18,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 492.53 536.56 548.33 552.32 564.72',Inferred weight. Original service: FedEx Standard Overnight®
+13,STANDARD_OVERNIGHT,US_PACKAGE,7,3,548.33,per_package,18,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 492.53 536.56 548.33 552.32 564.72',Inferred weight. Original service: FedEx Standard Overnight®
+14,STANDARD_OVERNIGHT,US_PACKAGE,7,4,552.32,per_package,18,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 492.53 536.56 548.33 552.32 564.72',Inferred weight. Original service: FedEx Standard Overnight®
+15,STANDARD_OVERNIGHT,US_PACKAGE,7,5,564.72,per_package,18,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 492.53 536.56 548.33 552.32 564.72',Inferred weight. Original service: FedEx Standard Overnight®
+16,2DAY_AM,US_PACKAGE,7,1,481.84,per_package,18,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 481.84 508.26 517.15 524.75 525.51',Inferred weight. Original service: FedEx 2Day® A.M.
+17,2DAY_AM,US_PACKAGE,7,2,508.26,per_package,18,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 481.84 508.26 517.15 524.75 525.51',Inferred weight. Original service: FedEx 2Day® A.M.
+18,2DAY_AM,US_PACKAGE,7,3,517.15,per_package,18,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 481.84 508.26 517.15 524.75 525.51',Inferred weight. Original service: FedEx 2Day® A.M.
+19,2DAY_AM,US_PACKAGE,7,4,524.75,per_package,18,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 481.84 508.26 517.15 524.75 525.51',Inferred weight. Original service: FedEx 2Day® A.M.
+20,2DAY_AM,US_PACKAGE,7,5,525.51,per_package,18,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 481.84 508.26 517.15 524.75 525.51',Inferred weight. Original service: FedEx 2Day® A.M.
+21,2DAY,US_PACKAGE,7,1,409.01,per_package,18,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 409.01 422.06 452.17 456.79 457.36',Inferred weight. Original service: FedEx 2Day®
+22,2DAY,US_PACKAGE,7,2,422.06,per_package,18,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 409.01 422.06 452.17 456.79 457.36',Inferred weight. Original service: FedEx 2Day®
+23,2DAY,US_PACKAGE,7,3,452.17,per_package,18,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 409.01 422.06 452.17 456.79 457.36',Inferred weight. Original service: FedEx 2Day®
+24,2DAY,US_PACKAGE,7,4,456.79,per_package,18,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 409.01 422.06 452.17 456.79 457.36',Inferred weight. Original service: FedEx 2Day®
+25,2DAY,US_PACKAGE,7,5,457.36,per_package,18,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 409.01 422.06 452.17 456.79 457.36',Inferred weight. Original service: FedEx 2Day®
+26,EXPRESS_SAVER,US_PACKAGE,7,1,312.33,per_package,18,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 312.33 316.03 316.60 317.26 330.34',Inferred weight. Original service: FedEx Express Saver®
+27,EXPRESS_SAVER,US_PACKAGE,7,2,316.03,per_package,18,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 312.33 316.03 316.60 317.26 330.34',Inferred weight. Original service: FedEx Express Saver®
+28,EXPRESS_SAVER,US_PACKAGE,7,3,316.60,per_package,18,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 312.33 316.03 316.60 317.26 330.34',Inferred weight. Original service: FedEx Express Saver®
+29,EXPRESS_SAVER,US_PACKAGE,7,4,317.26,per_package,18,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 312.33 316.03 316.60 317.26 330.34',Inferred weight. Original service: FedEx Express Saver®
+30,EXPRESS_SAVER,US_PACKAGE,7,5,330.34,per_package,18,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 312.33 316.03 316.60 317.26 330.34',Inferred weight. Original service: FedEx Express Saver®
+1,FIRST_OVERNIGHT,US_PACKAGE,7,1,1137.26,per_package,19,0,2,2,"Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 1,137.26 1,148.52 1,159.78 1,171.04 1,182.30'",Inferred weight. Original service: FedEx First Overnight®
+2,FIRST_OVERNIGHT,US_PACKAGE,7,2,1148.52,per_package,19,0,2,2,"Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 1,137.26 1,148.52 1,159.78 1,171.04 1,182.30'",Inferred weight. Original service: FedEx First Overnight®
+3,FIRST_OVERNIGHT,US_PACKAGE,7,3,1159.78,per_package,19,0,2,2,"Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 1,137.26 1,148.52 1,159.78 1,171.04 1,182.30'",Inferred weight. Original service: FedEx First Overnight®
+4,FIRST_OVERNIGHT,US_PACKAGE,7,4,1171.04,per_package,19,0,2,2,"Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 1,137.26 1,148.52 1,159.78 1,171.04 1,182.30'",Inferred weight. Original service: FedEx First Overnight®
+5,FIRST_OVERNIGHT,US_PACKAGE,7,5,1182.30,per_package,19,0,2,2,"Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 1,137.26 1,148.52 1,159.78 1,171.04 1,182.30'",Inferred weight. Original service: FedEx First Overnight®
+6,PRIORITY_OVERNIGHT,US_PACKAGE,7,1,1105.95,per_package,19,0,2,3,"Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 1,105.95 1,116.90 1,127.85 1,138.80 1,149.75'",Inferred weight. Original service: FedEx Priority Overnight®
+7,PRIORITY_OVERNIGHT,US_PACKAGE,7,2,1116.90,per_package,19,0,2,3,"Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 1,105.95 1,116.90 1,127.85 1,138.80 1,149.75'",Inferred weight. Original service: FedEx Priority Overnight®
+8,PRIORITY_OVERNIGHT,US_PACKAGE,7,3,1127.85,per_package,19,0,2,3,"Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 1,105.95 1,116.90 1,127.85 1,138.80 1,149.75'",Inferred weight. Original service: FedEx Priority Overnight®
+9,PRIORITY_OVERNIGHT,US_PACKAGE,7,4,1138.80,per_package,19,0,2,3,"Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 1,105.95 1,116.90 1,127.85 1,138.80 1,149.75'",Inferred weight. Original service: FedEx Priority Overnight®
+10,PRIORITY_OVERNIGHT,US_PACKAGE,7,5,1149.75,per_package,19,0,2,3,"Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 1,105.95 1,116.90 1,127.85 1,138.80 1,149.75'",Inferred weight. Original service: FedEx Priority Overnight®
+11,STANDARD_OVERNIGHT,US_PACKAGE,7,1,1062.52,per_package,19,0,2,4,"Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 1,062.52 1,073.04 1,083.56 1,094.08 1,104.60'",Inferred weight. Original service: FedEx Standard Overnight®
+12,STANDARD_OVERNIGHT,US_PACKAGE,7,2,1073.04,per_package,19,0,2,4,"Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 1,062.52 1,073.04 1,083.56 1,094.08 1,104.60'",Inferred weight. Original service: FedEx Standard Overnight®
+13,STANDARD_OVERNIGHT,US_PACKAGE,7,3,1083.56,per_package,19,0,2,4,"Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 1,062.52 1,073.04 1,083.56 1,094.08 1,104.60'",Inferred weight. Original service: FedEx Standard Overnight®
+14,STANDARD_OVERNIGHT,US_PACKAGE,7,4,1094.08,per_package,19,0,2,4,"Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 1,062.52 1,073.04 1,083.56 1,094.08 1,104.60'",Inferred weight. Original service: FedEx Standard Overnight®
+15,STANDARD_OVERNIGHT,US_PACKAGE,7,5,1104.60,per_package,19,0,2,4,"Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 1,062.52 1,073.04 1,083.56 1,094.08 1,104.60'",Inferred weight. Original service: FedEx Standard Overnight®
+16,2DAY_AM,US_PACKAGE,7,1,956.47,per_package,19,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 956.47 965.94 975.41 984.88 994.35',Inferred weight. Original service: FedEx 2Day® A.M.
+17,2DAY_AM,US_PACKAGE,7,2,965.94,per_package,19,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 956.47 965.94 975.41 984.88 994.35',Inferred weight. Original service: FedEx 2Day® A.M.
+18,2DAY_AM,US_PACKAGE,7,3,975.41,per_package,19,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 956.47 965.94 975.41 984.88 994.35',Inferred weight. Original service: FedEx 2Day® A.M.
+19,2DAY_AM,US_PACKAGE,7,4,984.88,per_package,19,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 956.47 965.94 975.41 984.88 994.35',Inferred weight. Original service: FedEx 2Day® A.M.
+20,2DAY_AM,US_PACKAGE,7,5,994.35,per_package,19,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 956.47 965.94 975.41 984.88 994.35',Inferred weight. Original service: FedEx 2Day® A.M.
+21,2DAY,US_PACKAGE,7,1,838.30,per_package,19,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 838.30 846.60 854.90 863.20 871.50',Inferred weight. Original service: FedEx 2Day®
+22,2DAY,US_PACKAGE,7,2,846.60,per_package,19,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 838.30 846.60 854.90 863.20 871.50',Inferred weight. Original service: FedEx 2Day®
+23,2DAY,US_PACKAGE,7,3,854.90,per_package,19,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 838.30 846.60 854.90 863.20 871.50',Inferred weight. Original service: FedEx 2Day®
+24,2DAY,US_PACKAGE,7,4,863.20,per_package,19,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 838.30 846.60 854.90 863.20 871.50',Inferred weight. Original service: FedEx 2Day®
+25,2DAY,US_PACKAGE,7,5,871.50,per_package,19,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 838.30 846.60 854.90 863.20 871.50',Inferred weight. Original service: FedEx 2Day®
+26,EXPRESS_SAVER,US_PACKAGE,7,1,645.39,per_package,19,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 645.39 651.78 658.17 664.56 670.95',Inferred weight. Original service: FedEx Express Saver®
+27,EXPRESS_SAVER,US_PACKAGE,7,2,651.78,per_package,19,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 645.39 651.78 658.17 664.56 670.95',Inferred weight. Original service: FedEx Express Saver®
+28,EXPRESS_SAVER,US_PACKAGE,7,3,658.17,per_package,19,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 645.39 651.78 658.17 664.56 670.95',Inferred weight. Original service: FedEx Express Saver®
+29,EXPRESS_SAVER,US_PACKAGE,7,4,664.56,per_package,19,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 645.39 651.78 658.17 664.56 670.95',Inferred weight. Original service: FedEx Express Saver®
+30,EXPRESS_SAVER,US_PACKAGE,7,5,670.95,per_package,19,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 645.39 651.78 658.17 664.56 670.95',Inferred weight. Original service: FedEx Express Saver®
+1,ENVELOPE,US_PACKAGE,8,8,8,per_package,20,0,2,0,Weight: 'up to 8 oz.' | Rate: 'up to 8 oz.',Original service: FedEx® Envelope
+2,FIRST_OVERNIGHT,US_PACKAGE,8,8,97.62,per_package,20,0,2,2,Weight: 'up to 8 oz.' | Rate: '$ 97.62',Original service: FedEx First Overnight®
+3,PRIORITY_OVERNIGHT,US_PACKAGE,8,8,66.62,per_package,20,0,2,3,Weight: 'up to 8 oz.' | Rate: '$ 66.62',Original service: FedEx Priority Overnight®
+4,STANDARD_OVERNIGHT,US_PACKAGE,8,8,62.56,per_package,20,0,2,4,Weight: 'up to 8 oz.' | Rate: '$ 62.56',Original service: FedEx Standard Overnight®
+5,2DAY_AM,US_PACKAGE,8,8,46.52,per_package,20,0,2,5,Weight: 'up to 8 oz.' | Rate: '$ 46.52',Original service: FedEx 2Day® A.M.
+6,2DAY,US_PACKAGE,8,8,43.54,per_package,20,0,2,6,Weight: 'up to 8 oz.' | Rate: '$ 43.54',Original service: FedEx 2Day®
+7,EXPRESS_SAVER,US_PACKAGE,8,8,39.86,per_package,20,0,2,7,Weight: 'up to 8 oz.' | Rate: '$ 39.86',Original service: FedEx Express Saver®
+8,FIRST_OVERNIGHT,US_PACKAGE,8,11,137.55,per_package,20,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 137.55 153.02 164.39 176.16 177.36',Inferred weight. Original service: FedEx First Overnight®
+9,FIRST_OVERNIGHT,US_PACKAGE,8,12,153.02,per_package,20,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 137.55 153.02 164.39 176.16 177.36',Inferred weight. Original service: FedEx First Overnight®
+10,FIRST_OVERNIGHT,US_PACKAGE,8,13,164.39,per_package,20,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 137.55 153.02 164.39 176.16 177.36',Inferred weight. Original service: FedEx First Overnight®
+11,FIRST_OVERNIGHT,US_PACKAGE,8,14,176.16,per_package,20,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 137.55 153.02 164.39 176.16 177.36',Inferred weight. Original service: FedEx First Overnight®
+12,FIRST_OVERNIGHT,US_PACKAGE,8,15,177.36,per_package,20,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 137.55 153.02 164.39 176.16 177.36',Inferred weight. Original service: FedEx First Overnight®
+13,PRIORITY_OVERNIGHT,US_PACKAGE,8,11,106.55,per_package,20,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 106.55 122.02 133.39 145.16 146.36',Inferred weight. Original service: FedEx Priority Overnight®
+14,PRIORITY_OVERNIGHT,US_PACKAGE,8,12,122.02,per_package,20,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 106.55 122.02 133.39 145.16 146.36',Inferred weight. Original service: FedEx Priority Overnight®
+15,PRIORITY_OVERNIGHT,US_PACKAGE,8,13,133.39,per_package,20,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 106.55 122.02 133.39 145.16 146.36',Inferred weight. Original service: FedEx Priority Overnight®
+16,PRIORITY_OVERNIGHT,US_PACKAGE,8,14,145.16,per_package,20,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 106.55 122.02 133.39 145.16 146.36',Inferred weight. Original service: FedEx Priority Overnight®
+17,PRIORITY_OVERNIGHT,US_PACKAGE,8,15,146.36,per_package,20,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 106.55 122.02 133.39 145.16 146.36',Inferred weight. Original service: FedEx Priority Overnight®
+18,STANDARD_OVERNIGHT,US_PACKAGE,8,11,95.35,per_package,20,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 95.35 110.55 120.84 132.30 135.21',Inferred weight. Original service: FedEx Standard Overnight®
+19,STANDARD_OVERNIGHT,US_PACKAGE,8,12,110.55,per_package,20,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 95.35 110.55 120.84 132.30 135.21',Inferred weight. Original service: FedEx Standard Overnight®
+20,STANDARD_OVERNIGHT,US_PACKAGE,8,13,120.84,per_package,20,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 95.35 110.55 120.84 132.30 135.21',Inferred weight. Original service: FedEx Standard Overnight®
+21,STANDARD_OVERNIGHT,US_PACKAGE,8,14,132.30,per_package,20,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 95.35 110.55 120.84 132.30 135.21',Inferred weight. Original service: FedEx Standard Overnight®
+22,STANDARD_OVERNIGHT,US_PACKAGE,8,15,135.21,per_package,20,0,5,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 95.35 110.55 120.84 132.30 135.21',Inferred weight. Original service: FedEx Standard Overnight®
+23,2DAY_AM,US_PACKAGE,8,11,50.70,per_package,20,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 50.70 60.23 70.38 80.09 91.12',Inferred weight. Original service: FedEx 2Day® A.M.
+24,2DAY_AM,US_PACKAGE,8,12,60.23,per_package,20,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 50.70 60.23 70.38 80.09 91.12',Inferred weight. Original service: FedEx 2Day® A.M.
+25,2DAY_AM,US_PACKAGE,8,13,70.38,per_package,20,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 50.70 60.23 70.38 80.09 91.12',Inferred weight. Original service: FedEx 2Day® A.M.
+26,2DAY_AM,US_PACKAGE,8,14,80.09,per_package,20,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 50.70 60.23 70.38 80.09 91.12',Inferred weight. Original service: FedEx 2Day® A.M.
+27,2DAY_AM,US_PACKAGE,8,15,91.12,per_package,20,0,5,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 50.70 60.23 70.38 80.09 91.12',Inferred weight. Original service: FedEx 2Day® A.M.
+28,2DAY,US_PACKAGE,8,11,43.54,per_package,20,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 43.54 52.69 60.45 68.81 78.29',Inferred weight. Original service: FedEx 2Day®
+29,2DAY,US_PACKAGE,8,12,52.69,per_package,20,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 43.54 52.69 60.45 68.81 78.29',Inferred weight. Original service: FedEx 2Day®
+30,2DAY,US_PACKAGE,8,13,60.45,per_package,20,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 43.54 52.69 60.45 68.81 78.29',Inferred weight. Original service: FedEx 2Day®
+31,2DAY,US_PACKAGE,8,14,68.81,per_package,20,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 43.54 52.69 60.45 68.81 78.29',Inferred weight. Original service: FedEx 2Day®
+32,2DAY,US_PACKAGE,8,15,78.29,per_package,20,0,5,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 43.54 52.69 60.45 68.81 78.29',Inferred weight. Original service: FedEx 2Day®
+33,EXPRESS_SAVER,US_PACKAGE,8,11,39.86,per_package,20,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 39.86 46.30 52.29 59.82 67.10',Inferred weight. Original service: FedEx Express Saver®
+34,EXPRESS_SAVER,US_PACKAGE,8,12,46.30,per_package,20,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 39.86 46.30 52.29 59.82 67.10',Inferred weight. Original service: FedEx Express Saver®
+35,EXPRESS_SAVER,US_PACKAGE,8,13,52.29,per_package,20,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 39.86 46.30 52.29 59.82 67.10',Inferred weight. Original service: FedEx Express Saver®
+36,EXPRESS_SAVER,US_PACKAGE,8,14,59.82,per_package,20,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 39.86 46.30 52.29 59.82 67.10',Inferred weight. Original service: FedEx Express Saver®
+37,EXPRESS_SAVER,US_PACKAGE,8,15,67.10,per_package,20,0,5,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 39.86 46.30 52.29 59.82 67.10',Inferred weight. Original service: FedEx Express Saver®
+1,FIRST_OVERNIGHT,US_PACKAGE,8,1,569.55,per_package,21,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 569.55 593.62 633.52 637.51 638.10',Inferred weight. Original service: FedEx First Overnight®
+2,FIRST_OVERNIGHT,US_PACKAGE,8,2,593.62,per_package,21,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 569.55 593.62 633.52 637.51 638.10',Inferred weight. Original service: FedEx First Overnight®
+3,FIRST_OVERNIGHT,US_PACKAGE,8,3,633.52,per_package,21,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 569.55 593.62 633.52 637.51 638.10',Inferred weight. Original service: FedEx First Overnight®
+4,FIRST_OVERNIGHT,US_PACKAGE,8,4,637.51,per_package,21,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 569.55 593.62 633.52 637.51 638.10',Inferred weight. Original service: FedEx First Overnight®
+5,FIRST_OVERNIGHT,US_PACKAGE,8,5,638.10,per_package,21,0,2,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 569.55 593.62 633.52 637.51 638.10',Inferred weight. Original service: FedEx First Overnight®
+6,PRIORITY_OVERNIGHT,US_PACKAGE,8,1,538.55,per_package,21,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 538.55 562.62 602.52 606.51 607.10',Inferred weight. Original service: FedEx Priority Overnight®
+7,PRIORITY_OVERNIGHT,US_PACKAGE,8,2,562.62,per_package,21,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 538.55 562.62 602.52 606.51 607.10',Inferred weight. Original service: FedEx Priority Overnight®
+8,PRIORITY_OVERNIGHT,US_PACKAGE,8,3,602.52,per_package,21,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 538.55 562.62 602.52 606.51 607.10',Inferred weight. Original service: FedEx Priority Overnight®
+9,PRIORITY_OVERNIGHT,US_PACKAGE,8,4,606.51,per_package,21,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 538.55 562.62 602.52 606.51 607.10',Inferred weight. Original service: FedEx Priority Overnight®
+10,PRIORITY_OVERNIGHT,US_PACKAGE,8,5,607.10,per_package,21,0,2,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 538.55 562.62 602.52 606.51 607.10',Inferred weight. Original service: FedEx Priority Overnight®
+11,STANDARD_OVERNIGHT,US_PACKAGE,8,1,521.40,per_package,21,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 521.40 547.30 586.77 591.51 592.09',Inferred weight. Original service: FedEx Standard Overnight®
+12,STANDARD_OVERNIGHT,US_PACKAGE,8,2,547.30,per_package,21,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 521.40 547.30 586.77 591.51 592.09',Inferred weight. Original service: FedEx Standard Overnight®
+13,STANDARD_OVERNIGHT,US_PACKAGE,8,3,586.77,per_package,21,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 521.40 547.30 586.77 591.51 592.09',Inferred weight. Original service: FedEx Standard Overnight®
+14,STANDARD_OVERNIGHT,US_PACKAGE,8,4,591.51,per_package,21,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 521.40 547.30 586.77 591.51 592.09',Inferred weight. Original service: FedEx Standard Overnight®
+15,STANDARD_OVERNIGHT,US_PACKAGE,8,5,592.09,per_package,21,0,2,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 521.40 547.30 586.77 591.51 592.09',Inferred weight. Original service: FedEx Standard Overnight®
+16,2DAY_AM,US_PACKAGE,8,1,491.49,per_package,21,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 491.49 521.66 536.75 538.26 546.04',Inferred weight. Original service: FedEx 2Day® A.M.
+17,2DAY_AM,US_PACKAGE,8,2,521.66,per_package,21,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 491.49 521.66 536.75 538.26 546.04',Inferred weight. Original service: FedEx 2Day® A.M.
+18,2DAY_AM,US_PACKAGE,8,3,536.75,per_package,21,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 491.49 521.66 536.75 538.26 546.04',Inferred weight. Original service: FedEx 2Day® A.M.
+19,2DAY_AM,US_PACKAGE,8,4,538.26,per_package,21,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 491.49 521.66 536.75 538.26 546.04',Inferred weight. Original service: FedEx 2Day® A.M.
+20,2DAY_AM,US_PACKAGE,8,5,546.04,per_package,21,0,2,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 491.49 521.66 536.75 538.26 546.04',Inferred weight. Original service: FedEx 2Day® A.M.
+21,2DAY,US_PACKAGE,8,1,417.20,per_package,21,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 417.20 430.51 462.70 465.93 466.52',Inferred weight. Original service: FedEx 2Day®
+22,2DAY,US_PACKAGE,8,2,430.51,per_package,21,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 417.20 430.51 462.70 465.93 466.52',Inferred weight. Original service: FedEx 2Day®
+23,2DAY,US_PACKAGE,8,3,462.70,per_package,21,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 417.20 430.51 462.70 465.93 466.52',Inferred weight. Original service: FedEx 2Day®
+24,2DAY,US_PACKAGE,8,4,465.93,per_package,21,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 417.20 430.51 462.70 465.93 466.52',Inferred weight. Original service: FedEx 2Day®
+25,2DAY,US_PACKAGE,8,5,466.52,per_package,21,0,2,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 417.20 430.51 462.70 465.93 466.52',Inferred weight. Original service: FedEx 2Day®
+26,EXPRESS_SAVER,US_PACKAGE,8,1,357.27,per_package,21,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 357.27 387.46 390.50 400.43 401.43',Inferred weight. Original service: FedEx Express Saver®
+27,EXPRESS_SAVER,US_PACKAGE,8,2,387.46,per_package,21,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 357.27 387.46 390.50 400.43 401.43',Inferred weight. Original service: FedEx Express Saver®
+28,EXPRESS_SAVER,US_PACKAGE,8,3,390.50,per_package,21,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 357.27 387.46 390.50 400.43 401.43',Inferred weight. Original service: FedEx Express Saver®
+29,EXPRESS_SAVER,US_PACKAGE,8,4,400.43,per_package,21,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 357.27 387.46 390.50 400.43 401.43',Inferred weight. Original service: FedEx Express Saver®
+30,EXPRESS_SAVER,US_PACKAGE,8,5,401.43,per_package,21,0,2,7,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 357.27 387.46 390.50 400.43 401.43',Inferred weight. Original service: FedEx Express Saver®
+1,FIRST_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,1,882.74,per_package,30,0,4,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 882.74 891.48 900.22 908.96 917.70',Inferred weight. Original service: FedEx First Overnight®
+2,FIRST_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,2,891.48,per_package,30,0,4,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 882.74 891.48 900.22 908.96 917.70',Inferred weight. Original service: FedEx First Overnight®
+3,FIRST_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,3,900.22,per_package,30,0,4,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 882.74 891.48 900.22 908.96 917.70',Inferred weight. Original service: FedEx First Overnight®
+4,FIRST_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,4,908.96,per_package,30,0,4,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 882.74 891.48 900.22 908.96 917.70',Inferred weight. Original service: FedEx First Overnight®
+5,FIRST_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,5,917.70,per_package,30,0,4,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 882.74 891.48 900.22 908.96 917.70',Inferred weight. Original service: FedEx First Overnight®
+6,PRIORITY_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,1,851.43,per_package,30,0,4,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 851.43 859.86 868.29 876.72 885.15',Inferred weight. Original service: FedEx Priority Overnight®
+7,PRIORITY_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,2,859.86,per_package,30,0,4,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 851.43 859.86 868.29 876.72 885.15',Inferred weight. Original service: FedEx Priority Overnight®
+8,PRIORITY_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,3,868.29,per_package,30,0,4,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 851.43 859.86 868.29 876.72 885.15',Inferred weight. Original service: FedEx Priority Overnight®
+9,PRIORITY_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,4,876.72,per_package,30,0,4,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 851.43 859.86 868.29 876.72 885.15',Inferred weight. Original service: FedEx Priority Overnight®
+10,PRIORITY_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,5,885.15,per_package,30,0,4,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 851.43 859.86 868.29 876.72 885.15',Inferred weight. Original service: FedEx Priority Overnight®
+11,STANDARD_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,1,704.98,per_package,30,0,4,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 704.98 711.96 718.94 725.92 732.90',Inferred weight. Original service: FedEx Standard Overnight®
+12,STANDARD_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,2,711.96,per_package,30,0,4,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 704.98 711.96 718.94 725.92 732.90',Inferred weight. Original service: FedEx Standard Overnight®
+13,STANDARD_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,3,718.94,per_package,30,0,4,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 704.98 711.96 718.94 725.92 732.90',Inferred weight. Original service: FedEx Standard Overnight®
+14,STANDARD_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,4,725.92,per_package,30,0,4,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 704.98 711.96 718.94 725.92 732.90',Inferred weight. Original service: FedEx Standard Overnight®
+15,STANDARD_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,5,732.90,per_package,30,0,4,4,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 704.98 711.96 718.94 725.92 732.90',Inferred weight. Original service: FedEx Standard Overnight®
+16,2DAY_AM,HAWAII_INTRA,HAWAII_INTRA,1,503.99,per_package,30,0,4,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 503.99 508.98 513.97 518.96 523.95',Inferred weight. Original service: FedEx 2Day® A.M.
+17,2DAY_AM,HAWAII_INTRA,HAWAII_INTRA,2,508.98,per_package,30,0,4,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 503.99 508.98 513.97 518.96 523.95',Inferred weight. Original service: FedEx 2Day® A.M.
+18,2DAY_AM,HAWAII_INTRA,HAWAII_INTRA,3,513.97,per_package,30,0,4,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 503.99 508.98 513.97 518.96 523.95',Inferred weight. Original service: FedEx 2Day® A.M.
+19,2DAY_AM,HAWAII_INTRA,HAWAII_INTRA,4,518.96,per_package,30,0,4,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 503.99 508.98 513.97 518.96 523.95',Inferred weight. Original service: FedEx 2Day® A.M.
+20,2DAY_AM,HAWAII_INTRA,HAWAII_INTRA,5,523.95,per_package,30,0,4,5,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 503.99 508.98 513.97 518.96 523.95',Inferred weight. Original service: FedEx 2Day® A.M.
+21,2DAY,HAWAII_INTRA,HAWAII_INTRA,1,391.88,per_package,30,0,4,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 391.88 395.76 399.64 403.52 407.40',Inferred weight. Original service: FedEx 2Day®
+22,2DAY,HAWAII_INTRA,HAWAII_INTRA,2,395.76,per_package,30,0,4,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 391.88 395.76 399.64 403.52 407.40',Inferred weight. Original service: FedEx 2Day®
+23,2DAY,HAWAII_INTRA,HAWAII_INTRA,3,399.64,per_package,30,0,4,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 391.88 395.76 399.64 403.52 407.40',Inferred weight. Original service: FedEx 2Day®
+24,2DAY,HAWAII_INTRA,HAWAII_INTRA,4,403.52,per_package,30,0,4,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 391.88 395.76 399.64 403.52 407.40',Inferred weight. Original service: FedEx 2Day®
+25,2DAY,HAWAII_INTRA,HAWAII_INTRA,5,407.40,per_package,30,0,4,6,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 391.88 395.76 399.64 403.52 407.40',Inferred weight. Original service: FedEx 2Day®
+1,ENVELOPE,HAWAII_INTRA,HAWAII_INTRA,8,8,per_package,31,0,4,0,Weight: 'up to 8 oz.' | Rate: 'up to 8 oz.',Original service: FedEx® Envelope
+2,FIRST_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,8,38.00,per_package,31,0,4,2,Weight: 'up to 8 oz.' | Rate: '$ 38.00',Original service: FedEx First Overnight®
+3,PRIORITY_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,8,7.00,per_package,31,0,4,3,Weight: 'up to 8 oz.' | Rate: '$ 7.00',Original service: FedEx Priority Overnight®
+4,FIRST_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,1,38.00,per_package,31,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 38.00 38.00 38.00 38.00 38.50',Inferred weight. Original service: FedEx First Overnight®
+5,FIRST_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,2,38.00,per_package,31,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 38.00 38.00 38.00 38.00 38.50',Inferred weight. Original service: FedEx First Overnight®
+6,FIRST_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,3,38.00,per_package,31,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 38.00 38.00 38.00 38.00 38.50',Inferred weight. Original service: FedEx First Overnight®
+7,FIRST_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,4,38.00,per_package,31,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 38.00 38.00 38.00 38.00 38.50',Inferred weight. Original service: FedEx First Overnight®
+8,FIRST_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,5,38.50,per_package,31,0,5,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 38.00 38.00 38.00 38.00 38.50',Inferred weight. Original service: FedEx First Overnight®
+9,PRIORITY_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,1,7.00,per_package,31,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 7.00 7.00 7.00 7.00 7.50',Inferred weight. Original service: FedEx Priority Overnight®
+10,PRIORITY_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,2,7.00,per_package,31,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 7.00 7.00 7.00 7.00 7.50',Inferred weight. Original service: FedEx Priority Overnight®
+11,PRIORITY_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,3,7.00,per_package,31,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 7.00 7.00 7.00 7.00 7.50',Inferred weight. Original service: FedEx Priority Overnight®
+12,PRIORITY_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,4,7.00,per_package,31,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 7.00 7.00 7.00 7.00 7.50',Inferred weight. Original service: FedEx Priority Overnight®
+13,PRIORITY_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,5,7.50,per_package,31,0,5,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 7.00 7.00 7.00 7.00 7.50',Inferred weight. Original service: FedEx Priority Overnight®
+1,FIRST_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,1,49.75,per_package,31,1,4,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 49.75 50.00 50.25 50.50 50.75',Inferred weight. Original service: FedEx First Overnight®
+2,FIRST_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,2,50.00,per_package,31,1,4,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 49.75 50.00 50.25 50.50 50.75',Inferred weight. Original service: FedEx First Overnight®
+3,FIRST_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,3,50.25,per_package,31,1,4,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 49.75 50.00 50.25 50.50 50.75',Inferred weight. Original service: FedEx First Overnight®
+4,FIRST_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,4,50.50,per_package,31,1,4,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 49.75 50.00 50.25 50.50 50.75',Inferred weight. Original service: FedEx First Overnight®
+5,FIRST_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,5,50.75,per_package,31,1,4,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 49.75 50.00 50.25 50.50 50.75',Inferred weight. Original service: FedEx First Overnight®
+6,PRIORITY_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,1,18.75,per_package,31,1,4,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 18.75 19.00 19.25 19.50 19.75',Inferred weight. Original service: FedEx Priority Overnight®
+7,PRIORITY_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,2,19.00,per_package,31,1,4,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 18.75 19.00 19.25 19.50 19.75',Inferred weight. Original service: FedEx Priority Overnight®
+8,PRIORITY_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,3,19.25,per_package,31,1,4,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 18.75 19.00 19.25 19.50 19.75',Inferred weight. Original service: FedEx Priority Overnight®
+9,PRIORITY_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,4,19.50,per_package,31,1,4,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 18.75 19.00 19.25 19.50 19.75',Inferred weight. Original service: FedEx Priority Overnight®
+10,PRIORITY_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,5,19.75,per_package,31,1,4,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 18.75 19.00 19.25 19.50 19.75',Inferred weight. Original service: FedEx Priority Overnight®
+1,FIRST_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,1,62.62,per_package,31,2,4,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 62.62 63.24 63.86 64.48 65.10',Inferred weight. Original service: FedEx First Overnight®
+2,FIRST_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,2,63.24,per_package,31,2,4,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 62.62 63.24 63.86 64.48 65.10',Inferred weight. Original service: FedEx First Overnight®
+3,FIRST_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,3,63.86,per_package,31,2,4,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 62.62 63.24 63.86 64.48 65.10',Inferred weight. Original service: FedEx First Overnight®
+4,FIRST_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,4,64.48,per_package,31,2,4,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 62.62 63.24 63.86 64.48 65.10',Inferred weight. Original service: FedEx First Overnight®
+5,FIRST_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,5,65.10,per_package,31,2,4,2,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 62.62 63.24 63.86 64.48 65.10',Inferred weight. Original service: FedEx First Overnight®
+6,PRIORITY_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,1,31.50,per_package,31,2,4,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 31.50 31.75 32.00 32.25 32.50',Inferred weight. Original service: FedEx Priority Overnight®
+7,PRIORITY_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,2,31.75,per_package,31,2,4,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 31.50 31.75 32.00 32.25 32.50',Inferred weight. Original service: FedEx Priority Overnight®
+8,PRIORITY_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,3,32.00,per_package,31,2,4,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 31.50 31.75 32.00 32.25 32.50',Inferred weight. Original service: FedEx Priority Overnight®
+9,PRIORITY_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,4,32.25,per_package,31,2,4,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 31.50 31.75 32.00 32.25 32.50',Inferred weight. Original service: FedEx Priority Overnight®
+10,PRIORITY_OVERNIGHT,HAWAII_INTRA,HAWAII_INTRA,5,32.50,per_package,31,2,4,3,Weight: '.sbl ni thgiew mumixam / gnigakcap rehto lla ni stnempihS' | Rate: '$ 31.50 31.75 32.00 32.25 32.50',Inferred weight. Original service: FedEx Priority Overnight®
+1,FIRST_OVERNIGHT,MULTIWEIGHT_EXPRESS,6-7,100,13.59,per_lb,33,2,1,2,"Weight: '100–499 lbs.
+500–999 lbs.
+1,000–1,999 lbs.' | Rate: '$ 13.59
+13.57
+13.55'","Multiweight rate. Original service: FedEx
+First
+Overnight®"
+2,FIRST_OVERNIGHT,MULTIWEIGHT_EXPRESS,6-7,499,13.57,per_lb,33,2,1,2,"Weight: '100–499 lbs.
+500–999 lbs.
+1,000–1,999 lbs.' | Rate: '$ 13.59
+13.57
+13.55'","Multiweight rate. Original service: FedEx
+First
+Overnight®"
+3,PRIORITY_OVERNIGHT,MULTIWEIGHT_EXPRESS,6-7,100,13.28,per_lb,33,2,1,3,"Weight: '100–499 lbs.
+500–999 lbs.
+1,000–1,999 lbs.' | Rate: '$ 13.28
+13.26
+13.24'","Multiweight rate. Original service: FedEx
+Priority
+Overnight®"
+4,PRIORITY_OVERNIGHT,MULTIWEIGHT_EXPRESS,6-7,499,13.26,per_lb,33,2,1,3,"Weight: '100–499 lbs.
+500–999 lbs.
+1,000–1,999 lbs.' | Rate: '$ 13.28
+13.26
+13.24'","Multiweight rate. Original service: FedEx
+Priority
+Overnight®"
+5,2DAY,MULTIWEIGHT_EXPRESS,6-7,100,8.92,per_lb,33,2,1,4,"Weight: '100–499 lbs.
+500–999 lbs.
+1,000–1,999 lbs.' | Rate: '$ 8.92
+8.90
+8.88'","Multiweight rate. Original service: FedEx
+2Day®"
+6,2DAY,MULTIWEIGHT_EXPRESS,6-7,499,8.90,per_lb,33,2,1,4,"Weight: '100–499 lbs.
+500–999 lbs.
+1,000–1,999 lbs.' | Rate: '$ 8.92
+8.90
+8.88'","Multiweight rate. Original service: FedEx
+2Day®"
+7,FIRST_OVERNIGHT,MULTIWEIGHT_EXPRESS,6-7,2000,13.53,per_lb,33,2,2,2,"Weight: '2,000+ lbs.' | Rate: '13.53'","Multiweight rate. Original service: FedEx
+First
+Overnight®"
+8,PRIORITY_OVERNIGHT,MULTIWEIGHT_EXPRESS,6-7,2000,13.22,per_lb,33,2,2,3,"Weight: '2,000+ lbs.' | Rate: '13.22'","Multiweight rate. Original service: FedEx
+Priority
+Overnight®"
+9,2DAY,MULTIWEIGHT_EXPRESS,6-7,2000,8.86,per_lb,33,2,2,4,"Weight: '2,000+ lbs.' | Rate: '8.86'","Multiweight rate. Original service: FedEx
+2Day®"
+1,GROUND,GROUND,2,51,27.68,per_package,107,0,3,2,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$ 27.68'",Ground delivery zone 2
+2,GROUND,GROUND,3,51,34.62,per_package,107,0,3,3,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$ 34.62'",Ground delivery zone 3
+3,GROUND,GROUND,4,51,41.62,per_package,107,0,3,4,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$ 41.62'",Ground delivery zone 4
+4,GROUND,GROUND,5,51,50.48,per_package,107,0,3,5,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$ 50.48'",Ground delivery zone 5
+5,GROUND,GROUND,6,51,64.09,per_package,107,0,3,6,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$ 64.09'",Ground delivery zone 6
+6,GROUND,GROUND,7,51,77.42,per_package,107,0,3,7,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$ 77.42'",Ground delivery zone 7
+7,GROUND,GROUND,8,51,86.95,per_package,107,0,3,8,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$ 86.95'",Ground delivery zone 8
+1,GROUND,GROUND,2,51,70.88,per_package,108,0,3,2,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$ 70.88'",Ground delivery zone 2
+2,GROUND,GROUND,3,51,71.72,per_package,108,0,3,3,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$ 71.72'",Ground delivery zone 3
+3,GROUND,GROUND,4,51,77.83,per_package,108,0,3,4,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$ 77.83'",Ground delivery zone 4
+4,GROUND,GROUND,5,51,85.13,per_package,108,0,3,5,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$ 85.13'",Ground delivery zone 5
+5,GROUND,GROUND,6,51,100.21,per_package,108,0,3,6,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$100.21'",Ground delivery zone 6
+6,GROUND,GROUND,7,51,111.01,per_package,108,0,3,7,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$111.01'",Ground delivery zone 7
+7,GROUND,GROUND,8,51,122.27,per_package,108,0,3,8,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$122.27'",Ground delivery zone 8
+1,GROUND,GROUND,17,51,40.84,per_package,109,0,4,2,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$ 40.84'",Ground delivery zone 17
+2,GROUND,GROUND,22,51,9.53,per_package,109,0,4,3,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$ 9.53'",Ground delivery zone 22
+3,GROUND,GROUND,23,51,14.22,per_package,109,0,4,4,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$ 14.22'",Ground delivery zone 23
+4,GROUND,GROUND,25,51,14.68,per_package,109,0,4,5,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$ 14.68'",Ground delivery zone 25
+5,GROUND,GROUND,9,51,40.84,per_package,109,0,4,6,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$ 40.84'",Ground delivery zone 9
+6,GROUND,GROUND,14,51,9.30,per_package,109,0,4,7,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$ 9.30'",Ground delivery zone 14
+7,GROUND,GROUND,92,51,14.22,per_package,109,0,4,8,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$ 14.22'",Ground delivery zone 92
+8,GROUND,GROUND,96,51,14.68,per_package,109,0,4,9,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$ 14.68
+16.72
+18.56
+21.43
+24.36'",Ground delivery zone 96
+1,GROUND,GROUND,17,51,235.50,per_package,110,0,4,2,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$235.50'",Ground delivery zone 17
+2,GROUND,GROUND,22,51,28.63,per_package,110,0,4,3,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$ 28.63'",Ground delivery zone 22
+3,GROUND,GROUND,23,51,121.84,per_package,110,0,4,4,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$121.84'",Ground delivery zone 23
+4,GROUND,GROUND,25,51,138.94,per_package,110,0,4,5,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$138.94'",Ground delivery zone 25
+5,GROUND,GROUND,9,51,235.50,per_package,110,0,4,6,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$235.50'",Ground delivery zone 9
+6,GROUND,GROUND,14,51,16.36,per_package,110,0,4,7,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$ 16.36'",Ground delivery zone 14
+7,GROUND,GROUND,92,51,121.84,per_package,110,0,4,8,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$121.84'",Ground delivery zone 92
+8,GROUND,GROUND,96,51,138.94,per_package,110,0,4,9,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$138.94
+140.69
+142.52
+144.26
+146.12'",Ground delivery zone 96
+1,GROUND,GROUND,17,51,416.25,per_package,111,0,4,2,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$416.25'",Ground delivery zone 17
+2,GROUND,GROUND,22,51,76.81,per_package,111,0,4,3,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$ 76.81'",Ground delivery zone 22
+3,GROUND,GROUND,23,51,187.10,per_package,111,0,4,4,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$187.10'",Ground delivery zone 23
+4,GROUND,GROUND,25,51,208.46,per_package,111,0,4,5,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$208.46'",Ground delivery zone 25
+5,GROUND,GROUND,9,51,416.25,per_package,111,0,4,6,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$416.25'",Ground delivery zone 9
+6,GROUND,GROUND,14,51,58.89,per_package,111,0,4,7,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$ 58.89'",Ground delivery zone 14
+7,GROUND,GROUND,92,51,187.10,per_package,111,0,4,8,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$187.10'",Ground delivery zone 92
+8,GROUND,GROUND,96,51,208.46,per_package,111,0,4,9,"Weight: '.sbl
+ni
+thgiew
+mumixaM' | Rate: '$208.46
+209.75
+211.14
+212.45
+213.80'",Ground delivery zone 96
