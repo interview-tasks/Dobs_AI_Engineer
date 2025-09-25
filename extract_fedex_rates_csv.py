@@ -8,6 +8,7 @@ import pdfplumber
 import pandas as pd
 import re
 import sys
+import os
 from typing import List, Dict, Optional, Tuple
 
 def clean_rate_value(value: str) -> Optional[float]:
@@ -688,7 +689,7 @@ def main():
     else:
         print(f"Error: PDF file not found in data/ or current directory: {pdf_filename}")
         return 1
-    output_path = "fedex_all_rates_2025.csv"
+    output_path = "data/fedex_all_rates_2025.csv"
 
     print(f"Extracting all FedEx rates from: {pdf_path}")
 
@@ -738,27 +739,27 @@ def separate_tables(df):
         (df['page'] >= 2) &
         (df['page'] <= 21)
     ]
-    express_services.to_csv('express_services_zones_2_8.csv', index=False)
+    express_services.to_csv('data/express_services_zones_2_8.csv', index=False)
     print(f"→ express_services_zones_2_8.csv ({len(express_services)} records)")
 
     # 2. Hawaii Intra Services - Page 30 (separate)
     hawaii_page_30 = df[(df['zone'] == 'Hawaii-Intra') & (df['page'] == 30)]
-    hawaii_page_30.to_csv('hawaii_intra_page_30.csv', index=False)
+    hawaii_page_30.to_csv('data/hawaii_intra_page_30.csv', index=False)
     print(f"→ hawaii_intra_page_30.csv ({len(hawaii_page_30)} records)")
 
     # 3. Hawaii Intra Services - Page 31 (separate)
     hawaii_page_31 = df[(df['zone'] == 'Hawaii-Intra') & (df['page'] == 31)]
-    hawaii_page_31.to_csv('hawaii_intra_page_31.csv', index=False)
+    hawaii_page_31.to_csv('data/hawaii_intra_page_31.csv', index=False)
     print(f"→ hawaii_intra_page_31.csv ({len(hawaii_page_31)} records)")
 
     # 4. Multiweight Services (page 32)
     multiweight = df[df['package_type'] == 'Multiweight Package']
-    multiweight.to_csv('multiweight_bulk_rates.csv', index=False)
+    multiweight.to_csv('data/multiweight_bulk_rates.csv', index=False)
     print(f"→ multiweight_bulk_rates.csv ({len(multiweight)} records)")
 
     # 5. Express Multiweight Services (page 33)
     express_multiweight = df[df['package_type'] == 'Express Multiweight']
-    express_multiweight.to_csv('express_multiweight_rates.csv', index=False)
+    express_multiweight.to_csv('data/express_multiweight_rates.csv', index=False)
     print(f"→ express_multiweight_rates.csv ({len(express_multiweight)} records)")
 
     # 6. Ground US Zones (pages 105-107)
@@ -767,7 +768,7 @@ def separate_tables(df):
         (df['page'] >= 105) &
         (df['page'] <= 107)
     ]
-    ground_us.to_csv('ground_us_zones_2_7.csv', index=False)
+    ground_us.to_csv('data/ground_us_zones_2_7.csv', index=False)
     print(f"→ ground_us_zones_2_7.csv ({len(ground_us)} records)")
 
     # 7. Ground Alaska/Hawaii (pages 108-110)
@@ -776,7 +777,7 @@ def separate_tables(df):
         (df['page'] >= 108) &
         (df['page'] <= 110)
     ]
-    ground_alaska_hawaii.to_csv('ground_alaska_hawaii_zones.csv', index=False)
+    ground_alaska_hawaii.to_csv('data/ground_alaska_hawaii_zones.csv', index=False)
     print(f"→ ground_alaska_hawaii_zones.csv ({len(ground_alaska_hawaii)} records)")
 
     # 8. Ground Canada (page 111)
@@ -784,7 +785,7 @@ def separate_tables(df):
         (df['service_type'] == 'FedEx Ground/Home Delivery') &
         (df['page'] == 111)
     ]
-    ground_canada.to_csv('ground_canada_rates.csv', index=False)
+    ground_canada.to_csv('data/ground_canada_rates.csv', index=False)
     print(f"→ ground_canada_rates.csv ({len(ground_canada)} records)")
 
     total_separated = (len(express_services) + len(hawaii_page_30) + len(hawaii_page_31) + len(multiweight) +
