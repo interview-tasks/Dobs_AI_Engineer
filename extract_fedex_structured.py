@@ -37,21 +37,26 @@ def extract_individual_weights_from_cell(weight_text: str) -> List[int]:
         return []
 
     weights = []
+
+    # Clean up the text
+    cleaned_text = weight_text.replace('lbs.', '').replace('lb.', '').replace('oz.', '')
+
     # Split by newlines and process each line
-    lines = [line.strip() for line in weight_text.split('\n') if line.strip()]
+    lines = [line.strip() for line in cleaned_text.split('\n') if line.strip()]
 
     for line in lines:
-        # Extract all numbers from the line
+        # Extract all numbers from the line, but be more selective
         numbers = re.findall(r'\b(\d+)\b', line)
         for num_str in numbers:
             try:
                 weight = int(num_str)
-                if 1 <= weight <= 2000:  # Reasonable weight range
+                # More restrictive weight range for individual packages
+                if 1 <= weight <= 150:  # Most individual packages are under 150 lbs
                     weights.append(weight)
             except:
                 continue
 
-    return weights
+    return sorted(list(set(weights)))  # Remove duplicates and sort
 
 def canonicalize_service_name(service_name: str) -> str:
     """Convert service name to canonical form"""
@@ -130,11 +135,19 @@ def extract_express_table_structured(table_data: List[List], page_num: int, tabl
     # Process data rows
     for row_idx in range(service_row_idx + 1, len(table_data)):
         row = table_data[row_idx]
-        if not row or not row[0]:
+        if not row:
             continue
 
-        # Get weight cell content
-        weight_cell = str(row[0]) if row[0] else ""
+        # Don't skip if row[0] is None - we might have data in other columns
+
+        # Get weight cell content from column 1 (not 0!)
+        # Column 0 often has corrupted text, column 1 has actual weights
+        weight_cell = ""
+        if len(row) > 1 and row[1]:
+            weight_cell = str(row[1])
+        elif row[0]:  # Fallback to column 0 if column 1 is empty
+            weight_cell = str(row[0])
+
         if not weight_cell.strip():
             continue
 
@@ -201,35 +214,10 @@ def extract_express_table_structured(table_data: List[List], page_num: int, tabl
                     })
                     id_counter += 1
 
-            # If no weights extracted but we have rates, infer sequential weights
+            # If no weights extracted but we have rates, don't guess - skip
             elif rates and not individual_weights:
-                # For corrupted weight cells, start from reasonable base
-                base_weight = 1 if row_idx <= service_row_idx + 2 else (row_idx - service_row_idx - 2) * 5 + 1
-
-                for i, rate in enumerate(rates):
-                    weight_lb = base_weight + i
-
-                    # Clean text content for CSV
-                    clean_weight_text = re.sub(r'\s+', ' ', original_weight_text.replace('\n', ' ')).strip()
-                    clean_rate_text = re.sub(r'\s+', ' ', rate_cell.replace('\n', ' ')).strip()
-                    clean_service_text = re.sub(r'\s+', ' ', original_service_name.replace('\n', ' ')).strip()
-
-                    results.append({
-                        'id': id_counter,
-                        'service': canonical_service,
-                        'section': section,
-                        'zone': zone,
-                        'weight_lb': weight_lb,
-                        'base_rate': rate,
-                        'rate_type': 'per_package',
-                        'pdf_page': page_num,
-                        'table_index': table_num,
-                        'row_id': row_idx,
-                        'col_id': col_idx,
-                        'original_cell_text': f"Weight: '{clean_weight_text}' | Rate: '{clean_rate_text}'",
-                        'notes': f"Inferred weight. Original service: {clean_service_text}"
-                    })
-                    id_counter += 1
+                # Instead of guessing weights, skip these records to avoid errors
+                continue
 
     return results
 
