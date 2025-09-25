@@ -6,186 +6,60 @@ page,table,zone,service_type,package_type,weight_range,rate_usd
 2,1,2,FedEx 2Day® A.M.,Package,up to 8 oz.,27.21
 2,1,2,FedEx 2Day®,Package,up to 8 oz.,25.23
 2,1,2,FedEx Express Saver®,Package,up to 8 oz.,22.95
-2,1,2,FedEx First Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",73.31
-2,1,2,FedEx Priority Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",42.31
-2,1,2,FedEx Standard Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",38.55
-2,1,2,FedEx 2Day® A.M.,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",28.72
-2,1,2,FedEx 2Day®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",25.23
-2,1,2,FedEx Express Saver®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",22.95
-3,1,2,FedEx First Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",189.62
-3,1,2,FedEx Priority Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",158.62
-3,1,2,FedEx Standard Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",149.32
-3,1,2,FedEx 2Day® A.M.,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",122.81
-3,1,2,FedEx 2Day®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",103.46
-3,1,2,FedEx Express Saver®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",93.02
-4,1,2,FedEx First Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",323.2
-4,1,2,FedEx Priority Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",291.89
-4,1,2,FedEx Standard Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",285.83
-4,1,2,FedEx 2Day® A.M.,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",242.4
-4,1,2,FedEx 2Day®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",192.91
-4,1,2,FedEx Express Saver®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",179.78
+2,1,2,FedEx First Overnight®,Package,1-50 lbs,73.31
+2,1,2,FedEx First Overnight®,Package,51-100 lbs,73.87
+2,1,2,FedEx First Overnight®,Package,101-150 lbs,77.77
+2,1,2,FedEx Priority Overnight®,Package,1-50 lbs,42.31
+2,1,2,FedEx Priority Overnight®,Package,51-100 lbs,42.87
+2,1,2,FedEx Priority Overnight®,Package,101-150 lbs,46.77
+2,1,2,FedEx Standard Overnight®,Package,1-50 lbs,38.55
+2,1,2,FedEx Standard Overnight®,Package,51-100 lbs,41.12
+2,1,2,FedEx Standard Overnight®,Package,101-150 lbs,44.68
+2,1,2,FedEx 2Day® A.M.,Package,1-50 lbs,28.72
+2,1,2,FedEx 2Day® A.M.,Package,51-100 lbs,29.22
+2,1,2,FedEx 2Day® A.M.,Package,101-150 lbs,29.71
+2,1,2,FedEx 2Day®,Package,1-50 lbs,25.23
+2,1,2,FedEx 2Day®,Package,51-100 lbs,26.26
+2,1,2,FedEx 2Day®,Package,101-150 lbs,26.68
+2,1,2,FedEx Express Saver®,Package,1-50 lbs,22.95
+2,1,2,FedEx Express Saver®,Package,51-100 lbs,23.38
+2,1,2,FedEx Express Saver®,Package,101-150 lbs,24.83
+3,1,2,FedEx First Overnight®,Package,1-50 lbs,189.62
+3,1,2,FedEx First Overnight®,Package,51-100 lbs,207.51
+3,1,2,FedEx First Overnight®,Package,101-150 lbs,210.19
+3,1,2,FedEx Priority Overnight®,Package,1-50 lbs,158.62
+3,1,2,FedEx Priority Overnight®,Package,51-100 lbs,176.51
+3,1,2,FedEx Priority Overnight®,Package,101-150 lbs,179.19
+3,1,2,FedEx Standard Overnight®,Package,1-50 lbs,149.32
+3,1,2,FedEx Standard Overnight®,Package,51-100 lbs,151.44
+3,1,2,FedEx Standard Overnight®,Package,101-150 lbs,154.48
+3,1,2,FedEx 2Day® A.M.,Package,1-50 lbs,122.81
+3,1,2,FedEx 2Day® A.M.,Package,51-100 lbs,129.81
+3,1,2,FedEx 2Day® A.M.,Package,101-150 lbs,138.69
+3,1,2,FedEx 2Day®,Package,1-50 lbs,103.46
+3,1,2,FedEx 2Day®,Package,51-100 lbs,104.42
+3,1,2,FedEx 2Day®,Package,101-150 lbs,111.79
+3,1,2,FedEx Express Saver®,Package,1-50 lbs,93.02
+3,1,2,FedEx Express Saver®,Package,51-100 lbs,100.44
+3,1,2,FedEx Express Saver®,Package,101-150 lbs,102.74
+4,1,2,FedEx First Overnight®,Package,1-50 lbs,323.2
+4,1,2,FedEx First Overnight®,Package,51-100 lbs,326.4
+4,1,2,FedEx First Overnight®,Package,101-150 lbs,329.6
+4,1,2,FedEx Priority Overnight®,Package,1-50 lbs,291.89
+4,1,2,FedEx Priority Overnight®,Package,51-100 lbs,294.78
+4,1,2,FedEx Priority Overnight®,Package,101-150 lbs,297.67
+4,1,2,FedEx Standard Overnight®,Package,1-50 lbs,285.83
+4,1,2,FedEx Standard Overnight®,Package,51-100 lbs,288.66
+4,1,2,FedEx Standard Overnight®,Package,101-150 lbs,291.49
+4,1,2,FedEx 2Day® A.M.,Package,1-50 lbs,242.4
+4,1,2,FedEx 2Day® A.M.,Package,51-100 lbs,244.8
+4,1,2,FedEx 2Day® A.M.,Package,101-150 lbs,247.2
+4,1,2,FedEx 2Day®,Package,1-50 lbs,192.91
+4,1,2,FedEx 2Day®,Package,51-100 lbs,194.82
+4,1,2,FedEx 2Day®,Package,101-150 lbs,196.73
+4,1,2,FedEx Express Saver®,Package,1-50 lbs,179.78
+4,1,2,FedEx Express Saver®,Package,51-100 lbs,181.56
+4,1,2,FedEx Express Saver®,Package,101-150 lbs,183.34
 5,1,3,FedEx® Envelope,Package,up to 8 oz.,8.0
 5,1,3,FedEx First Overnight®,Package,up to 8 oz.,72.68
 5,1,3,FedEx Priority Overnight®,Package,up to 8 oz.,41.68
@@ -193,186 +67,60 @@ stnempihS",179.78
 5,1,3,FedEx 2Day® A.M.,Package,up to 8 oz.,29.48
 5,1,3,FedEx 2Day®,Package,up to 8 oz.,26.3
 5,1,3,FedEx Express Saver®,Package,up to 8 oz.,23.42
-5,1,3,FedEx First Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",93.71
-5,1,3,FedEx Priority Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",62.71
-5,1,3,FedEx Standard Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",53.04
-5,1,3,FedEx 2Day® A.M.,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",31.15
-5,1,3,FedEx 2Day®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",26.3
-5,1,3,FedEx Express Saver®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",23.42
-6,1,3,FedEx First Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",257.38
-6,1,3,FedEx Priority Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",226.38
-6,1,3,FedEx Standard Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",214.39
-6,1,3,FedEx 2Day® A.M.,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",167.61
-6,1,3,FedEx 2Day®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",126.66
-6,1,3,FedEx Express Saver®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",110.88
-7,1,3,FedEx First Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",439.35
-7,1,3,FedEx Priority Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",408.04
-7,1,3,FedEx Standard Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",399.96
-7,1,3,FedEx 2Day® A.M.,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",304.01
-7,1,3,FedEx 2Day®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",241.39
-7,1,3,FedEx Express Saver®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",231.29
+5,1,3,FedEx First Overnight®,Package,1-50 lbs,93.71
+5,1,3,FedEx First Overnight®,Package,51-100 lbs,94.09
+5,1,3,FedEx First Overnight®,Package,101-150 lbs,100.97
+5,1,3,FedEx Priority Overnight®,Package,1-50 lbs,62.71
+5,1,3,FedEx Priority Overnight®,Package,51-100 lbs,63.09
+5,1,3,FedEx Priority Overnight®,Package,101-150 lbs,69.97
+5,1,3,FedEx Standard Overnight®,Package,1-50 lbs,53.04
+5,1,3,FedEx Standard Overnight®,Package,51-100 lbs,56.76
+5,1,3,FedEx Standard Overnight®,Package,101-150 lbs,60.03
+5,1,3,FedEx 2Day® A.M.,Package,1-50 lbs,31.15
+5,1,3,FedEx 2Day® A.M.,Package,51-100 lbs,31.77
+5,1,3,FedEx 2Day® A.M.,Package,101-150 lbs,32.81
+5,1,3,FedEx 2Day®,Package,1-50 lbs,26.3
+5,1,3,FedEx 2Day®,Package,51-100 lbs,27.59
+5,1,3,FedEx 2Day®,Package,101-150 lbs,28.48
+5,1,3,FedEx Express Saver®,Package,1-50 lbs,23.42
+5,1,3,FedEx Express Saver®,Package,51-100 lbs,23.86
+5,1,3,FedEx Express Saver®,Package,101-150 lbs,26.49
+6,1,3,FedEx First Overnight®,Package,1-50 lbs,257.38
+6,1,3,FedEx First Overnight®,Package,51-100 lbs,282.59
+6,1,3,FedEx First Overnight®,Package,101-150 lbs,295.76
+6,1,3,FedEx Priority Overnight®,Package,1-50 lbs,226.38
+6,1,3,FedEx Priority Overnight®,Package,51-100 lbs,251.59
+6,1,3,FedEx Priority Overnight®,Package,101-150 lbs,264.76
+6,1,3,FedEx Standard Overnight®,Package,1-50 lbs,214.39
+6,1,3,FedEx Standard Overnight®,Package,51-100 lbs,214.79
+6,1,3,FedEx Standard Overnight®,Package,101-150 lbs,222.01
+6,1,3,FedEx 2Day® A.M.,Package,1-50 lbs,167.61
+6,1,3,FedEx 2Day® A.M.,Package,51-100 lbs,169.92
+6,1,3,FedEx 2Day® A.M.,Package,101-150 lbs,176.09
+6,1,3,FedEx 2Day®,Package,1-50 lbs,126.66
+6,1,3,FedEx 2Day®,Package,51-100 lbs,127.21
+6,1,3,FedEx 2Day®,Package,101-150 lbs,134.04
+6,1,3,FedEx Express Saver®,Package,1-50 lbs,110.88
+6,1,3,FedEx Express Saver®,Package,51-100 lbs,121.15
+6,1,3,FedEx Express Saver®,Package,101-150 lbs,122.84
+7,1,3,FedEx First Overnight®,Package,1-50 lbs,439.35
+7,1,3,FedEx First Overnight®,Package,51-100 lbs,443.7
+7,1,3,FedEx First Overnight®,Package,101-150 lbs,448.05
+7,1,3,FedEx Priority Overnight®,Package,1-50 lbs,408.04
+7,1,3,FedEx Priority Overnight®,Package,51-100 lbs,412.08
+7,1,3,FedEx Priority Overnight®,Package,101-150 lbs,416.12
+7,1,3,FedEx Standard Overnight®,Package,1-50 lbs,399.96
+7,1,3,FedEx Standard Overnight®,Package,51-100 lbs,403.92
+7,1,3,FedEx Standard Overnight®,Package,101-150 lbs,407.88
+7,1,3,FedEx 2Day® A.M.,Package,1-50 lbs,304.01
+7,1,3,FedEx 2Day® A.M.,Package,51-100 lbs,307.02
+7,1,3,FedEx 2Day® A.M.,Package,101-150 lbs,310.03
+7,1,3,FedEx 2Day®,Package,1-50 lbs,241.39
+7,1,3,FedEx 2Day®,Package,51-100 lbs,243.78
+7,1,3,FedEx 2Day®,Package,101-150 lbs,246.17
+7,1,3,FedEx Express Saver®,Package,1-50 lbs,231.29
+7,1,3,FedEx Express Saver®,Package,51-100 lbs,233.58
+7,1,3,FedEx Express Saver®,Package,101-150 lbs,235.87
 8,1,4,FedEx® Envelope,Package,up to 8 oz.,8.0
 8,1,4,FedEx First Overnight®,Package,up to 8 oz.,83.52
 8,1,4,FedEx Priority Overnight®,Package,up to 8 oz.,52.52
@@ -380,186 +128,60 @@ stnempihS",231.29
 8,1,4,FedEx 2Day® A.M.,Package,up to 8 oz.,31.06
 8,1,4,FedEx 2Day®,Package,up to 8 oz.,27.42
 8,1,4,FedEx Express Saver®,Package,up to 8 oz.,23.9
-8,1,4,FedEx First Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",111.4
-8,1,4,FedEx Priority Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",80.4
-8,1,4,FedEx Standard Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",69.96
-8,1,4,FedEx 2Day® A.M.,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",34.13
-8,1,4,FedEx 2Day®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",27.42
-8,1,4,FedEx Express Saver®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",23.9
-9,1,4,FedEx First Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",449.41
-9,1,4,FedEx Priority Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",418.41
-9,1,4,FedEx Standard Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",400.14
-9,1,4,FedEx 2Day® A.M.,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",211.28
-9,1,4,FedEx 2Day®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",162.8
-9,1,4,FedEx Express Saver®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",145.27
-10,1,4,FedEx First Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",772.65
-10,1,4,FedEx Priority Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",741.34
-10,1,4,FedEx Standard Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",726.19
-10,1,4,FedEx 2Day® A.M.,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",398.95
-10,1,4,FedEx 2Day®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",311.08
-10,1,4,FedEx Express Saver®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",296.94
+8,1,4,FedEx First Overnight®,Package,1-50 lbs,111.4
+8,1,4,FedEx First Overnight®,Package,51-100 lbs,118.79
+8,1,4,FedEx First Overnight®,Package,101-150 lbs,128.23
+8,1,4,FedEx Priority Overnight®,Package,1-50 lbs,80.4
+8,1,4,FedEx Priority Overnight®,Package,51-100 lbs,87.79
+8,1,4,FedEx Priority Overnight®,Package,101-150 lbs,97.23
+8,1,4,FedEx Standard Overnight®,Package,1-50 lbs,69.96
+8,1,4,FedEx Standard Overnight®,Package,51-100 lbs,80.46
+8,1,4,FedEx Standard Overnight®,Package,101-150 lbs,89.23
+8,1,4,FedEx 2Day® A.M.,Package,1-50 lbs,34.13
+8,1,4,FedEx 2Day® A.M.,Package,51-100 lbs,34.44
+8,1,4,FedEx 2Day® A.M.,Package,101-150 lbs,36.47
+8,1,4,FedEx 2Day®,Package,1-50 lbs,27.42
+8,1,4,FedEx 2Day®,Package,51-100 lbs,28.48
+8,1,4,FedEx 2Day®,Package,101-150 lbs,30.16
+8,1,4,FedEx Express Saver®,Package,1-50 lbs,23.9
+8,1,4,FedEx Express Saver®,Package,51-100 lbs,24.35
+8,1,4,FedEx Express Saver®,Package,101-150 lbs,27.02
+9,1,4,FedEx First Overnight®,Package,1-50 lbs,449.41
+9,1,4,FedEx First Overnight®,Package,51-100 lbs,482.61
+9,1,4,FedEx First Overnight®,Package,101-150 lbs,515.01
+9,1,4,FedEx Priority Overnight®,Package,1-50 lbs,418.41
+9,1,4,FedEx Priority Overnight®,Package,51-100 lbs,451.61
+9,1,4,FedEx Priority Overnight®,Package,101-150 lbs,484.01
+9,1,4,FedEx Standard Overnight®,Package,1-50 lbs,400.14
+9,1,4,FedEx Standard Overnight®,Package,51-100 lbs,417.73
+9,1,4,FedEx Standard Overnight®,Package,101-150 lbs,454.61
+9,1,4,FedEx 2Day® A.M.,Package,1-50 lbs,211.28
+9,1,4,FedEx 2Day® A.M.,Package,51-100 lbs,214.73
+9,1,4,FedEx 2Day® A.M.,Package,101-150 lbs,219.59
+9,1,4,FedEx 2Day®,Package,1-50 lbs,162.8
+9,1,4,FedEx 2Day®,Package,51-100 lbs,166.41
+9,1,4,FedEx 2Day®,Package,101-150 lbs,171.75
+9,1,4,FedEx Express Saver®,Package,1-50 lbs,145.27
+9,1,4,FedEx Express Saver®,Package,51-100 lbs,155.03
+9,1,4,FedEx Express Saver®,Package,101-150 lbs,156.01
+10,1,4,FedEx First Overnight®,Package,1-50 lbs,772.65
+10,1,4,FedEx First Overnight®,Package,51-100 lbs,780.3
+10,1,4,FedEx First Overnight®,Package,101-150 lbs,787.95
+10,1,4,FedEx Priority Overnight®,Package,1-50 lbs,741.34
+10,1,4,FedEx Priority Overnight®,Package,51-100 lbs,748.68
+10,1,4,FedEx Priority Overnight®,Package,101-150 lbs,756.02
+10,1,4,FedEx Standard Overnight®,Package,1-50 lbs,726.19
+10,1,4,FedEx Standard Overnight®,Package,51-100 lbs,733.38
+10,1,4,FedEx Standard Overnight®,Package,101-150 lbs,740.57
+10,1,4,FedEx 2Day® A.M.,Package,1-50 lbs,398.95
+10,1,4,FedEx 2Day® A.M.,Package,51-100 lbs,402.9
+10,1,4,FedEx 2Day® A.M.,Package,101-150 lbs,406.85
+10,1,4,FedEx 2Day®,Package,1-50 lbs,311.08
+10,1,4,FedEx 2Day®,Package,51-100 lbs,314.16
+10,1,4,FedEx 2Day®,Package,101-150 lbs,317.24
+10,1,4,FedEx Express Saver®,Package,1-50 lbs,296.94
+10,1,4,FedEx Express Saver®,Package,51-100 lbs,299.88
+10,1,4,FedEx Express Saver®,Package,101-150 lbs,302.82
 11,1,5,FedEx® Envelope,Package,up to 8 oz.,8.0
 11,1,5,FedEx First Overnight®,Package,up to 8 oz.,87.22
 11,1,5,FedEx Priority Overnight®,Package,up to 8 oz.,56.22
@@ -567,186 +189,60 @@ stnempihS",296.94
 11,1,5,FedEx 2Day® A.M.,Package,up to 8 oz.,35.97
 11,1,5,FedEx 2Day®,Package,up to 8 oz.,33.31
 11,1,5,FedEx Express Saver®,Package,up to 8 oz.,29.88
-11,1,5,FedEx First Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",119.9
-11,1,5,FedEx Priority Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",88.9
-11,1,5,FedEx Standard Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",77.51
-11,1,5,FedEx 2Day® A.M.,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",40.93
-11,1,5,FedEx 2Day®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",33.31
-11,1,5,FedEx Express Saver®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",29.88
-12,1,5,FedEx First Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",489.6
-12,1,5,FedEx Priority Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",458.6
-12,1,5,FedEx Standard Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",441.13
-12,1,5,FedEx 2Day® A.M.,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",302.0
-12,1,5,FedEx 2Day®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",234.54
-12,1,5,FedEx Express Saver®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",198.09
-13,1,5,FedEx First Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",916.07
-13,1,5,FedEx Priority Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",884.76
-13,1,5,FedEx Standard Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",866.58
-13,1,5,FedEx 2Day® A.M.,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",591.86
-13,1,5,FedEx 2Day®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",462.58
-13,1,5,FedEx Express Saver®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",410.06
+11,1,5,FedEx First Overnight®,Package,1-50 lbs,119.9
+11,1,5,FedEx First Overnight®,Package,51-100 lbs,126.45
+11,1,5,FedEx First Overnight®,Package,101-150 lbs,140.09
+11,1,5,FedEx Priority Overnight®,Package,1-50 lbs,88.9
+11,1,5,FedEx Priority Overnight®,Package,51-100 lbs,95.45
+11,1,5,FedEx Priority Overnight®,Package,101-150 lbs,109.09
+11,1,5,FedEx Standard Overnight®,Package,1-50 lbs,77.51
+11,1,5,FedEx Standard Overnight®,Package,51-100 lbs,87.44
+11,1,5,FedEx Standard Overnight®,Package,101-150 lbs,96.87
+11,1,5,FedEx 2Day® A.M.,Package,1-50 lbs,40.93
+11,1,5,FedEx 2Day® A.M.,Package,51-100 lbs,43.63
+11,1,5,FedEx 2Day® A.M.,Package,101-150 lbs,48.05
+11,1,5,FedEx 2Day®,Package,1-50 lbs,33.31
+11,1,5,FedEx 2Day®,Package,51-100 lbs,36.19
+11,1,5,FedEx 2Day®,Package,101-150 lbs,39.85
+11,1,5,FedEx Express Saver®,Package,1-50 lbs,29.88
+11,1,5,FedEx Express Saver®,Package,51-100 lbs,30.41
+11,1,5,FedEx Express Saver®,Package,101-150 lbs,33.73
+12,1,5,FedEx First Overnight®,Package,1-50 lbs,489.6
+12,1,5,FedEx First Overnight®,Package,51-100 lbs,533.77
+12,1,5,FedEx First Overnight®,Package,101-150 lbs,543.62
+12,1,5,FedEx Priority Overnight®,Package,1-50 lbs,458.6
+12,1,5,FedEx Priority Overnight®,Package,51-100 lbs,502.77
+12,1,5,FedEx Priority Overnight®,Package,101-150 lbs,512.62
+12,1,5,FedEx Standard Overnight®,Package,1-50 lbs,441.13
+12,1,5,FedEx Standard Overnight®,Package,51-100 lbs,477.59
+12,1,5,FedEx Standard Overnight®,Package,101-150 lbs,487.34
+12,1,5,FedEx 2Day® A.M.,Package,1-50 lbs,302.0
+12,1,5,FedEx 2Day® A.M.,Package,51-100 lbs,312.82
+12,1,5,FedEx 2Day® A.M.,Package,101-150 lbs,313.93
+12,1,5,FedEx 2Day®,Package,1-50 lbs,234.54
+12,1,5,FedEx 2Day®,Package,51-100 lbs,243.39
+12,1,5,FedEx 2Day®,Package,101-150 lbs,256.78
+12,1,5,FedEx Express Saver®,Package,1-50 lbs,198.09
+12,1,5,FedEx Express Saver®,Package,51-100 lbs,205.48
+12,1,5,FedEx Express Saver®,Package,101-150 lbs,206.22
+13,1,5,FedEx First Overnight®,Package,1-50 lbs,916.07
+13,1,5,FedEx First Overnight®,Package,51-100 lbs,925.14
+13,1,5,FedEx First Overnight®,Package,101-150 lbs,934.21
+13,1,5,FedEx Priority Overnight®,Package,1-50 lbs,884.76
+13,1,5,FedEx Priority Overnight®,Package,51-100 lbs,893.52
+13,1,5,FedEx Priority Overnight®,Package,101-150 lbs,902.28
+13,1,5,FedEx Standard Overnight®,Package,1-50 lbs,866.58
+13,1,5,FedEx Standard Overnight®,Package,51-100 lbs,875.16
+13,1,5,FedEx Standard Overnight®,Package,101-150 lbs,883.74
+13,1,5,FedEx 2Day® A.M.,Package,1-50 lbs,591.86
+13,1,5,FedEx 2Day® A.M.,Package,51-100 lbs,597.72
+13,1,5,FedEx 2Day® A.M.,Package,101-150 lbs,603.58
+13,1,5,FedEx 2Day®,Package,1-50 lbs,462.58
+13,1,5,FedEx 2Day®,Package,51-100 lbs,467.16
+13,1,5,FedEx 2Day®,Package,101-150 lbs,471.74
+13,1,5,FedEx Express Saver®,Package,1-50 lbs,410.06
+13,1,5,FedEx Express Saver®,Package,51-100 lbs,414.12
+13,1,5,FedEx Express Saver®,Package,101-150 lbs,418.18
 14,1,6,FedEx® Envelope,Package,up to 8 oz.,8.0
 14,1,6,FedEx First Overnight®,Package,up to 8 oz.,88.35
 14,1,6,FedEx Priority Overnight®,Package,up to 8 oz.,57.35
@@ -754,186 +250,60 @@ stnempihS",410.06
 14,1,6,FedEx 2Day® A.M.,Package,up to 8 oz.,40.85
 14,1,6,FedEx 2Day®,Package,up to 8 oz.,40.01
 14,1,6,FedEx Express Saver®,Package,up to 8 oz.,34.16
-14,1,6,FedEx First Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",124.59
-14,1,6,FedEx Priority Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",93.59
-14,1,6,FedEx Standard Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",84.01
-14,1,6,FedEx 2Day® A.M.,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",46.49
-14,1,6,FedEx 2Day®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",40.01
-14,1,6,FedEx Express Saver®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",34.16
-15,1,6,FedEx First Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",503.34
-15,1,6,FedEx Priority Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",472.34
-15,1,6,FedEx Standard Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",454.93
-15,1,6,FedEx 2Day® A.M.,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",452.73
-15,1,6,FedEx 2Day®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",391.89
-15,1,6,FedEx Express Saver®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",253.88
-16,1,6,FedEx First Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",934.25
-16,1,6,FedEx Priority Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",902.94
-16,1,6,FedEx Standard Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",884.76
-16,1,6,FedEx 2Day® A.M.,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",879.71
-16,1,6,FedEx 2Day®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",734.27
-16,1,6,FedEx Express Saver®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",573.68
+14,1,6,FedEx First Overnight®,Package,1-50 lbs,124.59
+14,1,6,FedEx First Overnight®,Package,51-100 lbs,129.3
+14,1,6,FedEx First Overnight®,Package,101-150 lbs,148.31
+14,1,6,FedEx Priority Overnight®,Package,1-50 lbs,93.59
+14,1,6,FedEx Priority Overnight®,Package,51-100 lbs,98.3
+14,1,6,FedEx Priority Overnight®,Package,101-150 lbs,117.31
+14,1,6,FedEx Standard Overnight®,Package,1-50 lbs,84.01
+14,1,6,FedEx Standard Overnight®,Package,51-100 lbs,96.37
+14,1,6,FedEx Standard Overnight®,Package,101-150 lbs,103.36
+14,1,6,FedEx 2Day® A.M.,Package,1-50 lbs,46.49
+14,1,6,FedEx 2Day® A.M.,Package,51-100 lbs,51.44
+14,1,6,FedEx 2Day® A.M.,Package,101-150 lbs,59.1
+14,1,6,FedEx 2Day®,Package,1-50 lbs,40.01
+14,1,6,FedEx 2Day®,Package,51-100 lbs,45.11
+14,1,6,FedEx 2Day®,Package,101-150 lbs,51.83
+14,1,6,FedEx Express Saver®,Package,1-50 lbs,34.16
+14,1,6,FedEx Express Saver®,Package,51-100 lbs,36.43
+14,1,6,FedEx Express Saver®,Package,101-150 lbs,42.35
+15,1,6,FedEx First Overnight®,Package,1-50 lbs,503.34
+15,1,6,FedEx First Overnight®,Package,51-100 lbs,543.94
+15,1,6,FedEx First Overnight®,Package,101-150 lbs,562.78
+15,1,6,FedEx Priority Overnight®,Package,1-50 lbs,472.34
+15,1,6,FedEx Priority Overnight®,Package,51-100 lbs,512.94
+15,1,6,FedEx Priority Overnight®,Package,101-150 lbs,531.78
+15,1,6,FedEx Standard Overnight®,Package,1-50 lbs,454.93
+15,1,6,FedEx Standard Overnight®,Package,51-100 lbs,494.68
+15,1,6,FedEx Standard Overnight®,Package,101-150 lbs,506.3
+15,1,6,FedEx 2Day® A.M.,Package,1-50 lbs,452.73
+15,1,6,FedEx 2Day® A.M.,Package,51-100 lbs,479.91
+15,1,6,FedEx 2Day® A.M.,Package,101-150 lbs,486.38
+15,1,6,FedEx 2Day®,Package,1-50 lbs,391.89
+15,1,6,FedEx 2Day®,Package,51-100 lbs,412.28
+15,1,6,FedEx 2Day®,Package,101-150 lbs,418.55
+15,1,6,FedEx Express Saver®,Package,1-50 lbs,253.88
+15,1,6,FedEx Express Saver®,Package,51-100 lbs,263.67
+15,1,6,FedEx Express Saver®,Package,101-150 lbs,294.99
+16,1,6,FedEx First Overnight®,Package,1-50 lbs,934.25
+16,1,6,FedEx First Overnight®,Package,51-100 lbs,943.5
+16,1,6,FedEx First Overnight®,Package,101-150 lbs,952.75
+16,1,6,FedEx Priority Overnight®,Package,1-50 lbs,902.94
+16,1,6,FedEx Priority Overnight®,Package,51-100 lbs,911.88
+16,1,6,FedEx Priority Overnight®,Package,101-150 lbs,920.82
+16,1,6,FedEx Standard Overnight®,Package,1-50 lbs,884.76
+16,1,6,FedEx Standard Overnight®,Package,51-100 lbs,893.52
+16,1,6,FedEx Standard Overnight®,Package,101-150 lbs,902.28
+16,1,6,FedEx 2Day® A.M.,Package,1-50 lbs,879.71
+16,1,6,FedEx 2Day® A.M.,Package,51-100 lbs,888.42
+16,1,6,FedEx 2Day® A.M.,Package,101-150 lbs,897.13
+16,1,6,FedEx 2Day®,Package,1-50 lbs,734.27
+16,1,6,FedEx 2Day®,Package,51-100 lbs,741.54
+16,1,6,FedEx 2Day®,Package,101-150 lbs,748.81
+16,1,6,FedEx Express Saver®,Package,1-50 lbs,573.68
+16,1,6,FedEx Express Saver®,Package,51-100 lbs,579.36
+16,1,6,FedEx Express Saver®,Package,101-150 lbs,585.04
 17,1,7,FedEx® Envelope,Package,up to 8 oz.,8.0
 17,1,7,FedEx First Overnight®,Package,up to 8 oz.,94.7
 17,1,7,FedEx Priority Overnight®,Package,up to 8 oz.,63.7
@@ -941,186 +311,60 @@ stnempihS",573.68
 17,1,7,FedEx 2Day® A.M.,Package,up to 8 oz.,45.58
 17,1,7,FedEx 2Day®,Package,up to 8 oz.,42.67
 17,1,7,FedEx Express Saver®,Package,up to 8 oz.,35.9
-17,1,7,FedEx First Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",134.8
-17,1,7,FedEx Priority Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",103.8
-17,1,7,FedEx Standard Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",91.3
-17,1,7,FedEx 2Day® A.M.,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",49.62
-17,1,7,FedEx 2Day®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",42.67
-17,1,7,FedEx Express Saver®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",35.9
-18,1,7,FedEx First Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",540.79
-18,1,7,FedEx Priority Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",509.79
-18,1,7,FedEx Standard Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",492.53
-18,1,7,FedEx 2Day® A.M.,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",481.84
-18,1,7,FedEx 2Day®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",409.01
-18,1,7,FedEx Express Saver®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",312.33
-19,1,7,FedEx First Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",1137.26
-19,1,7,FedEx Priority Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",1105.95
-19,1,7,FedEx Standard Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",1062.52
-19,1,7,FedEx 2Day® A.M.,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",956.47
-19,1,7,FedEx 2Day®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",838.3
-19,1,7,FedEx Express Saver®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",645.39
+17,1,7,FedEx First Overnight®,Package,1-50 lbs,134.8
+17,1,7,FedEx First Overnight®,Package,51-100 lbs,141.68
+17,1,7,FedEx First Overnight®,Package,101-150 lbs,159.81
+17,1,7,FedEx Priority Overnight®,Package,1-50 lbs,103.8
+17,1,7,FedEx Priority Overnight®,Package,51-100 lbs,110.68
+17,1,7,FedEx Priority Overnight®,Package,101-150 lbs,128.81
+17,1,7,FedEx Standard Overnight®,Package,1-50 lbs,91.3
+17,1,7,FedEx Standard Overnight®,Package,51-100 lbs,104.58
+17,1,7,FedEx Standard Overnight®,Package,101-150 lbs,114.01
+17,1,7,FedEx 2Day® A.M.,Package,1-50 lbs,49.62
+17,1,7,FedEx 2Day® A.M.,Package,51-100 lbs,57.18
+17,1,7,FedEx 2Day® A.M.,Package,101-150 lbs,66.21
+17,1,7,FedEx 2Day®,Package,1-50 lbs,42.67
+17,1,7,FedEx 2Day®,Package,51-100 lbs,50.07
+17,1,7,FedEx 2Day®,Package,101-150 lbs,58.0
+17,1,7,FedEx Express Saver®,Package,1-50 lbs,35.9
+17,1,7,FedEx Express Saver®,Package,51-100 lbs,40.0
+17,1,7,FedEx Express Saver®,Package,101-150 lbs,44.76
+18,1,7,FedEx First Overnight®,Package,1-50 lbs,540.79
+18,1,7,FedEx First Overnight®,Package,51-100 lbs,582.56
+18,1,7,FedEx First Overnight®,Package,101-150 lbs,607.68
+18,1,7,FedEx Priority Overnight®,Package,1-50 lbs,509.79
+18,1,7,FedEx Priority Overnight®,Package,51-100 lbs,551.56
+18,1,7,FedEx Priority Overnight®,Package,101-150 lbs,576.68
+18,1,7,FedEx Standard Overnight®,Package,1-50 lbs,492.53
+18,1,7,FedEx Standard Overnight®,Package,51-100 lbs,536.56
+18,1,7,FedEx Standard Overnight®,Package,101-150 lbs,548.33
+18,1,7,FedEx 2Day® A.M.,Package,1-50 lbs,481.84
+18,1,7,FedEx 2Day® A.M.,Package,51-100 lbs,508.26
+18,1,7,FedEx 2Day® A.M.,Package,101-150 lbs,517.15
+18,1,7,FedEx 2Day®,Package,1-50 lbs,409.01
+18,1,7,FedEx 2Day®,Package,51-100 lbs,422.06
+18,1,7,FedEx 2Day®,Package,101-150 lbs,452.17
+18,1,7,FedEx Express Saver®,Package,1-50 lbs,312.33
+18,1,7,FedEx Express Saver®,Package,51-100 lbs,316.03
+18,1,7,FedEx Express Saver®,Package,101-150 lbs,316.6
+19,1,7,FedEx First Overnight®,Package,1-50 lbs,1137.26
+19,1,7,FedEx First Overnight®,Package,51-100 lbs,1148.52
+19,1,7,FedEx First Overnight®,Package,101-150 lbs,1159.78
+19,1,7,FedEx Priority Overnight®,Package,1-50 lbs,1105.95
+19,1,7,FedEx Priority Overnight®,Package,51-100 lbs,1116.9
+19,1,7,FedEx Priority Overnight®,Package,101-150 lbs,1127.85
+19,1,7,FedEx Standard Overnight®,Package,1-50 lbs,1062.52
+19,1,7,FedEx Standard Overnight®,Package,51-100 lbs,1073.04
+19,1,7,FedEx Standard Overnight®,Package,101-150 lbs,1083.56
+19,1,7,FedEx 2Day® A.M.,Package,1-50 lbs,956.47
+19,1,7,FedEx 2Day® A.M.,Package,51-100 lbs,965.94
+19,1,7,FedEx 2Day® A.M.,Package,101-150 lbs,975.41
+19,1,7,FedEx 2Day®,Package,1-50 lbs,838.3
+19,1,7,FedEx 2Day®,Package,51-100 lbs,846.6
+19,1,7,FedEx 2Day®,Package,101-150 lbs,854.9
+19,1,7,FedEx Express Saver®,Package,1-50 lbs,645.39
+19,1,7,FedEx Express Saver®,Package,51-100 lbs,651.78
+19,1,7,FedEx Express Saver®,Package,101-150 lbs,658.17
 20,1,8,FedEx® Envelope,Package,up to 8 oz.,8.0
 20,1,8,FedEx First Overnight®,Package,up to 8 oz.,97.62
 20,1,8,FedEx Priority Overnight®,Package,up to 8 oz.,66.62
@@ -1128,300 +372,225 @@ stnempihS",645.39
 20,1,8,FedEx 2Day® A.M.,Package,up to 8 oz.,46.52
 20,1,8,FedEx 2Day®,Package,up to 8 oz.,43.54
 20,1,8,FedEx Express Saver®,Package,up to 8 oz.,39.86
-20,1,8,FedEx First Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",137.55
-20,1,8,FedEx Priority Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",106.55
-20,1,8,FedEx Standard Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",95.35
-20,1,8,FedEx 2Day® A.M.,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",50.7
-20,1,8,FedEx 2Day®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",43.54
-20,1,8,FedEx Express Saver®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",39.86
-21,1,8,FedEx First Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",569.55
-21,1,8,FedEx Priority Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",538.55
-21,1,8,FedEx Standard Overnight®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",521.4
-21,1,8,FedEx 2Day® A.M.,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",491.49
-21,1,8,FedEx 2Day®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",417.2
-21,1,8,FedEx Express Saver®,Package,".sbl
-ni
-thgiew
-mumixam
-/
-gnigakcap
-rehto
-lla
-ni
-stnempihS",357.27
-32,1,2,FedEx First Overnight®,Multiweight Package,100–499 lbs.,3.2
-32,1,2,FedEx First Overnight®,Multiweight Package,500–999 lbs.,3.18
-32,1,2,FedEx First Overnight®,Multiweight Package,"1,000–1,999 lbs.",3.16
-32,1,2,FedEx First Overnight®,Multiweight Package,"2,000+ lbs.",3.14
-32,1,2,FedEx Priority Overnight®,Multiweight Package,100–499 lbs.,2.89
-32,1,2,FedEx Priority Overnight®,Multiweight Package,500–999 lbs.,2.87
-32,1,2,FedEx Priority Overnight®,Multiweight Package,"1,000–1,999 lbs.",2.85
-32,1,2,FedEx Priority Overnight®,Multiweight Package,"2,000+ lbs.",2.83
-32,1,2,FedEx Standard Overnight®,Multiweight Package,100–499 lbs.,2.83
-32,1,2,FedEx Standard Overnight®,Multiweight Package,500–999 lbs.,2.81
-32,1,2,FedEx Standard Overnight®,Multiweight Package,"1,000–1,999 lbs.",2.79
-32,1,2,FedEx Standard Overnight®,Multiweight Package,"2,000+ lbs.",2.77
-32,1,2,FedEx 2Day® A.M.,Multiweight Package,100–499 lbs.,2.4
-32,1,2,FedEx 2Day® A.M.,Multiweight Package,500–999 lbs.,2.38
-32,1,2,FedEx 2Day® A.M.,Multiweight Package,"1,000–1,999 lbs.",2.36
-32,1,2,FedEx 2Day® A.M.,Multiweight Package,"2,000+ lbs.",2.34
-32,1,2,FedEx 2Day®,Multiweight Package,100–499 lbs.,1.91
-32,1,2,FedEx 2Day®,Multiweight Package,500–999 lbs.,1.89
-32,1,2,FedEx 2Day®,Multiweight Package,"1,000–1,999 lbs.",1.87
-32,1,2,FedEx 2Day®,Multiweight Package,"2,000+ lbs.",1.85
-32,1,2,FedEx Express Saver®,Multiweight Package,100–499 lbs.,1.78
-32,1,2,FedEx Express Saver®,Multiweight Package,500–999 lbs.,1.76
-32,1,2,FedEx Express Saver®,Multiweight Package,"1,000–1,999 lbs.",1.74
-32,1,2,FedEx Express Saver®,Multiweight Package,"2,000+ lbs.",1.72
-32,2,3,FedEx First Overnight®,Multiweight Package,100–499 lbs.,4.35
-32,2,3,FedEx First Overnight®,Multiweight Package,500–999 lbs.,4.33
-32,2,3,FedEx First Overnight®,Multiweight Package,"1,000–1,999 lbs.",4.31
-32,2,3,FedEx First Overnight®,Multiweight Package,"2,000+ lbs.",4.29
-32,2,3,FedEx Priority Overnight®,Multiweight Package,100–499 lbs.,4.04
-32,2,3,FedEx Priority Overnight®,Multiweight Package,500–999 lbs.,4.02
-32,2,3,FedEx Priority Overnight®,Multiweight Package,"1,000–1,999 lbs.",4.0
-32,2,3,FedEx Priority Overnight®,Multiweight Package,"2,000+ lbs.",3.98
-32,2,3,FedEx Standard Overnight®,Multiweight Package,100–499 lbs.,3.96
-32,2,3,FedEx Standard Overnight®,Multiweight Package,500–999 lbs.,3.94
-32,2,3,FedEx Standard Overnight®,Multiweight Package,"1,000–1,999 lbs.",3.92
-32,2,3,FedEx Standard Overnight®,Multiweight Package,"2,000+ lbs.",3.9
-32,2,3,FedEx 2Day® A.M.,Multiweight Package,100–499 lbs.,3.01
-32,2,3,FedEx 2Day® A.M.,Multiweight Package,500–999 lbs.,2.99
-32,2,3,FedEx 2Day® A.M.,Multiweight Package,"1,000–1,999 lbs.",2.97
-32,2,3,FedEx 2Day® A.M.,Multiweight Package,"2,000+ lbs.",2.95
-32,2,3,FedEx 2Day®,Multiweight Package,100–499 lbs.,2.39
-32,2,3,FedEx 2Day®,Multiweight Package,500–999 lbs.,2.37
-32,2,3,FedEx 2Day®,Multiweight Package,"1,000–1,999 lbs.",2.35
-32,2,3,FedEx 2Day®,Multiweight Package,"2,000+ lbs.",2.33
-32,2,3,FedEx Express Saver®,Multiweight Package,100–499 lbs.,2.29
-32,2,3,FedEx Express Saver®,Multiweight Package,500–999 lbs.,2.27
-32,2,3,FedEx Express Saver®,Multiweight Package,"1,000–1,999 lbs.",2.25
-32,2,3,FedEx Express Saver®,Multiweight Package,"2,000+ lbs.",2.23
-32,3,4,FedEx First Overnight®,Multiweight Package,100–499 lbs.,7.65
-32,3,4,FedEx First Overnight®,Multiweight Package,500–999 lbs.,7.63
-32,3,4,FedEx First Overnight®,Multiweight Package,"1,000–1,999 lbs.",7.61
-32,3,4,FedEx First Overnight®,Multiweight Package,"2,000+ lbs.",7.59
-32,3,4,FedEx Priority Overnight®,Multiweight Package,100–499 lbs.,7.34
-32,3,4,FedEx Priority Overnight®,Multiweight Package,500–999 lbs.,7.32
-32,3,4,FedEx Priority Overnight®,Multiweight Package,"1,000–1,999 lbs.",7.3
-32,3,4,FedEx Priority Overnight®,Multiweight Package,"2,000+ lbs.",7.28
-32,3,4,FedEx Standard Overnight®,Multiweight Package,100–499 lbs.,7.19
-32,3,4,FedEx Standard Overnight®,Multiweight Package,500–999 lbs.,7.17
-32,3,4,FedEx Standard Overnight®,Multiweight Package,"1,000–1,999 lbs.",7.15
-32,3,4,FedEx Standard Overnight®,Multiweight Package,"2,000+ lbs.",7.13
-32,3,4,FedEx 2Day® A.M.,Multiweight Package,100–499 lbs.,3.95
-32,3,4,FedEx 2Day® A.M.,Multiweight Package,500–999 lbs.,3.93
-32,3,4,FedEx 2Day® A.M.,Multiweight Package,"1,000–1,999 lbs.",3.91
-32,3,4,FedEx 2Day® A.M.,Multiweight Package,"2,000+ lbs.",3.89
-32,3,4,FedEx 2Day®,Multiweight Package,100–499 lbs.,3.08
-32,3,4,FedEx 2Day®,Multiweight Package,500–999 lbs.,3.06
-32,3,4,FedEx 2Day®,Multiweight Package,"1,000–1,999 lbs.",3.04
-32,3,4,FedEx 2Day®,Multiweight Package,"2,000+ lbs.",3.02
-32,3,4,FedEx Express Saver®,Multiweight Package,100–499 lbs.,2.94
-32,3,4,FedEx Express Saver®,Multiweight Package,500–999 lbs.,2.92
-32,3,4,FedEx Express Saver®,Multiweight Package,"1,000–1,999 lbs.",2.9
-32,3,4,FedEx Express Saver®,Multiweight Package,"2,000+ lbs.",2.88
-32,4,5,FedEx First Overnight®,Multiweight Package,100–499 lbs.,9.07
-32,4,5,FedEx First Overnight®,Multiweight Package,500–999 lbs.,9.05
-32,4,5,FedEx First Overnight®,Multiweight Package,"1,000–1,999 lbs.",9.03
-32,4,5,FedEx First Overnight®,Multiweight Package,"2,000+ lbs.",9.01
-32,4,5,FedEx Priority Overnight®,Multiweight Package,100–499 lbs.,8.76
-32,4,5,FedEx Priority Overnight®,Multiweight Package,500–999 lbs.,8.74
-32,4,5,FedEx Priority Overnight®,Multiweight Package,"1,000–1,999 lbs.",8.72
-32,4,5,FedEx Priority Overnight®,Multiweight Package,"2,000+ lbs.",8.7
-32,4,5,FedEx Standard Overnight®,Multiweight Package,100–499 lbs.,8.58
-32,4,5,FedEx Standard Overnight®,Multiweight Package,500–999 lbs.,8.56
-32,4,5,FedEx Standard Overnight®,Multiweight Package,"1,000–1,999 lbs.",8.54
-32,4,5,FedEx Standard Overnight®,Multiweight Package,"2,000+ lbs.",8.52
-32,4,5,FedEx 2Day® A.M.,Multiweight Package,100–499 lbs.,5.86
-32,4,5,FedEx 2Day® A.M.,Multiweight Package,500–999 lbs.,5.84
-32,4,5,FedEx 2Day® A.M.,Multiweight Package,"1,000–1,999 lbs.",5.82
-32,4,5,FedEx 2Day® A.M.,Multiweight Package,"2,000+ lbs.",5.8
-32,4,5,FedEx 2Day®,Multiweight Package,100–499 lbs.,4.58
-32,4,5,FedEx 2Day®,Multiweight Package,500–999 lbs.,4.56
-32,4,5,FedEx 2Day®,Multiweight Package,"1,000–1,999 lbs.",4.54
-32,4,5,FedEx 2Day®,Multiweight Package,"2,000+ lbs.",4.52
-32,4,5,FedEx Express Saver®,Multiweight Package,100–499 lbs.,4.06
-32,4,5,FedEx Express Saver®,Multiweight Package,500–999 lbs.,4.04
-32,4,5,FedEx Express Saver®,Multiweight Package,"1,000–1,999 lbs.",4.02
-32,4,5,FedEx Express Saver®,Multiweight Package,"2,000+ lbs.",4.0
-32,5,6,FedEx First Overnight®,Multiweight Package,100–499 lbs.,9.25
-32,5,6,FedEx First Overnight®,Multiweight Package,500–999 lbs.,9.23
-32,5,6,FedEx First Overnight®,Multiweight Package,"1,000–1,999 lbs.",9.21
-32,5,6,FedEx First Overnight®,Multiweight Package,"2,000+ lbs.",9.19
-32,5,6,FedEx Priority Overnight®,Multiweight Package,100–499 lbs.,8.94
-32,5,6,FedEx Priority Overnight®,Multiweight Package,500–999 lbs.,8.92
-32,5,6,FedEx Priority Overnight®,Multiweight Package,"1,000–1,999 lbs.",8.9
-32,5,6,FedEx Priority Overnight®,Multiweight Package,"2,000+ lbs.",8.88
-32,5,6,FedEx Standard Overnight®,Multiweight Package,100–499 lbs.,8.76
-32,5,6,FedEx Standard Overnight®,Multiweight Package,500–999 lbs.,8.74
-32,5,6,FedEx Standard Overnight®,Multiweight Package,"1,000–1,999 lbs.",8.72
-32,5,6,FedEx Standard Overnight®,Multiweight Package,"2,000+ lbs.",8.7
-32,5,6,FedEx 2Day® A.M.,Multiweight Package,100–499 lbs.,8.71
-32,5,6,FedEx 2Day® A.M.,Multiweight Package,500–999 lbs.,8.69
-32,5,6,FedEx 2Day® A.M.,Multiweight Package,"1,000–1,999 lbs.",8.67
-32,5,6,FedEx 2Day® A.M.,Multiweight Package,"2,000+ lbs.",8.65
-32,5,6,FedEx 2Day®,Multiweight Package,100–499 lbs.,7.27
-32,5,6,FedEx 2Day®,Multiweight Package,500–999 lbs.,7.25
-32,5,6,FedEx 2Day®,Multiweight Package,"1,000–1,999 lbs.",7.23
-32,5,6,FedEx 2Day®,Multiweight Package,"2,000+ lbs.",7.21
-32,5,6,FedEx Express Saver®,Multiweight Package,100–499 lbs.,5.68
-32,5,6,FedEx Express Saver®,Multiweight Package,500–999 lbs.,5.66
-32,5,6,FedEx Express Saver®,Multiweight Package,"1,000–1,999 lbs.",5.64
-32,5,6,FedEx Express Saver®,Multiweight Package,"2,000+ lbs.",5.62
-32,6,7,FedEx First Overnight®,Multiweight Package,100–499 lbs.,11.26
-32,6,7,FedEx First Overnight®,Multiweight Package,500–999 lbs.,11.24
-32,6,7,FedEx First Overnight®,Multiweight Package,"1,000–1,999 lbs.",11.22
-32,6,7,FedEx First Overnight®,Multiweight Package,"2,000+ lbs.",11.2
-32,6,7,FedEx Priority Overnight®,Multiweight Package,100–499 lbs.,10.95
-32,6,7,FedEx Priority Overnight®,Multiweight Package,500–999 lbs.,10.93
-32,6,7,FedEx Priority Overnight®,Multiweight Package,"1,000–1,999 lbs.",10.91
-32,6,7,FedEx Priority Overnight®,Multiweight Package,"2,000+ lbs.",10.89
-32,6,7,FedEx Standard Overnight®,Multiweight Package,100–499 lbs.,10.52
-32,6,7,FedEx Standard Overnight®,Multiweight Package,500–999 lbs.,10.5
-32,6,7,FedEx Standard Overnight®,Multiweight Package,"1,000–1,999 lbs.",10.48
-32,6,7,FedEx Standard Overnight®,Multiweight Package,"2,000+ lbs.",10.46
-32,6,7,FedEx 2Day® A.M.,Multiweight Package,100–499 lbs.,9.47
-32,6,7,FedEx 2Day® A.M.,Multiweight Package,500–999 lbs.,9.45
-32,6,7,FedEx 2Day® A.M.,Multiweight Package,"1,000–1,999 lbs.",9.43
-32,6,7,FedEx 2Day® A.M.,Multiweight Package,"2,000+ lbs.",9.41
-32,6,7,FedEx 2Day®,Multiweight Package,100–499 lbs.,8.3
-32,6,7,FedEx 2Day®,Multiweight Package,500–999 lbs.,8.28
-32,6,7,FedEx 2Day®,Multiweight Package,"1,000–1,999 lbs.",8.26
-32,6,7,FedEx 2Day®,Multiweight Package,"2,000+ lbs.",8.24
-32,6,7,FedEx Express Saver®,Multiweight Package,100–499 lbs.,6.39
-32,6,7,FedEx Express Saver®,Multiweight Package,500–999 lbs.,6.37
-32,6,7,FedEx Express Saver®,Multiweight Package,"1,000–1,999 lbs.",6.35
-32,6,7,FedEx Express Saver®,Multiweight Package,"2,000+ lbs.",6.33
-105,3,A,FedEx Ground/Home Delivery,Package,0–99 lbs.,8.6
-105,3,A,FedEx Ground/Home Delivery,Package,"100–1,100 lbs.",8.51
-105,3,A,FedEx Ground/Home Delivery,Package,"1,101+ lbs.",7.81
-105,3,C,FedEx Ground/Home Delivery,Package,0–99 lbs.,9.88
-105,3,C,FedEx Ground/Home Delivery,Package,"100–1,100 lbs.",9.78
-105,3,C,FedEx Ground/Home Delivery,Package,"1,101+ lbs.",8.97
-105,3,D,FedEx Ground/Home Delivery,Package,0–99 lbs.,15.93
-105,3,D,FedEx Ground/Home Delivery,Package,"100–1,100 lbs.",15.77
-105,3,D,FedEx Ground/Home Delivery,Package,"1,101+ lbs.",14.47
-105,3,F,FedEx Ground/Home Delivery,Package,0–99 lbs.,14.95
-105,3,F,FedEx Ground/Home Delivery,Package,"100–1,100 lbs.",14.8
-105,3,F,FedEx Ground/Home Delivery,Package,"1,101+ lbs.",13.58
-105,3,G,FedEx Ground/Home Delivery,Package,0–99 lbs.,15.98
-105,3,G,FedEx Ground/Home Delivery,Package,"100–1,100 lbs.",15.82
-105,3,G,FedEx Ground/Home Delivery,Package,"1,101+ lbs.",14.51
-105,3,H,FedEx Ground/Home Delivery,Package,0–99 lbs.,17.71
-105,3,H,FedEx Ground/Home Delivery,Package,"100–1,100 lbs.",17.53
-105,3,H,FedEx Ground/Home Delivery,Package,"1,101+ lbs.",16.08
-105,3,J,FedEx Ground/Home Delivery,Package,0–99 lbs.,25.12
-105,3,J,FedEx Ground/Home Delivery,Package,"100–1,100 lbs.",24.87
-105,3,J,FedEx Ground/Home Delivery,Package,"1,101+ lbs.",22.82
-105,3,K,FedEx Ground/Home Delivery,Package,0–99 lbs.,22.81
-105,3,K,FedEx Ground/Home Delivery,Package,"100–1,100 lbs.",22.58
-105,3,K,FedEx Ground/Home Delivery,Package,"1,101+ lbs.",20.72
-105,3,L,FedEx Ground/Home Delivery,Package,0–99 lbs.,28.14
-105,3,L,FedEx Ground/Home Delivery,Package,"100–1,100 lbs.",27.86
-105,3,L,FedEx Ground/Home Delivery,Package,"1,101+ lbs.",25.56
-105,3,N3,FedEx Ground/Home Delivery,Package,0–99 lbs.,19.37
-105,3,N3,FedEx Ground/Home Delivery,Package,"100–1,100 lbs.",19.18
-105,3,N3,FedEx Ground/Home Delivery,Package,"1,101+ lbs.",17.6
-105,3,O,FedEx Ground/Home Delivery,Package,0–99 lbs.,19.19
-105,3,O,FedEx Ground/Home Delivery,Package,"100–1,100 lbs.",19.0
-105,3,O,FedEx Ground/Home Delivery,Package,"1,101+ lbs.",17.43
+20,1,8,FedEx First Overnight®,Package,1-50 lbs,137.55
+20,1,8,FedEx First Overnight®,Package,51-100 lbs,153.02
+20,1,8,FedEx First Overnight®,Package,101-150 lbs,164.39
+20,1,8,FedEx Priority Overnight®,Package,1-50 lbs,106.55
+20,1,8,FedEx Priority Overnight®,Package,51-100 lbs,122.02
+20,1,8,FedEx Priority Overnight®,Package,101-150 lbs,133.39
+20,1,8,FedEx Standard Overnight®,Package,1-50 lbs,95.35
+20,1,8,FedEx Standard Overnight®,Package,51-100 lbs,110.55
+20,1,8,FedEx Standard Overnight®,Package,101-150 lbs,120.84
+20,1,8,FedEx 2Day® A.M.,Package,1-50 lbs,50.7
+20,1,8,FedEx 2Day® A.M.,Package,51-100 lbs,60.23
+20,1,8,FedEx 2Day® A.M.,Package,101-150 lbs,70.38
+20,1,8,FedEx 2Day®,Package,1-50 lbs,43.54
+20,1,8,FedEx 2Day®,Package,51-100 lbs,52.69
+20,1,8,FedEx 2Day®,Package,101-150 lbs,60.45
+20,1,8,FedEx Express Saver®,Package,1-50 lbs,39.86
+20,1,8,FedEx Express Saver®,Package,51-100 lbs,46.3
+20,1,8,FedEx Express Saver®,Package,101-150 lbs,52.29
+21,1,8,FedEx First Overnight®,Package,1-50 lbs,569.55
+21,1,8,FedEx First Overnight®,Package,51-100 lbs,593.62
+21,1,8,FedEx First Overnight®,Package,101-150 lbs,633.52
+21,1,8,FedEx Priority Overnight®,Package,1-50 lbs,538.55
+21,1,8,FedEx Priority Overnight®,Package,51-100 lbs,562.62
+21,1,8,FedEx Priority Overnight®,Package,101-150 lbs,602.52
+21,1,8,FedEx Standard Overnight®,Package,1-50 lbs,521.4
+21,1,8,FedEx Standard Overnight®,Package,51-100 lbs,547.3
+21,1,8,FedEx Standard Overnight®,Package,101-150 lbs,586.77
+21,1,8,FedEx 2Day® A.M.,Package,1-50 lbs,491.49
+21,1,8,FedEx 2Day® A.M.,Package,51-100 lbs,521.66
+21,1,8,FedEx 2Day® A.M.,Package,101-150 lbs,536.75
+21,1,8,FedEx 2Day®,Package,1-50 lbs,417.2
+21,1,8,FedEx 2Day®,Package,51-100 lbs,430.51
+21,1,8,FedEx 2Day®,Package,101-150 lbs,462.7
+21,1,8,FedEx Express Saver®,Package,1-50 lbs,357.27
+21,1,8,FedEx Express Saver®,Package,51-100 lbs,387.46
+21,1,8,FedEx Express Saver®,Package,101-150 lbs,390.5
+30,1,Hawaii-Intra,FedEx First Overnight®,Package,1-50 lbs,882.74
+30,1,Hawaii-Intra,FedEx First Overnight®,Package,51-100 lbs,891.48
+30,1,Hawaii-Intra,FedEx First Overnight®,Package,101-150 lbs,900.22
+30,1,Hawaii-Intra,FedEx Priority Overnight®,Package,1-50 lbs,851.43
+30,1,Hawaii-Intra,FedEx Priority Overnight®,Package,51-100 lbs,859.86
+30,1,Hawaii-Intra,FedEx Priority Overnight®,Package,101-150 lbs,868.29
+30,1,Hawaii-Intra,FedEx Standard Overnight®,Package,1-50 lbs,704.98
+30,1,Hawaii-Intra,FedEx Standard Overnight®,Package,51-100 lbs,711.96
+30,1,Hawaii-Intra,FedEx Standard Overnight®,Package,101-150 lbs,718.94
+30,1,Hawaii-Intra,FedEx 2Day® A.M.,Package,1-50 lbs,503.99
+30,1,Hawaii-Intra,FedEx 2Day® A.M.,Package,51-100 lbs,508.98
+30,1,Hawaii-Intra,FedEx 2Day® A.M.,Package,101-150 lbs,513.97
+30,1,Hawaii-Intra,FedEx 2Day®,Package,1-50 lbs,391.88
+30,1,Hawaii-Intra,FedEx 2Day®,Package,51-100 lbs,395.76
+30,1,Hawaii-Intra,FedEx 2Day®,Package,101-150 lbs,399.64
+31,1,Hawaii-Intra,FedEx® Envelope,Package,up to 8 oz.,8.0
+31,1,Hawaii-Intra,FedEx First Overnight®,Package,up to 8 oz.,38.0
+31,1,Hawaii-Intra,FedEx Priority Overnight®,Package,up to 8 oz.,7.0
+31,1,Hawaii-Intra,FedEx First Overnight®,Package,1-50 lbs,38.0
+31,1,Hawaii-Intra,FedEx First Overnight®,Package,51-100 lbs,38.0
+31,1,Hawaii-Intra,FedEx First Overnight®,Package,101-150 lbs,38.0
+31,1,Hawaii-Intra,FedEx Priority Overnight®,Package,1-50 lbs,7.0
+31,1,Hawaii-Intra,FedEx Priority Overnight®,Package,51-100 lbs,7.0
+31,1,Hawaii-Intra,FedEx Priority Overnight®,Package,101-150 lbs,7.0
+31,2,Hawaii-Intra,FedEx First Overnight®,Package,1-50 lbs,49.75
+31,2,Hawaii-Intra,FedEx First Overnight®,Package,51-100 lbs,50.0
+31,2,Hawaii-Intra,FedEx First Overnight®,Package,101-150 lbs,50.25
+31,2,Hawaii-Intra,FedEx Priority Overnight®,Package,1-50 lbs,18.75
+31,2,Hawaii-Intra,FedEx Priority Overnight®,Package,51-100 lbs,19.0
+31,2,Hawaii-Intra,FedEx Priority Overnight®,Package,101-150 lbs,19.25
+31,3,Hawaii-Intra,FedEx First Overnight®,Package,1-50 lbs,62.62
+31,3,Hawaii-Intra,FedEx First Overnight®,Package,51-100 lbs,63.24
+31,3,Hawaii-Intra,FedEx First Overnight®,Package,101-150 lbs,63.86
+31,3,Hawaii-Intra,FedEx Priority Overnight®,Package,1-50 lbs,31.5
+31,3,Hawaii-Intra,FedEx Priority Overnight®,Package,51-100 lbs,31.75
+31,3,Hawaii-Intra,FedEx Priority Overnight®,Package,101-150 lbs,32.0
+32,1,2,FedEx First Overnight®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",3.2
+32,1,2,FedEx Priority Overnight®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",2.89
+32,1,2,FedEx Standard Overnight®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",2.83
+32,1,2,FedEx 2Day® A.M.,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",2.4
+32,1,2,FedEx 2Day®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",1.91
+32,1,2,FedEx Express Saver®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",1.78
+32,2,3,FedEx First Overnight®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",4.35
+32,2,3,FedEx Priority Overnight®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",4.04
+32,2,3,FedEx Standard Overnight®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",3.96
+32,2,3,FedEx 2Day® A.M.,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",3.01
+32,2,3,FedEx 2Day®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",2.39
+32,2,3,FedEx Express Saver®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",2.29
+32,3,4,FedEx First Overnight®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",7.65
+32,3,4,FedEx Priority Overnight®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",7.34
+32,3,4,FedEx Standard Overnight®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",7.19
+32,3,4,FedEx 2Day® A.M.,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",3.95
+32,3,4,FedEx 2Day®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",3.08
+32,3,4,FedEx Express Saver®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",2.94
+32,4,5,FedEx First Overnight®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",9.07
+32,4,5,FedEx Priority Overnight®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",8.76
+32,4,5,FedEx Standard Overnight®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",8.58
+32,4,5,FedEx 2Day® A.M.,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",5.86
+32,4,5,FedEx 2Day®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",4.58
+32,4,5,FedEx Express Saver®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",4.06
+32,5,6,FedEx First Overnight®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",9.25
+32,5,6,FedEx Priority Overnight®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",8.94
+32,5,6,FedEx Standard Overnight®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",8.76
+32,5,6,FedEx 2Day® A.M.,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",8.71
+32,5,6,FedEx 2Day®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",7.27
+32,5,6,FedEx Express Saver®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",5.68
+32,6,7,FedEx First Overnight®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",11.26
+32,6,7,FedEx Priority Overnight®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",10.95
+32,6,7,FedEx Standard Overnight®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",10.52
+32,6,7,FedEx 2Day® A.M.,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",9.47
+32,6,7,FedEx 2Day®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",8.3
+32,6,7,FedEx Express Saver®,Multiweight Package,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",6.39
+33,1,2-3,FedEx First Overnight®,Express Multiweight,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",11.97
+33,1,2-3,FedEx Priority Overnight®,Express Multiweight,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",11.66
+33,1,2-3,FedEx Standard Overnight®,Express Multiweight,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",10.97
+33,1,2-3,FedEx 2Day® A.M.,Express Multiweight,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",9.75
+33,1,2-3,FedEx 2Day®,Express Multiweight,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",8.55
+33,1,2-3,FedEx Express Saver®,Express Multiweight,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",7.26
+33,2,4-5,FedEx First Overnight®,Express Multiweight,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",13.32
+33,2,4-5,FedEx Priority Overnight®,Express Multiweight,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",13.01
+33,2,4-5,FedEx Standard Overnight® 2,Express Multiweight,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",11.76
+33,2,4-5,FedEx 2Day® A.M.3,Express Multiweight,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",10.04
+33,2,4-5,FedEx 2Day®,Express Multiweight,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",8.73
+33,3,6-7,FedEx First Overnight®,Express Multiweight,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs.",13.59
+33,3,6-7,FedEx Priority Overnight®,Express Multiweight,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs.",13.28
+33,3,6-7,FedEx 2Day®,Express Multiweight,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs.",8.92
+33,3,6-7,FedEx First Overnight®,Express Multiweight,"2,000+ lbs.",13.53
+33,3,6-7,FedEx Priority Overnight®,Express Multiweight,"2,000+ lbs.",13.22
+33,3,6-7,FedEx 2Day®,Express Multiweight,"2,000+ lbs.",8.86
+33,4,8,FedEx First Overnight®,Express Multiweight,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",8.74
+33,4,8,FedEx Priority Overnight®,Express Multiweight,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",8.43
+33,4,8,FedEx Standard Overnight®,Express Multiweight,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",6.98
+33,4,8,FedEx 2Day® A.M.,Express Multiweight,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",4.99
+33,4,8,FedEx 2Day®,Express Multiweight,"100–499 lbs. 500–999 lbs. 1,000–1,999 lbs. 2,000+ lbs.",3.88
+33,5,Express-Special,FedEx First Overnight®,Express Multiweight,100–150 lbs. 151+ lbs.,0.62
+33,5,Express-Special,FedEx Priority Overnight®,Express Multiweight,100–150 lbs. 151+ lbs.,0.31
+107,1,2,FedEx Ground/Home Delivery,Package,1-50 lbs,27.68
+107,1,2,FedEx Ground/Home Delivery,Package,51-100 lbs,27.68
+107,1,2,FedEx Ground/Home Delivery,Package,101-150 lbs,27.68
+107,1,3,FedEx Ground/Home Delivery,Package,1-50 lbs,34.62
+107,1,3,FedEx Ground/Home Delivery,Package,51-100 lbs,34.62
+107,1,3,FedEx Ground/Home Delivery,Package,101-150 lbs,34.62
+107,1,4,FedEx Ground/Home Delivery,Package,1-50 lbs,41.62
+107,1,4,FedEx Ground/Home Delivery,Package,51-100 lbs,41.62
+107,1,4,FedEx Ground/Home Delivery,Package,101-150 lbs,41.62
+107,1,5,FedEx Ground/Home Delivery,Package,1-50 lbs,50.48
+107,1,5,FedEx Ground/Home Delivery,Package,51-100 lbs,50.48
+107,1,5,FedEx Ground/Home Delivery,Package,101-150 lbs,50.48
+107,1,6,FedEx Ground/Home Delivery,Package,1-50 lbs,64.09
+107,1,6,FedEx Ground/Home Delivery,Package,51-100 lbs,64.09
+107,1,6,FedEx Ground/Home Delivery,Package,101-150 lbs,64.09
+107,1,7,FedEx Ground/Home Delivery,Package,1-50 lbs,77.42
+107,1,7,FedEx Ground/Home Delivery,Package,51-100 lbs,77.42
+107,1,7,FedEx Ground/Home Delivery,Package,101-150 lbs,77.42
+108,1,2,FedEx Ground/Home Delivery,Package,1-50 lbs,70.88
+108,1,2,FedEx Ground/Home Delivery,Package,51-100 lbs,70.88
+108,1,2,FedEx Ground/Home Delivery,Package,101-150 lbs,70.88
+108,1,3,FedEx Ground/Home Delivery,Package,1-50 lbs,71.72
+108,1,3,FedEx Ground/Home Delivery,Package,51-100 lbs,71.72
+108,1,3,FedEx Ground/Home Delivery,Package,101-150 lbs,71.72
+108,1,4,FedEx Ground/Home Delivery,Package,1-50 lbs,77.83
+108,1,4,FedEx Ground/Home Delivery,Package,51-100 lbs,77.83
+108,1,4,FedEx Ground/Home Delivery,Package,101-150 lbs,77.83
+108,1,5,FedEx Ground/Home Delivery,Package,1-50 lbs,85.13
+108,1,5,FedEx Ground/Home Delivery,Package,51-100 lbs,85.13
+108,1,5,FedEx Ground/Home Delivery,Package,101-150 lbs,85.13
+108,1,6,FedEx Ground/Home Delivery,Package,1-50 lbs,100.21
+108,1,6,FedEx Ground/Home Delivery,Package,51-100 lbs,100.21
+108,1,6,FedEx Ground/Home Delivery,Package,101-150 lbs,100.21
+108,1,7,FedEx Ground/Home Delivery,Package,1-50 lbs,111.01
+108,1,7,FedEx Ground/Home Delivery,Package,51-100 lbs,111.01
+108,1,7,FedEx Ground/Home Delivery,Package,101-150 lbs,111.01
+109,1,17,FedEx Ground/Home Delivery,Package,1-50 lbs,40.84
+109,1,17,FedEx Ground/Home Delivery,Package,51-100 lbs,40.84
+109,1,17,FedEx Ground/Home Delivery,Package,101-150 lbs,40.84
+109,1,22,FedEx Ground/Home Delivery,Package,1-50 lbs,9.53
+109,1,22,FedEx Ground/Home Delivery,Package,51-100 lbs,9.53
+109,1,22,FedEx Ground/Home Delivery,Package,101-150 lbs,9.53
+109,1,23,FedEx Ground/Home Delivery,Package,1-50 lbs,14.22
+109,1,23,FedEx Ground/Home Delivery,Package,51-100 lbs,14.22
+109,1,23,FedEx Ground/Home Delivery,Package,101-150 lbs,14.22
+109,1,25,FedEx Ground/Home Delivery,Package,1-50 lbs,14.68
+109,1,25,FedEx Ground/Home Delivery,Package,51-100 lbs,14.68
+109,1,25,FedEx Ground/Home Delivery,Package,101-150 lbs,14.68
+109,1,9,FedEx Ground/Home Delivery,Package,1-50 lbs,40.84
+109,1,9,FedEx Ground/Home Delivery,Package,51-100 lbs,40.84
+109,1,9,FedEx Ground/Home Delivery,Package,101-150 lbs,40.84
+109,1,14,FedEx Ground/Home Delivery,Package,1-50 lbs,9.3
+109,1,14,FedEx Ground/Home Delivery,Package,51-100 lbs,9.3
+109,1,14,FedEx Ground/Home Delivery,Package,101-150 lbs,9.3
+110,1,17,FedEx Ground/Home Delivery,Package,1-50 lbs,235.5
+110,1,17,FedEx Ground/Home Delivery,Package,51-100 lbs,235.5
+110,1,17,FedEx Ground/Home Delivery,Package,101-150 lbs,235.5
+110,1,22,FedEx Ground/Home Delivery,Package,1-50 lbs,28.63
+110,1,22,FedEx Ground/Home Delivery,Package,51-100 lbs,28.63
+110,1,22,FedEx Ground/Home Delivery,Package,101-150 lbs,28.63
+110,1,23,FedEx Ground/Home Delivery,Package,1-50 lbs,121.84
+110,1,23,FedEx Ground/Home Delivery,Package,51-100 lbs,121.84
+110,1,23,FedEx Ground/Home Delivery,Package,101-150 lbs,121.84
+110,1,25,FedEx Ground/Home Delivery,Package,1-50 lbs,138.94
+110,1,25,FedEx Ground/Home Delivery,Package,51-100 lbs,138.94
+110,1,25,FedEx Ground/Home Delivery,Package,101-150 lbs,138.94
+110,1,9,FedEx Ground/Home Delivery,Package,1-50 lbs,235.5
+110,1,9,FedEx Ground/Home Delivery,Package,51-100 lbs,235.5
+110,1,9,FedEx Ground/Home Delivery,Package,101-150 lbs,235.5
+110,1,14,FedEx Ground/Home Delivery,Package,1-50 lbs,16.36
+110,1,14,FedEx Ground/Home Delivery,Package,51-100 lbs,16.36
+110,1,14,FedEx Ground/Home Delivery,Package,101-150 lbs,16.36
+111,1,17,FedEx Ground/Home Delivery,Package,1-50 lbs,416.25
+111,1,17,FedEx Ground/Home Delivery,Package,51-100 lbs,416.25
+111,1,17,FedEx Ground/Home Delivery,Package,101-150 lbs,416.25
+111,1,22,FedEx Ground/Home Delivery,Package,1-50 lbs,76.81
+111,1,22,FedEx Ground/Home Delivery,Package,51-100 lbs,76.81
+111,1,22,FedEx Ground/Home Delivery,Package,101-150 lbs,76.81
+111,1,23,FedEx Ground/Home Delivery,Package,1-50 lbs,187.1
+111,1,23,FedEx Ground/Home Delivery,Package,51-100 lbs,187.1
+111,1,23,FedEx Ground/Home Delivery,Package,101-150 lbs,187.1
+111,1,25,FedEx Ground/Home Delivery,Package,1-50 lbs,208.46
+111,1,25,FedEx Ground/Home Delivery,Package,51-100 lbs,208.46
+111,1,25,FedEx Ground/Home Delivery,Package,101-150 lbs,208.46
+111,1,9,FedEx Ground/Home Delivery,Package,1-50 lbs,416.25
+111,1,9,FedEx Ground/Home Delivery,Package,51-100 lbs,416.25
+111,1,9,FedEx Ground/Home Delivery,Package,101-150 lbs,416.25
+111,1,14,FedEx Ground/Home Delivery,Package,1-50 lbs,58.89
+111,1,14,FedEx Ground/Home Delivery,Package,51-100 lbs,58.89
+111,1,14,FedEx Ground/Home Delivery,Package,101-150 lbs,58.89
