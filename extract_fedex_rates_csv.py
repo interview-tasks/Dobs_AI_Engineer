@@ -222,6 +222,67 @@ def process_ground_rate_table(table_data: List[List], page_num: int, table_num: 
     print(f"  Extracted {len(df)} Ground rate records")
     return df
 
+def process_multiweight_rate_table(table_data: List[List], page_num: int, table_num: int, zone: str) -> pd.DataFrame:
+    """Process multiweight (per-lb) rate tables from page 32"""
+
+    if not table_data or len(table_data) < 2:
+        return pd.DataFrame()
+
+    results = []
+
+    # Extract services from header row (row 0)
+    header_row = table_data[0]
+    services = extract_services_from_header(header_row)
+
+    if not services:
+        return pd.DataFrame()
+
+    print(f"  Zone {zone} Multiweight - Found services: {[s[1] for s in services]}")
+
+    # Process data row (row 1)
+    if len(table_data) > 1:
+        data_row = table_data[1]
+
+        # Extract weight ranges from first column
+        weight_cell = str(data_row[0]) if data_row[0] else ""
+        weight_ranges = extract_weight_ranges(weight_cell)
+
+        if not weight_ranges:
+            return pd.DataFrame()
+
+        # Process each service column
+        for service_idx, service_name in services:
+            if service_idx >= len(data_row) or not data_row[service_idx]:
+                continue
+
+            rate_cell = str(data_row[service_idx])
+            rate_lines = [line.strip() for line in rate_cell.split('\n') if line.strip()]
+            rates = []
+
+            for line in rate_lines:
+                rate = clean_rate_value(line)
+                if rate is not None:
+                    rates.append(rate)
+
+            # Match weights to rates
+            for w_idx, weight_desc in enumerate(weight_ranges):
+                rate = rates[w_idx] if w_idx < len(rates) else (rates[-1] if rates else None)
+
+                if rate is not None:
+                    results.append({
+                        'page': page_num,
+                        'table': table_num,
+                        'zone': zone,
+                        'service_type': service_name,
+                        'package_type': 'Multiweight Package',
+                        'weight_range': weight_desc,
+                        'rate_usd': rate
+                    })
+
+    df = pd.DataFrame(results)
+    print(f"  Extracted {len(df)} multiweight rate records")
+    return df
+
 def extract_all_fedex_rates(pdf_path: str):
     """Extract rates from all FedEx services"""
 
@@ -263,6 +324,33 @@ def extract_all_fedex_rates(pdf_path: str):
             # Increment zone every 3 pages (2-4=Zone2, 5-7=Zone3, etc.)
             if page_num % 3 == 1 and page_num > 2:
                 zone += 1
+
+        # Process Multiweight services (page 32, zones 2-7)
+        print("\nExtracting Multiweight Services...")
+        if len(pdf.pages) >= 32:
+            page = pdf.pages[31]  # Page 32 (0-indexed)
+            tables = page.find_tables()
+
+            print(f"Page 32: found {len(tables)} tables")
+
+            # Each table on page 32 represents a different zone (2-7)
+            multiweight_zone = 2
+            for table_idx, table in enumerate(tables, 1):
+                table_data = table.extract()
+                if not table_data:
+                    continue
+
+                # Check if this is a multiweight table
+                has_weight_header = any('weight' in str(cell).lower()
+                                      for cell in table_data[0] if cell)
+                has_rates = any('$' in str(cell)
+                              for row in table_data for cell in row if cell)
+
+                if has_weight_header and has_rates:
+                    df = process_multiweight_rate_table(table_data, 32, table_idx, str(multiweight_zone))
+                    if not df.empty:
+                        all_rates.append(df)
+                    multiweight_zone += 1
 
         # Process Ground services (page 105)
         print("\nExtracting Ground Services...")

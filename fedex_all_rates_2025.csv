@@ -1248,6 +1248,150 @@ rehto
 lla
 ni
 stnempihS",357.27
+32,1,2,FedEx First Overnight®,Multiweight Package,100–499 lbs.,3.2
+32,1,2,FedEx First Overnight®,Multiweight Package,500–999 lbs.,3.18
+32,1,2,FedEx First Overnight®,Multiweight Package,"1,000–1,999 lbs.",3.16
+32,1,2,FedEx First Overnight®,Multiweight Package,"2,000+ lbs.",3.14
+32,1,2,FedEx Priority Overnight®,Multiweight Package,100–499 lbs.,2.89
+32,1,2,FedEx Priority Overnight®,Multiweight Package,500–999 lbs.,2.87
+32,1,2,FedEx Priority Overnight®,Multiweight Package,"1,000–1,999 lbs.",2.85
+32,1,2,FedEx Priority Overnight®,Multiweight Package,"2,000+ lbs.",2.83
+32,1,2,FedEx Standard Overnight®,Multiweight Package,100–499 lbs.,2.83
+32,1,2,FedEx Standard Overnight®,Multiweight Package,500–999 lbs.,2.81
+32,1,2,FedEx Standard Overnight®,Multiweight Package,"1,000–1,999 lbs.",2.79
+32,1,2,FedEx Standard Overnight®,Multiweight Package,"2,000+ lbs.",2.77
+32,1,2,FedEx 2Day® A.M.,Multiweight Package,100–499 lbs.,2.4
+32,1,2,FedEx 2Day® A.M.,Multiweight Package,500–999 lbs.,2.38
+32,1,2,FedEx 2Day® A.M.,Multiweight Package,"1,000–1,999 lbs.",2.36
+32,1,2,FedEx 2Day® A.M.,Multiweight Package,"2,000+ lbs.",2.34
+32,1,2,FedEx 2Day®,Multiweight Package,100–499 lbs.,1.91
+32,1,2,FedEx 2Day®,Multiweight Package,500–999 lbs.,1.89
+32,1,2,FedEx 2Day®,Multiweight Package,"1,000–1,999 lbs.",1.87
+32,1,2,FedEx 2Day®,Multiweight Package,"2,000+ lbs.",1.85
+32,1,2,FedEx Express Saver®,Multiweight Package,100–499 lbs.,1.78
+32,1,2,FedEx Express Saver®,Multiweight Package,500–999 lbs.,1.76
+32,1,2,FedEx Express Saver®,Multiweight Package,"1,000–1,999 lbs.",1.74
+32,1,2,FedEx Express Saver®,Multiweight Package,"2,000+ lbs.",1.72
+32,2,3,FedEx First Overnight®,Multiweight Package,100–499 lbs.,4.35
+32,2,3,FedEx First Overnight®,Multiweight Package,500–999 lbs.,4.33
+32,2,3,FedEx First Overnight®,Multiweight Package,"1,000–1,999 lbs.",4.31
+32,2,3,FedEx First Overnight®,Multiweight Package,"2,000+ lbs.",4.29
+32,2,3,FedEx Priority Overnight®,Multiweight Package,100–499 lbs.,4.04
+32,2,3,FedEx Priority Overnight®,Multiweight Package,500–999 lbs.,4.02
+32,2,3,FedEx Priority Overnight®,Multiweight Package,"1,000–1,999 lbs.",4.0
+32,2,3,FedEx Priority Overnight®,Multiweight Package,"2,000+ lbs.",3.98
+32,2,3,FedEx Standard Overnight®,Multiweight Package,100–499 lbs.,3.96
+32,2,3,FedEx Standard Overnight®,Multiweight Package,500–999 lbs.,3.94
+32,2,3,FedEx Standard Overnight®,Multiweight Package,"1,000–1,999 lbs.",3.92
+32,2,3,FedEx Standard Overnight®,Multiweight Package,"2,000+ lbs.",3.9
+32,2,3,FedEx 2Day® A.M.,Multiweight Package,100–499 lbs.,3.01
+32,2,3,FedEx 2Day® A.M.,Multiweight Package,500–999 lbs.,2.99
+32,2,3,FedEx 2Day® A.M.,Multiweight Package,"1,000–1,999 lbs.",2.97
+32,2,3,FedEx 2Day® A.M.,Multiweight Package,"2,000+ lbs.",2.95
+32,2,3,FedEx 2Day®,Multiweight Package,100–499 lbs.,2.39
+32,2,3,FedEx 2Day®,Multiweight Package,500–999 lbs.,2.37
+32,2,3,FedEx 2Day®,Multiweight Package,"1,000–1,999 lbs.",2.35
+32,2,3,FedEx 2Day®,Multiweight Package,"2,000+ lbs.",2.33
+32,2,3,FedEx Express Saver®,Multiweight Package,100–499 lbs.,2.29
+32,2,3,FedEx Express Saver®,Multiweight Package,500–999 lbs.,2.27
+32,2,3,FedEx Express Saver®,Multiweight Package,"1,000–1,999 lbs.",2.25
+32,2,3,FedEx Express Saver®,Multiweight Package,"2,000+ lbs.",2.23
+32,3,4,FedEx First Overnight®,Multiweight Package,100–499 lbs.,7.65
+32,3,4,FedEx First Overnight®,Multiweight Package,500–999 lbs.,7.63
+32,3,4,FedEx First Overnight®,Multiweight Package,"1,000–1,999 lbs.",7.61
+32,3,4,FedEx First Overnight®,Multiweight Package,"2,000+ lbs.",7.59
+32,3,4,FedEx Priority Overnight®,Multiweight Package,100–499 lbs.,7.34
+32,3,4,FedEx Priority Overnight®,Multiweight Package,500–999 lbs.,7.32
+32,3,4,FedEx Priority Overnight®,Multiweight Package,"1,000–1,999 lbs.",7.3
+32,3,4,FedEx Priority Overnight®,Multiweight Package,"2,000+ lbs.",7.28
+32,3,4,FedEx Standard Overnight®,Multiweight Package,100–499 lbs.,7.19
+32,3,4,FedEx Standard Overnight®,Multiweight Package,500–999 lbs.,7.17
+32,3,4,FedEx Standard Overnight®,Multiweight Package,"1,000–1,999 lbs.",7.15
+32,3,4,FedEx Standard Overnight®,Multiweight Package,"2,000+ lbs.",7.13
+32,3,4,FedEx 2Day® A.M.,Multiweight Package,100–499 lbs.,3.95
+32,3,4,FedEx 2Day® A.M.,Multiweight Package,500–999 lbs.,3.93
+32,3,4,FedEx 2Day® A.M.,Multiweight Package,"1,000–1,999 lbs.",3.91
+32,3,4,FedEx 2Day® A.M.,Multiweight Package,"2,000+ lbs.",3.89
+32,3,4,FedEx 2Day®,Multiweight Package,100–499 lbs.,3.08
+32,3,4,FedEx 2Day®,Multiweight Package,500–999 lbs.,3.06
+32,3,4,FedEx 2Day®,Multiweight Package,"1,000–1,999 lbs.",3.04
+32,3,4,FedEx 2Day®,Multiweight Package,"2,000+ lbs.",3.02
+32,3,4,FedEx Express Saver®,Multiweight Package,100–499 lbs.,2.94
+32,3,4,FedEx Express Saver®,Multiweight Package,500–999 lbs.,2.92
+32,3,4,FedEx Express Saver®,Multiweight Package,"1,000–1,999 lbs.",2.9
+32,3,4,FedEx Express Saver®,Multiweight Package,"2,000+ lbs.",2.88
+32,4,5,FedEx First Overnight®,Multiweight Package,100–499 lbs.,9.07
+32,4,5,FedEx First Overnight®,Multiweight Package,500–999 lbs.,9.05
+32,4,5,FedEx First Overnight®,Multiweight Package,"1,000–1,999 lbs.",9.03
+32,4,5,FedEx First Overnight®,Multiweight Package,"2,000+ lbs.",9.01
+32,4,5,FedEx Priority Overnight®,Multiweight Package,100–499 lbs.,8.76
+32,4,5,FedEx Priority Overnight®,Multiweight Package,500–999 lbs.,8.74
+32,4,5,FedEx Priority Overnight®,Multiweight Package,"1,000–1,999 lbs.",8.72
+32,4,5,FedEx Priority Overnight®,Multiweight Package,"2,000+ lbs.",8.7
+32,4,5,FedEx Standard Overnight®,Multiweight Package,100–499 lbs.,8.58
+32,4,5,FedEx Standard Overnight®,Multiweight Package,500–999 lbs.,8.56
+32,4,5,FedEx Standard Overnight®,Multiweight Package,"1,000–1,999 lbs.",8.54
+32,4,5,FedEx Standard Overnight®,Multiweight Package,"2,000+ lbs.",8.52
+32,4,5,FedEx 2Day® A.M.,Multiweight Package,100–499 lbs.,5.86
+32,4,5,FedEx 2Day® A.M.,Multiweight Package,500–999 lbs.,5.84
+32,4,5,FedEx 2Day® A.M.,Multiweight Package,"1,000–1,999 lbs.",5.82
+32,4,5,FedEx 2Day® A.M.,Multiweight Package,"2,000+ lbs.",5.8
+32,4,5,FedEx 2Day®,Multiweight Package,100–499 lbs.,4.58
+32,4,5,FedEx 2Day®,Multiweight Package,500–999 lbs.,4.56
+32,4,5,FedEx 2Day®,Multiweight Package,"1,000–1,999 lbs.",4.54
+32,4,5,FedEx 2Day®,Multiweight Package,"2,000+ lbs.",4.52
+32,4,5,FedEx Express Saver®,Multiweight Package,100–499 lbs.,4.06
+32,4,5,FedEx Express Saver®,Multiweight Package,500–999 lbs.,4.04
+32,4,5,FedEx Express Saver®,Multiweight Package,"1,000–1,999 lbs.",4.02
+32,4,5,FedEx Express Saver®,Multiweight Package,"2,000+ lbs.",4.0
+32,5,6,FedEx First Overnight®,Multiweight Package,100–499 lbs.,9.25
+32,5,6,FedEx First Overnight®,Multiweight Package,500–999 lbs.,9.23
+32,5,6,FedEx First Overnight®,Multiweight Package,"1,000–1,999 lbs.",9.21
+32,5,6,FedEx First Overnight®,Multiweight Package,"2,000+ lbs.",9.19
+32,5,6,FedEx Priority Overnight®,Multiweight Package,100–499 lbs.,8.94
+32,5,6,FedEx Priority Overnight®,Multiweight Package,500–999 lbs.,8.92
+32,5,6,FedEx Priority Overnight®,Multiweight Package,"1,000–1,999 lbs.",8.9
+32,5,6,FedEx Priority Overnight®,Multiweight Package,"2,000+ lbs.",8.88
+32,5,6,FedEx Standard Overnight®,Multiweight Package,100–499 lbs.,8.76
+32,5,6,FedEx Standard Overnight®,Multiweight Package,500–999 lbs.,8.74
+32,5,6,FedEx Standard Overnight®,Multiweight Package,"1,000–1,999 lbs.",8.72
+32,5,6,FedEx Standard Overnight®,Multiweight Package,"2,000+ lbs.",8.7
+32,5,6,FedEx 2Day® A.M.,Multiweight Package,100–499 lbs.,8.71
+32,5,6,FedEx 2Day® A.M.,Multiweight Package,500–999 lbs.,8.69
+32,5,6,FedEx 2Day® A.M.,Multiweight Package,"1,000–1,999 lbs.",8.67
+32,5,6,FedEx 2Day® A.M.,Multiweight Package,"2,000+ lbs.",8.65
+32,5,6,FedEx 2Day®,Multiweight Package,100–499 lbs.,7.27
+32,5,6,FedEx 2Day®,Multiweight Package,500–999 lbs.,7.25
+32,5,6,FedEx 2Day®,Multiweight Package,"1,000–1,999 lbs.",7.23
+32,5,6,FedEx 2Day®,Multiweight Package,"2,000+ lbs.",7.21
+32,5,6,FedEx Express Saver®,Multiweight Package,100–499 lbs.,5.68
+32,5,6,FedEx Express Saver®,Multiweight Package,500–999 lbs.,5.66
+32,5,6,FedEx Express Saver®,Multiweight Package,"1,000–1,999 lbs.",5.64
+32,5,6,FedEx Express Saver®,Multiweight Package,"2,000+ lbs.",5.62
+32,6,7,FedEx First Overnight®,Multiweight Package,100–499 lbs.,11.26
+32,6,7,FedEx First Overnight®,Multiweight Package,500–999 lbs.,11.24
+32,6,7,FedEx First Overnight®,Multiweight Package,"1,000–1,999 lbs.",11.22
+32,6,7,FedEx First Overnight®,Multiweight Package,"2,000+ lbs.",11.2
+32,6,7,FedEx Priority Overnight®,Multiweight Package,100–499 lbs.,10.95
+32,6,7,FedEx Priority Overnight®,Multiweight Package,500–999 lbs.,10.93
+32,6,7,FedEx Priority Overnight®,Multiweight Package,"1,000–1,999 lbs.",10.91
+32,6,7,FedEx Priority Overnight®,Multiweight Package,"2,000+ lbs.",10.89
+32,6,7,FedEx Standard Overnight®,Multiweight Package,100–499 lbs.,10.52
+32,6,7,FedEx Standard Overnight®,Multiweight Package,500–999 lbs.,10.5
+32,6,7,FedEx Standard Overnight®,Multiweight Package,"1,000–1,999 lbs.",10.48
+32,6,7,FedEx Standard Overnight®,Multiweight Package,"2,000+ lbs.",10.46
+32,6,7,FedEx 2Day® A.M.,Multiweight Package,100–499 lbs.,9.47
+32,6,7,FedEx 2Day® A.M.,Multiweight Package,500–999 lbs.,9.45
+32,6,7,FedEx 2Day® A.M.,Multiweight Package,"1,000–1,999 lbs.",9.43
+32,6,7,FedEx 2Day® A.M.,Multiweight Package,"2,000+ lbs.",9.41
+32,6,7,FedEx 2Day®,Multiweight Package,100–499 lbs.,8.3
+32,6,7,FedEx 2Day®,Multiweight Package,500–999 lbs.,8.28
+32,6,7,FedEx 2Day®,Multiweight Package,"1,000–1,999 lbs.",8.26
+32,6,7,FedEx 2Day®,Multiweight Package,"2,000+ lbs.",8.24
+32,6,7,FedEx Express Saver®,Multiweight Package,100–499 lbs.,6.39
+32,6,7,FedEx Express Saver®,Multiweight Package,500–999 lbs.,6.37
+32,6,7,FedEx Express Saver®,Multiweight Package,"1,000–1,999 lbs.",6.35
+32,6,7,FedEx Express Saver®,Multiweight Package,"2,000+ lbs.",6.33
 105,3,A,FedEx Ground/Home Delivery,Package,0–99 lbs.,8.6
 105,3,A,FedEx Ground/Home Delivery,Package,"100–1,100 lbs.",8.51
 105,3,A,FedEx Ground/Home Delivery,Package,"1,101+ lbs.",7.81
