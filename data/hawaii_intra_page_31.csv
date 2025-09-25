@@ -1,0 +1,22 @@
+page,table,zone,service_type,package_type,weight_range,rate_usd
+31,1,Hawaii-Intra,FedEx® Envelope,Package,up to 8 oz.,8.0
+31,1,Hawaii-Intra,FedEx First Overnight®,Package,up to 8 oz.,38.0
+31,1,Hawaii-Intra,FedEx Priority Overnight®,Package,up to 8 oz.,7.0
+31,1,Hawaii-Intra,FedEx First Overnight®,Package,1-50 lbs,38.0
+31,1,Hawaii-Intra,FedEx First Overnight®,Package,51-100 lbs,38.0
+31,1,Hawaii-Intra,FedEx First Overnight®,Package,101-150 lbs,38.0
+31,1,Hawaii-Intra,FedEx Priority Overnight®,Package,1-50 lbs,7.0
+31,1,Hawaii-Intra,FedEx Priority Overnight®,Package,51-100 lbs,7.0
+31,1,Hawaii-Intra,FedEx Priority Overnight®,Package,101-150 lbs,7.0
+31,2,Hawaii-Intra,FedEx First Overnight®,Package,1-50 lbs,49.75
+31,2,Hawaii-Intra,FedEx First Overnight®,Package,51-100 lbs,50.0
+31,2,Hawaii-Intra,FedEx First Overnight®,Package,101-150 lbs,50.25
+31,2,Hawaii-Intra,FedEx Priority Overnight®,Package,1-50 lbs,18.75
+31,2,Hawaii-Intra,FedEx Priority Overnight®,Package,51-100 lbs,19.0
+31,2,Hawaii-Intra,FedEx Priority Overnight®,Package,101-150 lbs,19.25
+31,3,Hawaii-Intra,FedEx First Overnight®,Package,1-50 lbs,62.62
+31,3,Hawaii-Intra,FedEx First Overnight®,Package,51-100 lbs,63.24
+31,3,Hawaii-Intra,FedEx First Overnight®,Package,101-150 lbs,63.86
+31,3,Hawaii-Intra,FedEx Priority Overnight®,Package,1-50 lbs,31.5
+31,3,Hawaii-Intra,FedEx Priority Overnight®,Package,51-100 lbs,31.75
+31,3,Hawaii-Intra,FedEx Priority Overnight®,Package,101-150 lbs,32.0

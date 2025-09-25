@@ -1,0 +1,16 @@
+page,table,zone,service_type,package_type,weight_range,rate_usd
+30,1,Hawaii-Intra,FedEx First Overnight®,Package,1-50 lbs,882.74
+30,1,Hawaii-Intra,FedEx First Overnight®,Package,51-100 lbs,891.48
+30,1,Hawaii-Intra,FedEx First Overnight®,Package,101-150 lbs,900.22
+30,1,Hawaii-Intra,FedEx Priority Overnight®,Package,1-50 lbs,851.43
+30,1,Hawaii-Intra,FedEx Priority Overnight®,Package,51-100 lbs,859.86
+30,1,Hawaii-Intra,FedEx Priority Overnight®,Package,101-150 lbs,868.29
+30,1,Hawaii-Intra,FedEx Standard Overnight®,Package,1-50 lbs,704.98
+30,1,Hawaii-Intra,FedEx Standard Overnight®,Package,51-100 lbs,711.96
+30,1,Hawaii-Intra,FedEx Standard Overnight®,Package,101-150 lbs,718.94
+30,1,Hawaii-Intra,FedEx 2Day® A.M.,Package,1-50 lbs,503.99
+30,1,Hawaii-Intra,FedEx 2Day® A.M.,Package,51-100 lbs,508.98
+30,1,Hawaii-Intra,FedEx 2Day® A.M.,Package,101-150 lbs,513.97
+30,1,Hawaii-Intra,FedEx 2Day®,Package,1-50 lbs,391.88
+30,1,Hawaii-Intra,FedEx 2Day®,Package,51-100 lbs,395.76
+30,1,Hawaii-Intra,FedEx 2Day®,Package,101-150 lbs,399.64
