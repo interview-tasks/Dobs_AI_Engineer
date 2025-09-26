@@ -8,14 +8,14 @@ docker-build:
 	@echo "Building Docker image..."
 	docker build -t fedex-price-search .
 
-# Run Docker container with demo
+# Run Docker container interactively
 docker-run:
 	@echo "Running FedEx Price Search in Docker..."
-	docker run --rm fedex-price-search
+	docker run --rm -it fedex-price-search
 
-# Interactive Docker mode
-docker-interactive:
-	docker run --rm -it fedex-price-search python fedex_price_search.py
+# Run demo in Docker
+docker-demo:
+	docker run --rm fedex-price-search python fedex_price_search.py --demo
 
 # Single query with Docker
 docker-test:

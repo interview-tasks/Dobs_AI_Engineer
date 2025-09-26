@@ -18,5 +18,5 @@ COPY . .
 # Extract data from PDF on build (so it's ready to use)
 RUN python pdf_table_extractor.py
 
-# Default command runs the demo
-CMD ["python", "fedex_price_search.py", "--demo"]
+# Default command runs interactive mode
+CMD ["python", "fedex_price_search.py"]
