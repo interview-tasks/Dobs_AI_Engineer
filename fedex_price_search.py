@@ -30,6 +30,9 @@ class FedExPriceSearch:
         api_key = os.getenv('OPENAI_API_KEY')
         if api_key and api_key != 'your_openai_api_key_here':
             self.openai_client = OpenAI(api_key=api_key)
+            print("✅ OpenAI LLM enabled for input parsing")
+        else:
+            print("⚠️  OpenAI API key not found - using regex parsing fallback")
 
         # Service name mappings for synonyms (fallback if LLM not available)
         self.service_synonyms = {
@@ -72,10 +75,10 @@ class FedExPriceSearch:
     def parse_input_with_llm(self, line: str) -> Dict[str, any]:
         """Use LLM to parse and normalize input as suggested in requirements"""
         if not self.openai_client:
-            print("LLM not available, falling back to regex parsing")
             return self.parse_input_regex(line)
 
         try:
+            print(f"🤖 Using OpenAI GPT-3.5-turbo to parse: '{line}'")
             prompt = f"""
             Parse this FedEx shipping query and extract the structured information in JSON format.
 
@@ -107,6 +110,7 @@ class FedExPriceSearch:
             )
 
             parsed = json.loads(response.choices[0].message.content)
+            print(f"✅ LLM parsed successfully: {parsed}")
 
             # Validate parsed data
             if (parsed.get('service') and
