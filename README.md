@@ -32,7 +32,7 @@ sequenceDiagram
     participant CSV as Rate Database
 
     U->>P: Run pdf_table_extractor.py
-    P->>PDF: Extract tables from 112 pages
+    P->>PDF: Extract tables from 22 pages
     PDF-->>P: Raw table data
     P->>P: Parse service, zone, weight, packaging
     P->>CSV: Save 1490 rate records
