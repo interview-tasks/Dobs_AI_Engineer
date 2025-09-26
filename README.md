@@ -2,6 +2,27 @@
 
 A Model Context Protocol (MCP) server that wraps the **DOBS Financial Document Analyzer API** to provide AI clients with access to financial document analysis capabilities.
 
+## 📁 Project Structure
+
+```
+.
+├── .env.example                    # Environment variables template
+├── .gitignore                     # Git ignore rules
+├── Dockerfile                     # Docker container configuration
+├── README.md                      # This documentation
+├── claude_desktop_config.json     # Claude Desktop configuration example
+├── demo_run.sh                    # Demo script
+├── dobs_mcp_server/               # Main package
+│   ├── __init__.py               # Package initialization
+│   └── main.py                   # MCP server implementation
+├── docker-compose.yml            # Docker Compose configuration
+├── pyproject.toml                # Python project metadata
+├── requirements.txt              # Python dependencies
+├── swagger.json                  # DOBS API specification
+├── task.md                       # Original task requirements
+└── test.py                       # Complete test suite
+```
+
 ## Features
 
 The server provides 4 MCP tools:
