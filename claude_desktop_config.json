@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "dobs-financial": {
+      "command": "python",
+      "args": ["-m", "dobs_mcp_server.main"],
+      "cwd": "/Users/ismatsamadov/Dobs_AI_Engineer",
+      "env": {
+        "DOBS_API_KEY": "your_api_key_here",
+        "DOBS_BASE_URL": "https://api.dobs.ai"
+      }
+    }
+  }
+}

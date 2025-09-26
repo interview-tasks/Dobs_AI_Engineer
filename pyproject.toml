@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dobs-mcp-server"
+version = "0.1.0"
+description = "MCP Server for DOBS Financial Document Analyzer API"
+dependencies = [
+    "mcp>=1.0.0",
+    "httpx>=0.25.0",
+    "python-dotenv>=1.0.0"
+]
+
+[project.scripts]
+dobs-mcp-server = "dobs_mcp_server.main:main"
